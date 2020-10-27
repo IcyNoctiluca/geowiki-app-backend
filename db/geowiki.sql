@@ -1,3 +1,5 @@
+DROP DATABASE `geowiki`;
+CREATE DATABASE `geowiki`;
 USE `geowiki`;
 
 
@@ -66,16 +68,16 @@ CREATE TRIGGER continent_update_check
 BEFORE UPDATE ON continent FOR EACH ROW
 BEGIN
 
-    call sp_update_continent_area(NEW.id, NEW.area);
-    call sp_update_continent_population(NEW.id, NEW.population);
+    CALL sp_validate_continent_area(NEW.id, NEW.area);
+    CALL sp_validate_continent_population(NEW.id, NEW.population);
 
 END$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_continent_population;
+DROP PROCEDURE IF EXISTS sp_validate_continent_population;
 DELIMITER $$
-CREATE PROCEDURE sp_update_continent_population(
+CREATE PROCEDURE sp_validate_continent_population(
    IN _id INTEGER, IN _population INTEGER
 )
 BEGIN
@@ -92,9 +94,9 @@ END $$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_continent_area;
+DROP PROCEDURE IF EXISTS sp_validate_continent_area;
 DELIMITER $$
-CREATE PROCEDURE sp_update_continent_area(
+CREATE PROCEDURE sp_validate_continent_area(
    IN _id INTEGER, IN _area INTEGER
 )
 BEGIN
@@ -118,9 +120,9 @@ CREATE TRIGGER country_insert_check
 BEFORE INSERT ON country FOR EACH ROW
 BEGIN
 
-    call sp_update_country_area(NEW.id, NEW.area);
-    call sp_update_country_population(NEW.id, NEW.population);
-    call sp_update_country_schools(NEW.id, NEW.no_schools);
+    CALL sp_validate_country_area(NEW.id, NEW.cont_id, NEW.area);
+    CALL sp_validate_country_population(NEW.id, NEW.cont_id, NEW.population);
+    CALL sp_validate_country_schools(NEW.id, NEW.no_schools);
 
 
 END$
@@ -133,57 +135,54 @@ CREATE TRIGGER country_update_check
 BEFORE UPDATE ON country FOR EACH ROW
 BEGIN
 
-    call sp_update_country_area(NEW.id, NEW.area);
-    call sp_update_country_population(NEW.id, NEW.population);
-    call sp_update_country_schools(NEW.id, NEW.no_schools);
+    CALL sp_validate_country_area(NEW.id, NEW.cont_id, NEW.area);
+    CALL sp_validate_country_population(NEW.id, NEW.cont_id, NEW.population);
+    CALL sp_validate_country_schools(NEW.id, NEW.no_schools);
 
 END$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_country_population;
+DROP PROCEDURE IF EXISTS sp_validate_country_population;
 DELIMITER $$
-CREATE PROCEDURE sp_update_country_population(
-   IN _id INTEGER, IN _population INTEGER
+CREATE PROCEDURE sp_validate_country_population(
+   IN _id INTEGER, IN _cont_id INTEGER, IN _population INTEGER
 )
 BEGIN
 
-    DECLARE _cont_id INTEGER;
     DECLARE continent_population INTEGER;
     DECLARE cities_population INTEGER;
+    DECLARE potential_cumulative_countries_population INTEGER;
 
-    SET _cont_id = (SELECT cont_id FROM country WHERE id = _id);
+    SET potential_cumulative_countries_population = (SELECT IFNULL(SUM(population), 0) + _population FROM country WHERE cont_id = _cont_id AND id != _id);
     SET continent_population = (SELECT IFNULL(SUM(population), 0) FROM continent WHERE id = _cont_id);
     SET cities_population = (SELECT IFNULL(SUM(population), 0) FROM city WHERE country_id = _id);
 
-    IF (_population > continent_population) OR (cities_population > _population) THEN
+    IF (potential_cumulative_countries_population > continent_population) OR (cities_population > _population) THEN
         SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'check constraint area failed';
+        SET MESSAGE_TEXT = 'check constraint population failed';
     END IF;
 
 END $$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_country_area;
+DROP PROCEDURE IF EXISTS sp_validate_country_area;
 DELIMITER $$
-CREATE PROCEDURE sp_update_country_area(
-   IN _id INTEGER, IN _area INTEGER
+CREATE PROCEDURE sp_validate_country_area(
+   IN _id INTEGER, IN _cont_id INTEGER, IN _area INTEGER
 )
 BEGIN
 
-    DECLARE _cont_id INTEGER;
     DECLARE continent_area INTEGER;
     DECLARE cities_area INTEGER;
     DECLARE potential_cumulative_countries_area INTEGER;
 
     SET potential_cumulative_countries_area = (SELECT IFNULL(SUM(area), 0) + _area FROM country WHERE cont_id = _cont_id AND id != _id);
-
-    SET _cont_id = (SELECT cont_id FROM country WHERE id = _id);
     SET continent_area = (SELECT IFNULL(SUM(area), 0) FROM continent WHERE id = _cont_id);
     SET cities_area = (SELECT IFNULL(SUM(area), 0) FROM city WHERE country_id = _id);
 
-    IF (potential_cumulative_countries_area > continent_area) OR (cities_area > _area ) THEN
+    IF (potential_cumulative_countries_area > continent_area) OR (cities_area > _area) THEN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'check constraint area failed';
     END IF;
@@ -192,9 +191,9 @@ END $$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_country_schools;
+DROP PROCEDURE IF EXISTS sp_validate_country_schools;
 DELIMITER $$
-CREATE PROCEDURE sp_update_country_schools(
+CREATE PROCEDURE sp_validate_country_schools(
    IN _id INTEGER, IN _no_schools INTEGER
 )
 BEGIN
@@ -205,7 +204,7 @@ BEGIN
 
     IF (_no_schools < cities_school) THEN
          SIGNAL SQLSTATE '45000'
-         SET MESSAGE_TEXT = 'check constraint area failed';
+         SET MESSAGE_TEXT = 'check constraint schools failed';
     END IF;
 
 END $$
@@ -220,9 +219,9 @@ CREATE TRIGGER city_insert_check
 BEFORE INSERT ON city FOR EACH ROW
 BEGIN
 
-    call sp_update_city_area(NEW.id, NEW.area);
-    call sp_update_city_population(NEW.id, NEW.population);
-    call sp_update_city_schools(NEW.id, NEW.no_schools);
+    CALL sp_validate_city_area(NEW.id, NEW.country_id, NEW.area);
+    CALL sp_validate_city_population(NEW.id, NEW.country_id, NEW.population);
+    CALL sp_validate_city_schools(NEW.id, NEW.country_id, NEW.no_schools);
 
 END$
 DELIMITER ;
@@ -234,9 +233,9 @@ CREATE TRIGGER city_update_check
 BEFORE UPDATE ON city FOR EACH ROW
 BEGIN
 
-    call sp_update_city_area(NEW.id, NEW.area);
-    call sp_update_city_population(NEW.id, NEW.population);
-    call sp_update_city_schools(NEW.id, NEW.no_schools);
+    CALL sp_validate_city_area(NEW.id, NEW.country_id, NEW.area);
+    CALL sp_validate_city_population(NEW.id, NEW.country_id, NEW.population);
+    CALL sp_validate_city_schools(NEW.id, NEW.country_id, NEW.no_schools);
 
 END$
 DELIMITER ;
@@ -244,25 +243,23 @@ DELIMITER ;
 
 
 
-DROP PROCEDURE IF EXISTS sp_update_city_population;
+DROP PROCEDURE IF EXISTS sp_validate_city_population;
 DELIMITER $$
-CREATE PROCEDURE sp_update_city_population(
-   IN _id INTEGER, IN _population INTEGER
+CREATE PROCEDURE sp_validate_city_population(
+   IN _id INTEGER, IN _country_id INTEGER, IN _population INTEGER
 )
 BEGIN
 
-    DECLARE _country_id INTEGER;
     DECLARE country_population INTEGER;
     DECLARE potential_cumulative_cities_population INTEGER;
 
-    SET _country_id = (SELECT country_id FROM city WHERE id = _id);
     SET country_population = (SELECT IFNULL(SUM(population), 0) FROM country WHERE id = _country_id);
 
     SET potential_cumulative_cities_population = (SELECT IFNULL(SUM(population), 0) + _population FROM city WHERE country_id = _country_id AND id != _id);
 
     IF (potential_cumulative_cities_population > country_population) THEN
         SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'check constraint area failed';
+        SET MESSAGE_TEXT = 'check constraint population failed';
 
     END IF;
 
@@ -270,18 +267,16 @@ END $$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_city_area;
+DROP PROCEDURE IF EXISTS sp_validate_city_area;
 DELIMITER $$
-CREATE PROCEDURE sp_update_city_area(
-   IN _id INTEGER, IN _area INTEGER
+CREATE PROCEDURE sp_validate_city_area(
+   IN _id INTEGER, IN _country_id INTEGER, IN _area INTEGER
 )
 BEGIN
 
-    DECLARE _country_id INTEGER;
     DECLARE country_area INTEGER;
     DECLARE potential_cumulative_cities_area INTEGER;
 
-    SET _country_id = (SELECT country_id FROM city WHERE id = _id);
     SET country_area = (SELECT IFNULL(SUM(area), 0) FROM country WHERE id = _country_id);
 
     SET potential_cumulative_cities_area = (SELECT IFNULL(SUM(area), 0) + _area FROM city WHERE country_id = _country_id AND id != _id);
@@ -295,26 +290,39 @@ END $$
 DELIMITER ;
 
 
-DROP PROCEDURE IF EXISTS sp_update_city_schools;
+DROP PROCEDURE IF EXISTS sp_validate_city_schools;
 DELIMITER $$
-CREATE PROCEDURE sp_update_city_schools(
-   IN _id INTEGER, IN _no_schools INTEGER
+CREATE PROCEDURE sp_validate_city_schools(
+   IN _id INTEGER, IN _country_id INTEGER, IN _no_schools INTEGER
 )
 BEGIN
 
-    DECLARE _country_id INTEGER;
     DECLARE country_schools INTEGER;
     DECLARE potential_cumulative_cities_schools INTEGER;
 
-    SET _country_id = (SELECT country_id FROM city WHERE id = _id);
     SET country_schools = (SELECT IFNULL(SUM(no_schools), 0) FROM country WHERE id = _country_id);
 
     SET potential_cumulative_cities_schools = (SELECT IFNULL(SUM(no_schools), 0) + _no_schools FROM city WHERE country_id = _country_id AND id != _id);
 
     IF (potential_cumulative_cities_schools > country_schools) THEN
         SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'check constraint area failed';
+        SET MESSAGE_TEXT = 'check constraint schools failed';
     END IF;
 
 END $$
 DELIMITER ;
+
+
+
+
+
+
+INSERT INTO continent (name, population, area) VALUES ('ASIA', 4463000, 44580000);
+SET @cont_id = (SELECT MAX(id) FROM continent);
+
+INSERT INTO country (cont_id, name, population, area, no_schools) VALUES (@cont_id, 'CHINA', 1400050, 9596961, 1000000);
+INSERT INTO country (cont_id, name, population, area, no_schools) VALUES (@cont_id, 'JAPAN', 125000, 377975, 20000000);
+SET @country_id = (SELECT MAX(id) FROM country);
+
+INSERT INTO city (country_id, name, population, area, no_schools) VALUES (@country_id, 'TOKYO', 13929, 2194, 2671);
+INSERT INTO city (country_id, name, population, area, no_schools) VALUES (@country_id, 'KYOTO', 1475, 827, 1000);

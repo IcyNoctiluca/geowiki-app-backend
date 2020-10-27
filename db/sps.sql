@@ -1,5 +1,4 @@
 
-
 DROP PROCEDURE IF EXISTS sp_insert_continent;
 DELIMITER $$
 CREATE PROCEDURE sp_insert_continent(
@@ -31,6 +30,7 @@ BEGIN
 END $$
 DELIMITER ;
 
+
 DROP PROCEDURE IF EXISTS sp_insert_city;
 DELIMITER $$
 CREATE PROCEDURE sp_insert_city(
@@ -45,44 +45,6 @@ BEGIN
 
 END $$
 DELIMITER ;
-
-
-
-
-SET @cont_id = '';
-
-CALL sp_insert_continent('ASIA', @cont_id);
-
-SET @country_id = '';
-
-CALL sp_insert_country('JAPAN', @cont_id, @country_id);
-
-SET @city_id = '';
-
-CALL sp_insert_city('TOKYO', @country_id, @city_id);
-
-SET @city_id = '';
-
-CALL sp_insert_city('KYOTO', @country_id, @city_id);
-
-SET @country_id = '';
-
-CALL sp_insert_country('CHINA', @cont_id, @country_id);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -138,8 +100,6 @@ END $$
 DELIMITER ;
 
 
-
-
 DROP PROCEDURE IF EXISTS sp_update_country_population;
 DELIMITER $$
 CREATE PROCEDURE sp_update_country_population(
@@ -169,6 +129,7 @@ BEGIN
 
 END $$
 DELIMITER ;
+
 
 
 DROP PROCEDURE IF EXISTS sp_update_country_area;
@@ -202,6 +163,7 @@ END $$
 DELIMITER ;
 
 
+
 DROP PROCEDURE IF EXISTS sp_update_country_schools;
 DELIMITER $$
 CREATE PROCEDURE sp_update_country_schools(
@@ -227,9 +189,6 @@ BEGIN
 
 END $$
 DELIMITER ;
-
-
-
 
 
 DROP PROCEDURE IF EXISTS sp_update_city_population;
@@ -344,48 +303,6 @@ DELIMITER ;
 
 
 
-SET @cont_id = '';
-CALL sp_insert_continent('ASIA', @cont_id);
-CALL sp_update_continent_population(@cont_id, 4463000);
-CALL sp_update_continent_area(@cont_id, 44580000);
-
-SET @country_id = '';
-CALL sp_insert_country('JAPAN', @cont_id, @country_id);
-CALL sp_update_country_population(@country_id, 125000);
-CALL sp_update_country_area(@country_id, 377975);
-CALL sp_update_country_schools(@country_id, 20000000);
-
-SET @city_id = '';
-CALL sp_insert_city('TOKYO', @country_id, @city_id);
-CALL sp_update_city_population(@city_id, 13929);
-CALL sp_update_city_area(@city_id, 2194);
-CALL sp_update_city_schools(@city_id, 2671);
-
-SET @city_id = '';
-CALL sp_insert_city('KYOTO', @country_id, @city_id);
-CALL sp_update_city_population(@city_id, 1475);
-CALL sp_update_city_area(@city_id, 827);
-CALL sp_update_city_schools(@city_id, 1000);
-
-SET @country_id = '';
-CALL sp_insert_country('CHINA', @cont_id, @country_id);
-CALL sp_update_country_population(@country_id, 1400050);
-CALL sp_update_country_area(@country_id, 9596961);
-CALL sp_update_city_schools(@country_id, 1000000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -404,10 +321,6 @@ BEGIN
 END $$
 DELIMITER ;
 
-
-
-
-
 DROP PROCEDURE IF EXISTS sp_update_country_name;
 DELIMITER $$
 CREATE PROCEDURE sp_update_country_name(
@@ -421,10 +334,6 @@ BEGIN
 
 END $$
 DELIMITER ;
-
-
-
-
 
 DROP PROCEDURE IF EXISTS sp_update_city_name;
 DELIMITER $$
