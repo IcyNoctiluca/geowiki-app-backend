@@ -1,0 +1,1541 @@
+1604346488268 - Client initialised with ID 69484359
+1604346488268 - Updating subscribed topics to: frozenset({'geowiki'})
+1604346488275 - Metadata for topic has changed from {} to {'geowiki': 1}. 
+1604346488294 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "80426", "action": "INSERT", "table": "city", "name": "New Cindyberg", "parent_id": 69}
+1604346488294 - AIOKafkaProducer going to sleep for 1 second
+1604346489299 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "876", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 541518, "id": 100}
+1604346489299 - AIOKafkaProducer going to sleep for 1 second
+1604346490322 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37200", "action": "INSERT", "table": "city", "name": "New Sandra", "parent_id": 57}
+1604346490322 - AIOKafkaProducer going to sleep for 1 second
+1604346491327 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "16028", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 125138, "id": 17}
+1604346491327 - AIOKafkaProducer going to sleep for 1 second
+1604346492349 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36397", "action": "INSERT", "table": "city", "name": "North Colton", "parent_id": 102}
+1604346492349 - AIOKafkaProducer going to sleep for 1 second
+1604346493354 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37014", "action": "DELETE", "table": "city", "id": 545}
+1604346493355 - AIOKafkaProducer going to sleep for 1 second
+1604346494377 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4156", "action": "INSERT", "table": "city", "name": "Brownside", "parent_id": 28}
+1604346494377 - AIOKafkaProducer going to sleep for 1 second
+1604346495401 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "65566", "action": "INSERT", "table": "city", "name": "Griffinberg", "parent_id": 104}
+1604346495401 - AIOKafkaProducer going to sleep for 1 second
+1604346496405 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31418", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 466661, "id": 47}
+1604346496405 - AIOKafkaProducer going to sleep for 1 second
+1604346497411 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20116", "action": "DELETE", "table": "city", "id": 767}
+1604346497411 - AIOKafkaProducer going to sleep for 1 second
+1604346498416 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55586", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 918164, "id": 3}
+1604346498416 - AIOKafkaProducer going to sleep for 1 second
+1604346499422 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53160", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 473223, "id": 57}
+1604346499422 - AIOKafkaProducer going to sleep for 1 second
+1604346500449 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99172", "action": "INSERT", "table": "city", "name": "New Patricia", "parent_id": 122}
+1604346500449 - AIOKafkaProducer going to sleep for 1 second
+1604346501455 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23850", "action": "DELETE", "table": "city", "id": 575}
+1604346501455 - AIOKafkaProducer going to sleep for 1 second
+1604346502461 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15239", "action": "DELETE", "table": "city", "id": 283}
+1604346502462 - AIOKafkaProducer going to sleep for 1 second
+1604346503483 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37139", "action": "INSERT", "table": "city", "name": "Josephville", "parent_id": 38}
+1604346503483 - AIOKafkaProducer going to sleep for 1 second
+1604346504486 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90534", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 644205, "id": 27}
+1604346504486 - AIOKafkaProducer going to sleep for 1 second
+1604346505505 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "9328", "action": "INSERT", "table": "city", "name": "East Kathleenland", "parent_id": 26}
+1604346505506 - AIOKafkaProducer going to sleep for 1 second
+1604346506526 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35412", "action": "INSERT", "table": "city", "name": "South Joseph", "parent_id": 23}
+1604346506526 - AIOKafkaProducer going to sleep for 1 second
+1604346507532 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "41282", "action": "DELETE", "table": "city", "id": 569}
+1604346507533 - AIOKafkaProducer going to sleep for 1 second
+1604346508554 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "73245", "action": "INSERT", "table": "city", "name": "Lake Eric", "parent_id": 75}
+1604346508554 - AIOKafkaProducer going to sleep for 1 second
+1604346509559 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77503", "action": "UPDATE", "table": "city", "attribute": "area", "value": 346176, "id": 10}
+1604346509560 - AIOKafkaProducer going to sleep for 1 second
+1604346510580 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "51500", "action": "INSERT", "table": "city", "name": "Ashleetown", "parent_id": 24}
+1604346510580 - AIOKafkaProducer going to sleep for 1 second
+1604346511601 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55370", "action": "INSERT", "table": "city", "name": "Gutierrezshire", "parent_id": 108}
+1604346511601 - AIOKafkaProducer going to sleep for 1 second
+1604346512606 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "42889", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 233932, "id": 66}
+1604346512606 - AIOKafkaProducer going to sleep for 1 second
+1604346513625 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10234", "action": "INSERT", "table": "city", "name": "South Debraview", "parent_id": 115}
+1604346513625 - AIOKafkaProducer going to sleep for 1 second
+1604346514647 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "57324", "action": "INSERT", "table": "city", "name": "Walterfurt", "parent_id": 117}
+1604346514647 - AIOKafkaProducer going to sleep for 1 second
+1604346515652 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "48890", "action": "UPDATE", "table": "country", "attribute": "area", "value": 279872, "id": 39}
+1604346515652 - AIOKafkaProducer going to sleep for 1 second
+1604346516659 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78312", "action": "DELETE", "table": "city", "id": 447}
+1604346516659 - AIOKafkaProducer going to sleep for 1 second
+1604346517665 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36777", "action": "UPDATE", "table": "country", "attribute": "population", "value": 738082, "id": 41}
+1604346517665 - AIOKafkaProducer going to sleep for 1 second
+1604346518671 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10457", "action": "UPDATE", "table": "country", "attribute": "area", "value": 988009, "id": 60}
+1604346518672 - AIOKafkaProducer going to sleep for 1 second
+1604346519693 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "50067", "action": "INSERT", "table": "city", "name": "Yatesmouth", "parent_id": 115}
+1604346519693 - AIOKafkaProducer going to sleep for 1 second
+1604346520699 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10693", "action": "DELETE", "table": "city", "id": 215}
+1604346520699 - AIOKafkaProducer going to sleep for 1 second
+1604346521705 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31144", "action": "DELETE", "table": "city", "id": 753}
+1604346521705 - AIOKafkaProducer going to sleep for 1 second
+1604346522710 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "49703", "action": "DELETE", "table": "city", "id": 338}
+1604346522711 - AIOKafkaProducer going to sleep for 1 second
+1604346523713 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "58238", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 502195, "id": 32}
+1604346523713 - AIOKafkaProducer going to sleep for 1 second
+1604346524718 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52084", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 277240, "id": 84}
+1604346524719 - AIOKafkaProducer going to sleep for 1 second
+1604346525722 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55912", "action": "DELETE", "table": "city", "id": 229}
+1604346525722 - AIOKafkaProducer going to sleep for 1 second
+1604346526728 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35972", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 570580, "id": 100}
+1604346526728 - AIOKafkaProducer going to sleep for 1 second
+1604346527731 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "84859", "action": "DELETE", "table": "city", "id": 119}
+1604346527731 - AIOKafkaProducer going to sleep for 1 second
+1604346528734 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93215", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 334324, "id": 70}
+1604346528734 - AIOKafkaProducer going to sleep for 1 second
+1604346529737 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52730", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 267911, "id": 83}
+1604346529737 - AIOKafkaProducer going to sleep for 1 second
+1604346530739 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61868", "action": "DELETE", "table": "city", "id": 723}
+1604346530739 - AIOKafkaProducer going to sleep for 1 second
+1604346531759 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5098", "action": "INSERT", "table": "city", "name": "Lake Christinatown", "parent_id": 98}
+1604346531759 - AIOKafkaProducer going to sleep for 1 second
+1604346532779 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "13909", "action": "INSERT", "table": "city", "name": "Parkerview", "parent_id": 64}
+1604346532780 - AIOKafkaProducer going to sleep for 1 second
+1604346533800 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4372", "action": "INSERT", "table": "city", "name": "Ferrellhaven", "parent_id": 7}
+1604346533800 - AIOKafkaProducer going to sleep for 1 second
+1604346534806 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "6518", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 106100, "id": 21}
+1604346534806 - AIOKafkaProducer going to sleep for 1 second
+1604346535812 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35086", "action": "DELETE", "table": "city", "id": 684}
+1604346535813 - AIOKafkaProducer going to sleep for 1 second
+1604346536818 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72374", "action": "UPDATE", "table": "city", "attribute": "area", "value": 869629, "id": 1}
+1604346536819 - AIOKafkaProducer going to sleep for 1 second
+1604346537839 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "56406", "action": "INSERT", "table": "city", "name": "West Andre", "parent_id": 97}
+1604346537839 - AIOKafkaProducer going to sleep for 1 second
+1604346538843 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30163", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 222141, "id": 42}
+1604346538844 - AIOKafkaProducer going to sleep for 1 second
+1604346539849 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36115", "action": "UPDATE", "table": "city", "attribute": "population", "value": 939263, "id": 80}
+1604346539849 - AIOKafkaProducer going to sleep for 1 second
+1604346540888 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "13133", "action": "INSERT", "table": "city", "name": "Hansonburgh", "parent_id": 78}
+1604346540888 - AIOKafkaProducer going to sleep for 1 second
+1604346541894 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "87552", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 249937, "id": 90}
+1604346541894 - AIOKafkaProducer going to sleep for 1 second
+1604346542944 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89135", "action": "INSERT", "table": "city", "name": "North Jenniferfurt", "parent_id": 11}
+1604346542945 - AIOKafkaProducer going to sleep for 1 second
+1604346543961 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53976", "action": "INSERT", "table": "city", "name": "Port Bonnieside", "parent_id": 56}
+1604346543961 - AIOKafkaProducer going to sleep for 1 second
+1604346544980 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "73097", "action": "INSERT", "table": "city", "name": "Andrewchester", "parent_id": 54}
+1604346544980 - AIOKafkaProducer going to sleep for 1 second
+1604346546001 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31180", "action": "INSERT", "table": "city", "name": "Markmouth", "parent_id": 83}
+1604346546001 - AIOKafkaProducer going to sleep for 1 second
+1604346547046 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "88570", "action": "INSERT", "table": "city", "name": "Jordanborough", "parent_id": 35}
+1604346547047 - AIOKafkaProducer going to sleep for 1 second
+1604346548067 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "26950", "action": "INSERT", "table": "city", "name": "Kellytown", "parent_id": 25}
+1604346548067 - AIOKafkaProducer going to sleep for 1 second
+1604346549070 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8480", "action": "DELETE", "table": "city", "id": 547}
+1604346549070 - AIOKafkaProducer going to sleep for 1 second
+1604346550074 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62615", "action": "DELETE", "table": "city", "id": 134}
+1604346550075 - AIOKafkaProducer going to sleep for 1 second
+1604346551080 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "47748", "action": "DELETE", "table": "city", "id": 332}
+1604346551080 - AIOKafkaProducer going to sleep for 1 second
+1604346552100 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7738", "action": "INSERT", "table": "city", "name": "North Nicole", "parent_id": 111}
+1604346552101 - AIOKafkaProducer going to sleep for 1 second
+1604346553120 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "47730", "action": "INSERT", "table": "city", "name": "Bonniebury", "parent_id": 6}
+1604346553121 - AIOKafkaProducer going to sleep for 1 second
+1604346554126 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "21481", "action": "DELETE", "table": "city", "id": 110}
+1604346554126 - AIOKafkaProducer going to sleep for 1 second
+1604346555132 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14987", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 993001, "id": 56}
+1604346555132 - AIOKafkaProducer going to sleep for 1 second
+1604346556152 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "48264", "action": "INSERT", "table": "city", "name": "Cannonport", "parent_id": 21}
+1604346556152 - AIOKafkaProducer going to sleep for 1 second
+1604346557154 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "79897", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 856378, "id": 83}
+1604346557155 - AIOKafkaProducer going to sleep for 1 second
+1604346558156 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "57329", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 378331, "id": 88}
+1604346558156 - AIOKafkaProducer going to sleep for 1 second
+1604346559179 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "63286", "action": "INSERT", "table": "city", "name": "Cartermouth", "parent_id": 45}
+1604346559179 - AIOKafkaProducer going to sleep for 1 second
+1604346560193 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55278", "action": "INSERT", "table": "city", "name": "North Caitlyn", "parent_id": 67}
+1604346560194 - AIOKafkaProducer going to sleep for 1 second
+1604346561198 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "92382", "action": "UPDATE", "table": "country", "attribute": "population", "value": 858730, "id": 8}
+1604346561198 - AIOKafkaProducer going to sleep for 1 second
+1604346562204 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "33639", "action": "DELETE", "table": "city", "id": 80}
+1604346562204 - AIOKafkaProducer going to sleep for 1 second
+1604346563255 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "41736", "action": "INSERT", "table": "city", "name": "Mclaughlinhaven", "parent_id": 37}
+1604346563256 - AIOKafkaProducer going to sleep for 1 second
+1604346564303 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82184", "action": "INSERT", "table": "city", "name": "South Rachel", "parent_id": 25}
+1604346564303 - AIOKafkaProducer going to sleep for 1 second
+1604346565351 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "84916", "action": "INSERT", "table": "city", "name": "Alexanderhaven", "parent_id": 6}
+1604346565351 - AIOKafkaProducer going to sleep for 1 second
+1604346566393 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "80812", "action": "INSERT", "table": "city", "name": "North John", "parent_id": 2}
+1604346566393 - AIOKafkaProducer going to sleep for 1 second
+1604346567437 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52898", "action": "INSERT", "table": "city", "name": "Adrianmouth", "parent_id": 22}
+1604346567437 - AIOKafkaProducer going to sleep for 1 second
+1604346568443 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72085", "action": "DELETE", "table": "city", "id": 282}
+1604346568443 - AIOKafkaProducer going to sleep for 1 second
+1604346569449 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "3793", "action": "UPDATE", "table": "country", "attribute": "population", "value": 156264, "id": 49}
+1604346569449 - AIOKafkaProducer going to sleep for 1 second
+1604346570455 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4546", "action": "DELETE", "table": "city", "id": 649}
+1604346570455 - AIOKafkaProducer going to sleep for 1 second
+1604346571501 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "44688", "action": "INSERT", "table": "city", "name": "West Leslie", "parent_id": 112}
+1604346571501 - AIOKafkaProducer going to sleep for 1 second
+1604346572506 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "47682", "action": "UPDATE", "table": "city", "attribute": "area", "value": 33666, "id": 24}
+1604346572507 - AIOKafkaProducer going to sleep for 1 second
+1604346573552 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7180", "action": "INSERT", "table": "city", "name": "Kathrynborough", "parent_id": 108}
+1604346573552 - AIOKafkaProducer going to sleep for 1 second
+1604346574600 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70230", "action": "INSERT", "table": "city", "name": "South Johnburgh", "parent_id": 49}
+1604346574600 - AIOKafkaProducer going to sleep for 1 second
+1604346575634 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "1949", "action": "INSERT", "table": "city", "name": "Meyerville", "parent_id": 44}
+1604346575634 - AIOKafkaProducer going to sleep for 1 second
+1604346576639 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94787", "action": "UPDATE", "table": "country", "attribute": "population", "value": 304454, "id": 93}
+1604346576639 - AIOKafkaProducer going to sleep for 1 second
+1604346577687 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "19514", "action": "INSERT", "table": "city", "name": "New Danielside", "parent_id": 64}
+1604346577687 - AIOKafkaProducer going to sleep for 1 second
+1604346578706 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62827", "action": "INSERT", "table": "city", "name": "Kelleyborough", "parent_id": 6}
+1604346578707 - AIOKafkaProducer going to sleep for 1 second
+1604346579712 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "58341", "action": "DELETE", "table": "city", "id": 382}
+1604346579712 - AIOKafkaProducer going to sleep for 1 second
+1604346580714 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "34207", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 385531, "id": 52}
+1604346580714 - AIOKafkaProducer going to sleep for 1 second
+1604346581719 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62825", "action": "DELETE", "table": "city", "id": 428}
+1604346581720 - AIOKafkaProducer going to sleep for 1 second
+1604346582722 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45351", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 497873, "id": 91}
+1604346582723 - AIOKafkaProducer going to sleep for 1 second
+1604346583725 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "21671", "action": "DELETE", "table": "city", "id": 242}
+1604346583725 - AIOKafkaProducer going to sleep for 1 second
+1604346584745 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69290", "action": "INSERT", "table": "city", "name": "Connorview", "parent_id": 80}
+1604346584745 - AIOKafkaProducer going to sleep for 1 second
+1604346585762 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70020", "action": "INSERT", "table": "city", "name": "Valeriemouth", "parent_id": 5}
+1604346585762 - AIOKafkaProducer going to sleep for 1 second
+1604346586765 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89557", "action": "UPDATE", "table": "country", "attribute": "population", "value": 409116, "id": 79}
+1604346586765 - AIOKafkaProducer going to sleep for 1 second
+1604346587786 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45161", "action": "INSERT", "table": "city", "name": "Jordanmouth", "parent_id": 57}
+1604346587786 - AIOKafkaProducer going to sleep for 1 second
+1604346588791 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "50136", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 967861, "id": 27}
+1604346588791 - AIOKafkaProducer going to sleep for 1 second
+1604346589796 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15780", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 604161, "id": 21}
+1604346589796 - AIOKafkaProducer going to sleep for 1 second
+1604346590802 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69769", "action": "DELETE", "table": "city", "id": 570}
+1604346590802 - AIOKafkaProducer going to sleep for 1 second
+1604346591805 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "43596", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 388731, "id": 5}
+1604346591805 - AIOKafkaProducer going to sleep for 1 second
+1604346592810 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "56026", "action": "DELETE", "table": "city", "id": 151}
+1604346592810 - AIOKafkaProducer going to sleep for 1 second
+1604346593832 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36768", "action": "INSERT", "table": "city", "name": "Harrisonberg", "parent_id": 103}
+1604346593832 - AIOKafkaProducer going to sleep for 1 second
+1604346594850 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "33713", "action": "INSERT", "table": "city", "name": "Knappbury", "parent_id": 37}
+1604346594850 - AIOKafkaProducer going to sleep for 1 second
+1604346595871 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77079", "action": "INSERT", "table": "city", "name": "New Philip", "parent_id": 101}
+1604346595871 - AIOKafkaProducer going to sleep for 1 second
+1604346596875 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62741", "action": "DELETE", "table": "city", "id": 794}
+1604346596875 - AIOKafkaProducer going to sleep for 1 second
+1604346597880 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99125", "action": "DELETE", "table": "city", "id": 644}
+1604346597880 - AIOKafkaProducer going to sleep for 1 second
+1604346598899 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25372", "action": "INSERT", "table": "city", "name": "Port Kara", "parent_id": 88}
+1604346598899 - AIOKafkaProducer going to sleep for 1 second
+1604346599903 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61681", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 220953, "id": 26}
+1604346599904 - AIOKafkaProducer going to sleep for 1 second
+1604346600909 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40156", "action": "DELETE", "table": "city", "id": 55}
+1604346600909 - AIOKafkaProducer going to sleep for 1 second
+1604346601914 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22280", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 901071, "id": 61}
+1604346601914 - AIOKafkaProducer going to sleep for 1 second
+1604346602935 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24464", "action": "INSERT", "table": "city", "name": "Chapmanchester", "parent_id": 16}
+1604346602935 - AIOKafkaProducer going to sleep for 1 second
+1604346603940 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "34270", "action": "DELETE", "table": "city", "id": 729}
+1604346603940 - AIOKafkaProducer going to sleep for 1 second
+1604346604958 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78042", "action": "INSERT", "table": "city", "name": "Simmonsfurt", "parent_id": 115}
+1604346604958 - AIOKafkaProducer going to sleep for 1 second
+1604346605963 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82888", "action": "DELETE", "table": "city", "id": 135}
+1604346605963 - AIOKafkaProducer going to sleep for 1 second
+1604346606980 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "96961", "action": "INSERT", "table": "city", "name": "Port Amy", "parent_id": 93}
+1604346606980 - AIOKafkaProducer going to sleep for 1 second
+1604346607985 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "74944", "action": "DELETE", "table": "city", "id": 437}
+1604346607985 - AIOKafkaProducer going to sleep for 1 second
+1604346609007 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4260", "action": "INSERT", "table": "city", "name": "Stephenton", "parent_id": 72}
+1604346609007 - AIOKafkaProducer going to sleep for 1 second
+1604346610010 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "83372", "action": "DELETE", "table": "city", "id": 428}
+1604346610010 - AIOKafkaProducer going to sleep for 1 second
+1604346611029 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4692", "action": "INSERT", "table": "city", "name": "East Nicholas", "parent_id": 98}
+1604346611029 - AIOKafkaProducer going to sleep for 1 second
+1604346612049 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59385", "action": "INSERT", "table": "city", "name": "New James", "parent_id": 86}
+1604346612049 - AIOKafkaProducer going to sleep for 1 second
+1604346613055 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "19283", "action": "UPDATE", "table": "country", "attribute": "population", "value": 681730, "id": 93}
+1604346613055 - AIOKafkaProducer going to sleep for 1 second
+1604346614077 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68447", "action": "INSERT", "table": "city", "name": "New Rachelberg", "parent_id": 18}
+1604346614077 - AIOKafkaProducer going to sleep for 1 second
+1604346615098 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14934", "action": "INSERT", "table": "city", "name": "Goldenmouth", "parent_id": 54}
+1604346615098 - AIOKafkaProducer going to sleep for 1 second
+1604346616103 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76042", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 239859, "id": 15}
+1604346616103 - AIOKafkaProducer going to sleep for 1 second
+1604346617109 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55357", "action": "DELETE", "table": "city", "id": 463}
+1604346617109 - AIOKafkaProducer going to sleep for 1 second
+1604346618114 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "11343", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 117940, "id": 67}
+1604346618114 - AIOKafkaProducer going to sleep for 1 second
+1604346619120 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36038", "action": "DELETE", "table": "city", "id": 490}
+1604346619120 - AIOKafkaProducer going to sleep for 1 second
+1604346620141 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53957", "action": "INSERT", "table": "city", "name": "South Michaelview", "parent_id": 92}
+1604346620141 - AIOKafkaProducer going to sleep for 1 second
+1604346621162 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45651", "action": "INSERT", "table": "city", "name": "South Jesusburgh", "parent_id": 60}
+1604346621162 - AIOKafkaProducer going to sleep for 1 second
+1604346622164 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "84889", "action": "DELETE", "table": "city", "id": 481}
+1604346622164 - AIOKafkaProducer going to sleep for 1 second
+1604346623179 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "3037", "action": "INSERT", "table": "city", "name": "Port Anthony", "parent_id": 99}
+1604346623179 - AIOKafkaProducer going to sleep for 1 second
+1604346624183 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69123", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 138990, "id": 96}
+1604346624184 - AIOKafkaProducer going to sleep for 1 second
+1604346625189 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "2987", "action": "DELETE", "table": "city", "id": 475}
+1604346625189 - AIOKafkaProducer going to sleep for 1 second
+1604346626194 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "75285", "action": "UPDATE", "table": "country", "attribute": "population", "value": 190187, "id": 69}
+1604346626194 - AIOKafkaProducer going to sleep for 1 second
+1604346627200 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72655", "action": "UPDATE", "table": "country", "attribute": "area", "value": 854293, "id": 55}
+1604346627200 - AIOKafkaProducer going to sleep for 1 second
+1604346628222 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90283", "action": "INSERT", "table": "city", "name": "Ellisshire", "parent_id": 54}
+1604346628222 - AIOKafkaProducer going to sleep for 1 second
+1604346629242 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76923", "action": "INSERT", "table": "city", "name": "Port Kyle", "parent_id": 97}
+1604346629242 - AIOKafkaProducer going to sleep for 1 second
+1604346630263 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94105", "action": "INSERT", "table": "city", "name": "New Danielburgh", "parent_id": 98}
+1604346630263 - AIOKafkaProducer going to sleep for 1 second
+1604346631268 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31299", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 296615, "id": 73}
+1604346631268 - AIOKafkaProducer going to sleep for 1 second
+1604346632274 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55105", "action": "DELETE", "table": "city", "id": 506}
+1604346632274 - AIOKafkaProducer going to sleep for 1 second
+1604346633280 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77240", "action": "UPDATE", "table": "country", "attribute": "area", "value": 344021, "id": 31}
+1604346633280 - AIOKafkaProducer going to sleep for 1 second
+1604346634285 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78387", "action": "DELETE", "table": "city", "id": 40}
+1604346634285 - AIOKafkaProducer going to sleep for 1 second
+1604346635291 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "6586", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 67724, "id": 18}
+1604346635291 - AIOKafkaProducer going to sleep for 1 second
+1604346636313 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "67", "action": "INSERT", "table": "city", "name": "Floydside", "parent_id": 101}
+1604346636313 - AIOKafkaProducer going to sleep for 1 second
+1604346637318 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "74079", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 383582, "id": 71}
+1604346637318 - AIOKafkaProducer going to sleep for 1 second
+1604346638323 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25360", "action": "DELETE", "table": "city", "id": 499}
+1604346638323 - AIOKafkaProducer going to sleep for 1 second
+1604346639328 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53842", "action": "DELETE", "table": "city", "id": 757}
+1604346639329 - AIOKafkaProducer going to sleep for 1 second
+1604346640350 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "19357", "action": "INSERT", "table": "city", "name": "Port Benjamin", "parent_id": 111}
+1604346640350 - AIOKafkaProducer going to sleep for 1 second
+1604346641371 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "81933", "action": "INSERT", "table": "city", "name": "Christopherberg", "parent_id": 69}
+1604346641371 - AIOKafkaProducer going to sleep for 1 second
+1604346642377 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "9195", "action": "DELETE", "table": "city", "id": 208}
+1604346642377 - AIOKafkaProducer going to sleep for 1 second
+1604346643383 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71231", "action": "UPDATE", "table": "country", "attribute": "population", "value": 133021, "id": 10}
+1604346643383 - AIOKafkaProducer going to sleep for 1 second
+1604346644389 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "81644", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 539272, "id": 56}
+1604346644389 - AIOKafkaProducer going to sleep for 1 second
+1604346645394 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78634", "action": "DELETE", "table": "city", "id": 53}
+1604346645394 - AIOKafkaProducer going to sleep for 1 second
+1604346646399 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61353", "action": "DELETE", "table": "city", "id": 786}
+1604346646399 - AIOKafkaProducer going to sleep for 1 second
+1604346647404 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93519", "action": "DELETE", "table": "city", "id": 312}
+1604346647404 - AIOKafkaProducer going to sleep for 1 second
+1604346648425 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71419", "action": "INSERT", "table": "city", "name": "Colonchester", "parent_id": 36}
+1604346648425 - AIOKafkaProducer going to sleep for 1 second
+1604346649446 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55799", "action": "INSERT", "table": "city", "name": "West Michaelmouth", "parent_id": 92}
+1604346649446 - AIOKafkaProducer going to sleep for 1 second
+1604346650451 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52684", "action": "DELETE", "table": "city", "id": 389}
+1604346650452 - AIOKafkaProducer going to sleep for 1 second
+1604346651458 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "26283", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 401859, "id": 38}
+1604346651458 - AIOKafkaProducer going to sleep for 1 second
+1604346652465 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61738", "action": "DELETE", "table": "city", "id": 756}
+1604346652465 - AIOKafkaProducer going to sleep for 1 second
+1604346653486 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14469", "action": "INSERT", "table": "city", "name": "Elliottmouth", "parent_id": 31}
+1604346653487 - AIOKafkaProducer going to sleep for 1 second
+1604346654493 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "85328", "action": "DELETE", "table": "city", "id": 74}
+1604346654493 - AIOKafkaProducer going to sleep for 1 second
+1604346655499 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "85002", "action": "DELETE", "table": "city", "id": 65}
+1604346655499 - AIOKafkaProducer going to sleep for 1 second
+1604346656504 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "86206", "action": "UPDATE", "table": "city", "attribute": "area", "value": 209367, "id": 58}
+1604346656505 - AIOKafkaProducer going to sleep for 1 second
+1604346657527 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77329", "action": "INSERT", "table": "city", "name": "New Philipshire", "parent_id": 31}
+1604346657527 - AIOKafkaProducer going to sleep for 1 second
+1604346658532 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35384", "action": "DELETE", "table": "city", "id": 450}
+1604346658533 - AIOKafkaProducer going to sleep for 1 second
+1604346659539 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28806", "action": "DELETE", "table": "city", "id": 658}
+1604346659539 - AIOKafkaProducer going to sleep for 1 second
+1604346660559 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "54229", "action": "INSERT", "table": "city", "name": "Pattersonview", "parent_id": 88}
+1604346660560 - AIOKafkaProducer going to sleep for 1 second
+1604346661564 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "84339", "action": "DELETE", "table": "city", "id": 447}
+1604346661564 - AIOKafkaProducer going to sleep for 1 second
+1604346662570 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97159", "action": "DELETE", "table": "city", "id": 400}
+1604346662570 - AIOKafkaProducer going to sleep for 1 second
+1604346663575 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "98512", "action": "UPDATE", "table": "city", "attribute": "area", "value": 56062, "id": 43}
+1604346663576 - AIOKafkaProducer going to sleep for 1 second
+1604346664581 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "48064", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 466534, "id": 53}
+1604346664581 - AIOKafkaProducer going to sleep for 1 second
+1604346665626 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93553", "action": "INSERT", "table": "city", "name": "Haydenmouth", "parent_id": 97}
+1604346665626 - AIOKafkaProducer going to sleep for 1 second
+1604346666631 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "16404", "action": "DELETE", "table": "city", "id": 573}
+1604346666632 - AIOKafkaProducer going to sleep for 1 second
+1604346667637 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28487", "action": "UPDATE", "table": "city", "attribute": "population", "value": 399193, "id": 5}
+1604346667637 - AIOKafkaProducer going to sleep for 1 second
+1604346668659 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25940", "action": "INSERT", "table": "city", "name": "New Erichaven", "parent_id": 34}
+1604346668659 - AIOKafkaProducer going to sleep for 1 second
+1604346669680 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15086", "action": "INSERT", "table": "city", "name": "South Colin", "parent_id": 42}
+1604346669680 - AIOKafkaProducer going to sleep for 1 second
+1604346670701 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90401", "action": "INSERT", "table": "city", "name": "West Charlesport", "parent_id": 58}
+1604346670701 - AIOKafkaProducer going to sleep for 1 second
+1604346671722 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10360", "action": "INSERT", "table": "city", "name": "Lambertland", "parent_id": 43}
+1604346671722 - AIOKafkaProducer going to sleep for 1 second
+1604346672727 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64942", "action": "DELETE", "table": "city", "id": 459}
+1604346672727 - AIOKafkaProducer going to sleep for 1 second
+1604346673732 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55762", "action": "DELETE", "table": "city", "id": 127}
+1604346673732 - AIOKafkaProducer going to sleep for 1 second
+1604346674738 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97702", "action": "DELETE", "table": "city", "id": 797}
+1604346674738 - AIOKafkaProducer going to sleep for 1 second
+1604346675743 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45547", "action": "DELETE", "table": "city", "id": 504}
+1604346675743 - AIOKafkaProducer going to sleep for 1 second
+1604346676749 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22413", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 648654, "id": 25}
+1604346676749 - AIOKafkaProducer going to sleep for 1 second
+1604346677754 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "6991", "action": "DELETE", "table": "city", "id": 265}
+1604346677755 - AIOKafkaProducer going to sleep for 1 second
+1604346678777 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82351", "action": "INSERT", "table": "city", "name": "Brianport", "parent_id": 54}
+1604346678777 - AIOKafkaProducer going to sleep for 1 second
+1604346679798 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "81627", "action": "INSERT", "table": "city", "name": "Lake Kathy", "parent_id": 41}
+1604346679799 - AIOKafkaProducer going to sleep for 1 second
+1604346680848 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52562", "action": "INSERT", "table": "city", "name": "Harristown", "parent_id": 77}
+1604346680848 - AIOKafkaProducer going to sleep for 1 second
+1604346681854 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "26988", "action": "DELETE", "table": "city", "id": 180}
+1604346681855 - AIOKafkaProducer going to sleep for 1 second
+1604346682858 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35484", "action": "DELETE", "table": "city", "id": 725}
+1604346682858 - AIOKafkaProducer going to sleep for 1 second
+1604346683862 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "43276", "action": "DELETE", "table": "city", "id": 292}
+1604346683862 - AIOKafkaProducer going to sleep for 1 second
+1604346684865 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71995", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 51573, "id": 97}
+1604346684865 - AIOKafkaProducer going to sleep for 1 second
+1604346685870 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "57441", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 331944, "id": 84}
+1604346685870 - AIOKafkaProducer going to sleep for 1 second
+1604346686875 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78204", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 466699, "id": 42}
+1604346686876 - AIOKafkaProducer going to sleep for 1 second
+1604346687880 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4510", "action": "DELETE", "table": "city", "id": 238}
+1604346687881 - AIOKafkaProducer going to sleep for 1 second
+1604346688899 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "58782", "action": "INSERT", "table": "city", "name": "South Robert", "parent_id": 122}
+1604346688900 - AIOKafkaProducer going to sleep for 1 second
+1604346689905 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "51791", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 310215, "id": 84}
+1604346689905 - AIOKafkaProducer going to sleep for 1 second
+1604346690910 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30259", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 578501, "id": 72}
+1604346690910 - AIOKafkaProducer going to sleep for 1 second
+1604346691915 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20229", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 891542, "id": 81}
+1604346691915 - AIOKafkaProducer going to sleep for 1 second
+1604346692959 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "50448", "action": "INSERT", "table": "city", "name": "Drakemouth", "parent_id": 14}
+1604346692959 - AIOKafkaProducer going to sleep for 1 second
+1604346693980 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38891", "action": "INSERT", "table": "city", "name": "Lake Angelaburgh", "parent_id": 64}
+1604346693980 - AIOKafkaProducer going to sleep for 1 second
+1604346694985 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37187", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 665741, "id": 85}
+1604346694985 - AIOKafkaProducer going to sleep for 1 second
+1604346695990 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62560", "action": "DELETE", "table": "city", "id": 149}
+1604346695990 - AIOKafkaProducer going to sleep for 1 second
+1604346696992 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72340", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 78656, "id": 99}
+1604346696993 - AIOKafkaProducer going to sleep for 1 second
+1604346697995 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "51409", "action": "DELETE", "table": "city", "id": 55}
+1604346697995 - AIOKafkaProducer going to sleep for 1 second
+1604346698998 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "43688", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 332149, "id": 22}
+1604346698998 - AIOKafkaProducer going to sleep for 1 second
+1604346700001 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62201", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 977317, "id": 39}
+1604346700001 - AIOKafkaProducer going to sleep for 1 second
+1604346701049 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25864", "action": "INSERT", "table": "city", "name": "Michaelmouth", "parent_id": 66}
+1604346701049 - AIOKafkaProducer going to sleep for 1 second
+1604346702054 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99071", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 212165, "id": 35}
+1604346702055 - AIOKafkaProducer going to sleep for 1 second
+1604346703061 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62554", "action": "DELETE", "table": "city", "id": 253}
+1604346703061 - AIOKafkaProducer going to sleep for 1 second
+1604346704066 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37523", "action": "DELETE", "table": "city", "id": 40}
+1604346704066 - AIOKafkaProducer going to sleep for 1 second
+1604346705068 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14122", "action": "DELETE", "table": "city", "id": 677}
+1604346705068 - AIOKafkaProducer going to sleep for 1 second
+1604346706085 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68031", "action": "INSERT", "table": "city", "name": "West Brandonburgh", "parent_id": 52}
+1604346706085 - AIOKafkaProducer going to sleep for 1 second
+1604346707088 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76856", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 492613, "id": 57}
+1604346707088 - AIOKafkaProducer going to sleep for 1 second
+1604346708091 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99095", "action": "UPDATE", "table": "country", "attribute": "area", "value": 49073, "id": 44}
+1604346708091 - AIOKafkaProducer going to sleep for 1 second
+1604346709095 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70400", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 889394, "id": 47}
+1604346709096 - AIOKafkaProducer going to sleep for 1 second
+1604346710100 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20036", "action": "DELETE", "table": "city", "id": 312}
+1604346710100 - AIOKafkaProducer going to sleep for 1 second
+1604346711105 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38307", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 694768, "id": 40}
+1604346711106 - AIOKafkaProducer going to sleep for 1 second
+1604346712109 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59249", "action": "DELETE", "table": "city", "id": 586}
+1604346712109 - AIOKafkaProducer going to sleep for 1 second
+1604346713147 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64639", "action": "INSERT", "table": "city", "name": "Averyview", "parent_id": 8}
+1604346713147 - AIOKafkaProducer going to sleep for 1 second
+1604346714165 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68400", "action": "INSERT", "table": "city", "name": "Pammouth", "parent_id": 27}
+1604346714165 - AIOKafkaProducer going to sleep for 1 second
+1604346715167 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93750", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 295035, "id": 38}
+1604346715167 - AIOKafkaProducer going to sleep for 1 second
+1604346716172 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90804", "action": "DELETE", "table": "city", "id": 654}
+1604346716172 - AIOKafkaProducer going to sleep for 1 second
+1604346717177 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45874", "action": "DELETE", "table": "city", "id": 487}
+1604346717178 - AIOKafkaProducer going to sleep for 1 second
+1604346718224 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94354", "action": "INSERT", "table": "city", "name": "Jacquelineland", "parent_id": 21}
+1604346718225 - AIOKafkaProducer going to sleep for 1 second
+1604346719274 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "17577", "action": "INSERT", "table": "city", "name": "Port Nicholasfurt", "parent_id": 79}
+1604346719274 - AIOKafkaProducer going to sleep for 1 second
+1604346720279 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82510", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 723658, "id": 90}
+1604346720279 - AIOKafkaProducer going to sleep for 1 second
+1604346721302 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76373", "action": "INSERT", "table": "city", "name": "Rubentown", "parent_id": 74}
+1604346721302 - AIOKafkaProducer going to sleep for 1 second
+1604346722320 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76017", "action": "INSERT", "table": "city", "name": "Port Frank", "parent_id": 67}
+1604346722320 - AIOKafkaProducer going to sleep for 1 second
+1604346723324 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22929", "action": "DELETE", "table": "city", "id": 128}
+1604346723325 - AIOKafkaProducer going to sleep for 1 second
+1604346724331 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "32546", "action": "DELETE", "table": "city", "id": 794}
+1604346724331 - AIOKafkaProducer going to sleep for 1 second
+1604346725334 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "74995", "action": "DELETE", "table": "city", "id": 8}
+1604346725334 - AIOKafkaProducer going to sleep for 1 second
+1604346726336 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "33557", "action": "UPDATE", "table": "city", "attribute": "area", "value": 158509, "id": 42}
+1604346726336 - AIOKafkaProducer going to sleep for 1 second
+1604346727340 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "48657", "action": "DELETE", "table": "city", "id": 239}
+1604346727341 - AIOKafkaProducer going to sleep for 1 second
+1604346728343 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72465", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 820184, "id": 52}
+1604346728343 - AIOKafkaProducer going to sleep for 1 second
+1604346729346 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "42704", "action": "DELETE", "table": "city", "id": 635}
+1604346729346 - AIOKafkaProducer going to sleep for 1 second
+1604346730351 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "39140", "action": "DELETE", "table": "city", "id": 505}
+1604346730351 - AIOKafkaProducer going to sleep for 1 second
+1604346731353 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "18972", "action": "DELETE", "table": "city", "id": 177}
+1604346731353 - AIOKafkaProducer going to sleep for 1 second
+1604346732355 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61327", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 802687, "id": 49}
+1604346732356 - AIOKafkaProducer going to sleep for 1 second
+1604346733377 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27272", "action": "INSERT", "table": "city", "name": "Brownville", "parent_id": 63}
+1604346733377 - AIOKafkaProducer going to sleep for 1 second
+1604346734398 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72944", "action": "INSERT", "table": "city", "name": "East Branditown", "parent_id": 64}
+1604346734398 - AIOKafkaProducer going to sleep for 1 second
+1604346735403 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40515", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 103294, "id": 45}
+1604346735403 - AIOKafkaProducer going to sleep for 1 second
+1604346736409 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82156", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 863465, "id": 49}
+1604346736409 - AIOKafkaProducer going to sleep for 1 second
+1604346737414 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "613", "action": "UPDATE", "table": "country", "attribute": "area", "value": 918813, "id": 37}
+1604346737414 - AIOKafkaProducer going to sleep for 1 second
+1604346738416 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "2120", "action": "DELETE", "table": "city", "id": 337}
+1604346738417 - AIOKafkaProducer going to sleep for 1 second
+1604346739434 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "67704", "action": "INSERT", "table": "city", "name": "Tanyaside", "parent_id": 78}
+1604346739434 - AIOKafkaProducer going to sleep for 1 second
+1604346740448 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70549", "action": "INSERT", "table": "city", "name": "Peterfort", "parent_id": 75}
+1604346740448 - AIOKafkaProducer going to sleep for 1 second
+1604346741469 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76663", "action": "INSERT", "table": "city", "name": "Lake Kelly", "parent_id": 40}
+1604346741469 - AIOKafkaProducer going to sleep for 1 second
+1604346742473 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "60447", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 839526, "id": 84}
+1604346742474 - AIOKafkaProducer going to sleep for 1 second
+1604346743479 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62427", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 903734, "id": 22}
+1604346743479 - AIOKafkaProducer going to sleep for 1 second
+1604346744485 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "80082", "action": "DELETE", "table": "city", "id": 543}
+1604346744485 - AIOKafkaProducer going to sleep for 1 second
+1604346745490 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "6736", "action": "DELETE", "table": "city", "id": 320}
+1604346745491 - AIOKafkaProducer going to sleep for 1 second
+1604346746496 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "43638", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 387202, "id": 59}
+1604346746496 - AIOKafkaProducer going to sleep for 1 second
+1604346747502 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "80672", "action": "UPDATE", "table": "city", "attribute": "population", "value": 451808, "id": 93}
+1604346747503 - AIOKafkaProducer going to sleep for 1 second
+1604346748508 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61150", "action": "DELETE", "table": "city", "id": 670}
+1604346748508 - AIOKafkaProducer going to sleep for 1 second
+1604346749514 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "49487", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 33922, "id": 9}
+1604346749514 - AIOKafkaProducer going to sleep for 1 second
+1604346750537 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "92837", "action": "INSERT", "table": "city", "name": "Loriside", "parent_id": 105}
+1604346750537 - AIOKafkaProducer going to sleep for 1 second
+1604346751542 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97479", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 110478, "id": 98}
+1604346751542 - AIOKafkaProducer going to sleep for 1 second
+1604346752547 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45113", "action": "DELETE", "table": "city", "id": 173}
+1604346752547 - AIOKafkaProducer going to sleep for 1 second
+1604346753597 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "57695", "action": "INSERT", "table": "city", "name": "Justinborough", "parent_id": 77}
+1604346753597 - AIOKafkaProducer going to sleep for 1 second
+1604346754602 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "29609", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 212479, "id": 77}
+1604346754602 - AIOKafkaProducer going to sleep for 1 second
+1604346755651 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "66532", "action": "INSERT", "table": "city", "name": "Wagnertown", "parent_id": 120}
+1604346755651 - AIOKafkaProducer going to sleep for 1 second
+1604346756656 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23986", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 93056, "id": 9}
+1604346756656 - AIOKafkaProducer going to sleep for 1 second
+1604346757662 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28212", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 762341, "id": 13}
+1604346757662 - AIOKafkaProducer going to sleep for 1 second
+1604346758682 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38700", "action": "INSERT", "table": "city", "name": "Samuelfurt", "parent_id": 55}
+1604346758682 - AIOKafkaProducer going to sleep for 1 second
+1604346759702 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37919", "action": "INSERT", "table": "city", "name": "South Melissaborough", "parent_id": 82}
+1604346759702 - AIOKafkaProducer going to sleep for 1 second
+1604346760723 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12340", "action": "INSERT", "table": "city", "name": "North Johnchester", "parent_id": 80}
+1604346760723 - AIOKafkaProducer going to sleep for 1 second
+1604346761743 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59010", "action": "INSERT", "table": "city", "name": "Dawsonberg", "parent_id": 70}
+1604346761744 - AIOKafkaProducer going to sleep for 1 second
+1604346762746 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "33858", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 337488, "id": 73}
+1604346762746 - AIOKafkaProducer going to sleep for 1 second
+1604346763751 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "2878", "action": "DELETE", "table": "city", "id": 330}
+1604346763751 - AIOKafkaProducer going to sleep for 1 second
+1604346764757 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97371", "action": "DELETE", "table": "city", "id": 165}
+1604346764757 - AIOKafkaProducer going to sleep for 1 second
+1604346765762 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "46682", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 608583, "id": 81}
+1604346765762 - AIOKafkaProducer going to sleep for 1 second
+1604346766767 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "91138", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 16884, "id": 53}
+1604346766767 - AIOKafkaProducer going to sleep for 1 second
+1604346767784 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "46734", "action": "INSERT", "table": "city", "name": "East Daniel", "parent_id": 71}
+1604346767784 - AIOKafkaProducer going to sleep for 1 second
+1604346768789 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93627", "action": "DELETE", "table": "city", "id": 27}
+1604346768789 - AIOKafkaProducer going to sleep for 1 second
+1604346769794 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53932", "action": "UPDATE", "table": "country", "attribute": "area", "value": 214291, "id": 36}
+1604346769794 - AIOKafkaProducer going to sleep for 1 second
+1604346770799 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "74859", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 835807, "id": 30}
+1604346770799 - AIOKafkaProducer going to sleep for 1 second
+1604346771802 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30429", "action": "UPDATE", "table": "city", "attribute": "population", "value": 497521, "id": 87}
+1604346771802 - AIOKafkaProducer going to sleep for 1 second
+1604346772805 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28783", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 156277, "id": 87}
+1604346772805 - AIOKafkaProducer going to sleep for 1 second
+1604346773809 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94709", "action": "DELETE", "table": "city", "id": 693}
+1604346773809 - AIOKafkaProducer going to sleep for 1 second
+1604346774815 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40055", "action": "DELETE", "table": "city", "id": 663}
+1604346774815 - AIOKafkaProducer going to sleep for 1 second
+1604346775858 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "19644", "action": "INSERT", "table": "city", "name": "Smithside", "parent_id": 108}
+1604346775858 - AIOKafkaProducer going to sleep for 1 second
+1604346776864 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "44804", "action": "DELETE", "table": "city", "id": 287}
+1604346776864 - AIOKafkaProducer going to sleep for 1 second
+1604346777877 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31465", "action": "INSERT", "table": "city", "name": "Johnsonborough", "parent_id": 102}
+1604346777877 - AIOKafkaProducer going to sleep for 1 second
+1604346778881 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62002", "action": "DELETE", "table": "city", "id": 487}
+1604346778881 - AIOKafkaProducer going to sleep for 1 second
+1604346779915 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55410", "action": "INSERT", "table": "city", "name": "East Jeffreyport", "parent_id": 114}
+1604346779915 - AIOKafkaProducer going to sleep for 1 second
+1604346780921 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "324", "action": "DELETE", "table": "city", "id": 632}
+1604346780922 - AIOKafkaProducer going to sleep for 1 second
+1604346781926 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62937", "action": "DELETE", "table": "city", "id": 6}
+1604346781927 - AIOKafkaProducer going to sleep for 1 second
+1604346782932 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "56480", "action": "DELETE", "table": "city", "id": 401}
+1604346782932 - AIOKafkaProducer going to sleep for 1 second
+1604346783938 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7148", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 696529, "id": 8}
+1604346783939 - AIOKafkaProducer going to sleep for 1 second
+1604346784968 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28611", "action": "INSERT", "table": "city", "name": "Oconnorville", "parent_id": 74}
+1604346784968 - AIOKafkaProducer going to sleep for 1 second
+1604346786017 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "616", "action": "INSERT", "table": "city", "name": "Williamsville", "parent_id": 89}
+1604346786017 - AIOKafkaProducer going to sleep for 1 second
+1604346787039 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89402", "action": "INSERT", "table": "city", "name": "Sanchezmouth", "parent_id": 72}
+1604346787039 - AIOKafkaProducer going to sleep for 1 second
+1604346788044 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8488", "action": "DELETE", "table": "city", "id": 706}
+1604346788044 - AIOKafkaProducer going to sleep for 1 second
+1604346789066 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "13513", "action": "INSERT", "table": "city", "name": "West Michelle", "parent_id": 93}
+1604346789066 - AIOKafkaProducer going to sleep for 1 second
+1604346790071 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "67754", "action": "DELETE", "table": "city", "id": 626}
+1604346790071 - AIOKafkaProducer going to sleep for 1 second
+1604346791090 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "42006", "action": "INSERT", "table": "city", "name": "Lake Cynthia", "parent_id": 26}
+1604346791090 - AIOKafkaProducer going to sleep for 1 second
+1604346792095 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "49982", "action": "DELETE", "table": "city", "id": 282}
+1604346792095 - AIOKafkaProducer going to sleep for 1 second
+1604346793116 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70592", "action": "INSERT", "table": "city", "name": "South Harold", "parent_id": 78}
+1604346793116 - AIOKafkaProducer going to sleep for 1 second
+1604346794137 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "34102", "action": "INSERT", "table": "city", "name": "Coxmouth", "parent_id": 46}
+1604346794137 - AIOKafkaProducer going to sleep for 1 second
+1604346795142 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76800", "action": "DELETE", "table": "city", "id": 282}
+1604346795142 - AIOKafkaProducer going to sleep for 1 second
+1604346796146 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76334", "action": "DELETE", "table": "city", "id": 123}
+1604346796146 - AIOKafkaProducer going to sleep for 1 second
+1604346797161 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "29432", "action": "INSERT", "table": "city", "name": "Tinamouth", "parent_id": 18}
+1604346797161 - AIOKafkaProducer going to sleep for 1 second
+1604346798182 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "67832", "action": "INSERT", "table": "city", "name": "Williamsmouth", "parent_id": 120}
+1604346798182 - AIOKafkaProducer going to sleep for 1 second
+1604346799202 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "9668", "action": "INSERT", "table": "city", "name": "Contreraston", "parent_id": 47}
+1604346799203 - AIOKafkaProducer going to sleep for 1 second
+1604346800220 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "3826", "action": "INSERT", "table": "city", "name": "Danielport", "parent_id": 43}
+1604346800220 - AIOKafkaProducer going to sleep for 1 second
+1604346801225 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89630", "action": "UPDATE", "table": "country", "attribute": "area", "value": 148055, "id": 78}
+1604346801225 - AIOKafkaProducer going to sleep for 1 second
+1604346802249 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90494", "action": "INSERT", "table": "city", "name": "South Jennifer", "parent_id": 5}
+1604346802249 - AIOKafkaProducer going to sleep for 1 second
+1604346803255 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "81215", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 630548, "id": 94}
+1604346803255 - AIOKafkaProducer going to sleep for 1 second
+1604346804261 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8786", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 790953, "id": 77}
+1604346804261 - AIOKafkaProducer going to sleep for 1 second
+1604346805263 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93545", "action": "DELETE", "table": "city", "id": 780}
+1604346805263 - AIOKafkaProducer going to sleep for 1 second
+1604346806266 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8544", "action": "UPDATE", "table": "city", "attribute": "area", "value": 307181, "id": 66}
+1604346806266 - AIOKafkaProducer going to sleep for 1 second
+1604346807268 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "96137", "action": "DELETE", "table": "city", "id": 330}
+1604346807268 - AIOKafkaProducer going to sleep for 1 second
+1604346808272 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "9915", "action": "UPDATE", "table": "country", "attribute": "area", "value": 459772, "id": 65}
+1604346808272 - AIOKafkaProducer going to sleep for 1 second
+1604346809322 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "19336", "action": "INSERT", "table": "city", "name": "South Franklin", "parent_id": 96}
+1604346809322 - AIOKafkaProducer going to sleep for 1 second
+1604346810343 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5713", "action": "INSERT", "table": "city", "name": "Port Raymond", "parent_id": 32}
+1604346810343 - AIOKafkaProducer going to sleep for 1 second
+1604346811357 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "96676", "action": "INSERT", "table": "city", "name": "New Amanda", "parent_id": 115}
+1604346811357 - AIOKafkaProducer going to sleep for 1 second
+1604346812392 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "13685", "action": "INSERT", "table": "city", "name": "Rodriguezview", "parent_id": 83}
+1604346812392 - AIOKafkaProducer going to sleep for 1 second
+1604346813394 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69952", "action": "UPDATE", "table": "country", "attribute": "area", "value": 957137, "id": 84}
+1604346813394 - AIOKafkaProducer going to sleep for 1 second
+1604346814398 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "51487", "action": "DELETE", "table": "city", "id": 504}
+1604346814399 - AIOKafkaProducer going to sleep for 1 second
+1604346815401 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62060", "action": "DELETE", "table": "city", "id": 42}
+1604346815401 - AIOKafkaProducer going to sleep for 1 second
+1604346816421 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "87626", "action": "INSERT", "table": "city", "name": "Lake Jessicamouth", "parent_id": 25}
+1604346816421 - AIOKafkaProducer going to sleep for 1 second
+1604346817438 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53251", "action": "INSERT", "table": "city", "name": "Simsmouth", "parent_id": 91}
+1604346817438 - AIOKafkaProducer going to sleep for 1 second
+1604346818440 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "91486", "action": "DELETE", "table": "city", "id": 34}
+1604346818440 - AIOKafkaProducer going to sleep for 1 second
+1604346819485 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "80735", "action": "INSERT", "table": "city", "name": "New Christina", "parent_id": 71}
+1604346819485 - AIOKafkaProducer going to sleep for 1 second
+1604346820488 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40540", "action": "DELETE", "table": "city", "id": 753}
+1604346820488 - AIOKafkaProducer going to sleep for 1 second
+1604346821504 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71161", "action": "INSERT", "table": "city", "name": "West Kristenberg", "parent_id": 62}
+1604346821504 - AIOKafkaProducer going to sleep for 1 second
+1604346822541 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25926", "action": "INSERT", "table": "city", "name": "East Karahaven", "parent_id": 34}
+1604346822541 - AIOKafkaProducer going to sleep for 1 second
+1604346823545 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "95194", "action": "DELETE", "table": "city", "id": 622}
+1604346823546 - AIOKafkaProducer going to sleep for 1 second
+1604346824550 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45584", "action": "DELETE", "table": "city", "id": 50}
+1604346824550 - AIOKafkaProducer going to sleep for 1 second
+1604346825554 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10887", "action": "UPDATE", "table": "country", "attribute": "population", "value": 776409, "id": 41}
+1604346825554 - AIOKafkaProducer going to sleep for 1 second
+1604346826557 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5801", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 344806, "id": 17}
+1604346826557 - AIOKafkaProducer going to sleep for 1 second
+1604346827561 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "16145", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 621640, "id": 43}
+1604346827561 - AIOKafkaProducer going to sleep for 1 second
+1604346828566 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "58198", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 505958, "id": 18}
+1604346828567 - AIOKafkaProducer going to sleep for 1 second
+1604346829572 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "21904", "action": "DELETE", "table": "city", "id": 22}
+1604346829572 - AIOKafkaProducer going to sleep for 1 second
+1604346830577 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38210", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 448222, "id": 61}
+1604346830577 - AIOKafkaProducer going to sleep for 1 second
+1604346831599 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61560", "action": "INSERT", "table": "city", "name": "North Danielchester", "parent_id": 124}
+1604346831600 - AIOKafkaProducer going to sleep for 1 second
+1604346832605 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89971", "action": "DELETE", "table": "city", "id": 342}
+1604346832605 - AIOKafkaProducer going to sleep for 1 second
+1604346833610 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14788", "action": "DELETE", "table": "city", "id": 10}
+1604346833610 - AIOKafkaProducer going to sleep for 1 second
+1604346834662 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97052", "action": "INSERT", "table": "city", "name": "North Michael", "parent_id": 43}
+1604346834662 - AIOKafkaProducer going to sleep for 1 second
+1604346835668 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61215", "action": "DELETE", "table": "city", "id": 65}
+1604346835669 - AIOKafkaProducer going to sleep for 1 second
+1604346836673 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97750", "action": "DELETE", "table": "city", "id": 689}
+1604346836673 - AIOKafkaProducer going to sleep for 1 second
+1604346837677 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "92929", "action": "DELETE", "table": "city", "id": 110}
+1604346837678 - AIOKafkaProducer going to sleep for 1 second
+1604346838683 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "21170", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 997902, "id": 20}
+1604346838684 - AIOKafkaProducer going to sleep for 1 second
+1604346839688 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90763", "action": "DELETE", "table": "city", "id": 116}
+1604346839688 - AIOKafkaProducer going to sleep for 1 second
+1604346840694 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31560", "action": "DELETE", "table": "city", "id": 146}
+1604346840695 - AIOKafkaProducer going to sleep for 1 second
+1604346841700 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "32948", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 698333, "id": 74}
+1604346841701 - AIOKafkaProducer going to sleep for 1 second
+1604346842703 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15099", "action": "DELETE", "table": "city", "id": 326}
+1604346842703 - AIOKafkaProducer going to sleep for 1 second
+1604346843708 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55611", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 318414, "id": 11}
+1604346843708 - AIOKafkaProducer going to sleep for 1 second
+1604346844759 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78025", "action": "INSERT", "table": "city", "name": "Josestad", "parent_id": 84}
+1604346844760 - AIOKafkaProducer going to sleep for 1 second
+1604346845766 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45487", "action": "UPDATE", "table": "city", "attribute": "population", "value": 175525, "id": 22}
+1604346845766 - AIOKafkaProducer going to sleep for 1 second
+1604346846787 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "75372", "action": "INSERT", "table": "city", "name": "Heathermouth", "parent_id": 93}
+1604346846787 - AIOKafkaProducer going to sleep for 1 second
+1604346847792 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "43765", "action": "DELETE", "table": "city", "id": 330}
+1604346847792 - AIOKafkaProducer going to sleep for 1 second
+1604346848797 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97708", "action": "DELETE", "table": "city", "id": 474}
+1604346848798 - AIOKafkaProducer going to sleep for 1 second
+1604346849802 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "91517", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 354239, "id": 88}
+1604346849803 - AIOKafkaProducer going to sleep for 1 second
+1604346850805 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4182", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 799295, "id": 43}
+1604346850805 - AIOKafkaProducer going to sleep for 1 second
+1604346851821 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "627", "action": "INSERT", "table": "city", "name": "South Bruce", "parent_id": 82}
+1604346851821 - AIOKafkaProducer going to sleep for 1 second
+1604346852826 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64638", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 924672, "id": 46}
+1604346852827 - AIOKafkaProducer going to sleep for 1 second
+1604346853831 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70033", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 875428, "id": 70}
+1604346853831 - AIOKafkaProducer going to sleep for 1 second
+1604346854836 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7647", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 508505, "id": 65}
+1604346854836 - AIOKafkaProducer going to sleep for 1 second
+1604346855842 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35950", "action": "DELETE", "table": "city", "id": 87}
+1604346855842 - AIOKafkaProducer going to sleep for 1 second
+1604346856848 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30114", "action": "DELETE", "table": "city", "id": 409}
+1604346856849 - AIOKafkaProducer going to sleep for 1 second
+1604346857854 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8517", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 73272, "id": 46}
+1604346857854 - AIOKafkaProducer going to sleep for 1 second
+1604346858902 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69346", "action": "INSERT", "table": "city", "name": "Amybury", "parent_id": 6}
+1604346858902 - AIOKafkaProducer going to sleep for 1 second
+1604346859904 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36762", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 535920, "id": 34}
+1604346859904 - AIOKafkaProducer going to sleep for 1 second
+1604346860951 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "49919", "action": "INSERT", "table": "city", "name": "Port Shannonbury", "parent_id": 50}
+1604346860951 - AIOKafkaProducer going to sleep for 1 second
+1604346861953 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12766", "action": "DELETE", "table": "city", "id": 600}
+1604346861953 - AIOKafkaProducer going to sleep for 1 second
+1604346862958 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4835", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 434758, "id": 50}
+1604346862958 - AIOKafkaProducer going to sleep for 1 second
+1604346863960 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55277", "action": "DELETE", "table": "city", "id": 58}
+1604346863960 - AIOKafkaProducer going to sleep for 1 second
+1604346864965 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70304", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 755752, "id": 55}
+1604346864965 - AIOKafkaProducer going to sleep for 1 second
+1604346866015 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68523", "action": "INSERT", "table": "city", "name": "Port Rachelville", "parent_id": 83}
+1604346866015 - AIOKafkaProducer going to sleep for 1 second
+1604346867020 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "66131", "action": "UPDATE", "table": "city", "attribute": "population", "value": 628924, "id": 20}
+1604346867020 - AIOKafkaProducer going to sleep for 1 second
+1604346868024 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30564", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 872493, "id": 28}
+1604346868024 - AIOKafkaProducer going to sleep for 1 second
+1604346869026 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "56706", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 360012, "id": 100}
+1604346869026 - AIOKafkaProducer going to sleep for 1 second
+1604346870031 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28874", "action": "DELETE", "table": "city", "id": 603}
+1604346870031 - AIOKafkaProducer going to sleep for 1 second
+1604346871037 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28481", "action": "UPDATE", "table": "city", "attribute": "population", "value": 533875, "id": 42}
+1604346871037 - AIOKafkaProducer going to sleep for 1 second
+1604346872042 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38264", "action": "DELETE", "table": "city", "id": 521}
+1604346872042 - AIOKafkaProducer going to sleep for 1 second
+1604346873048 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "21714", "action": "DELETE", "table": "city", "id": 135}
+1604346873048 - AIOKafkaProducer going to sleep for 1 second
+1604346874053 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40836", "action": "UPDATE", "table": "country", "attribute": "area", "value": 29610, "id": 88}
+1604346874054 - AIOKafkaProducer going to sleep for 1 second
+1604346875059 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "44176", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 570829, "id": 12}
+1604346875059 - AIOKafkaProducer going to sleep for 1 second
+1604346876064 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "66714", "action": "DELETE", "table": "city", "id": 364}
+1604346876064 - AIOKafkaProducer going to sleep for 1 second
+1604346877085 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "84269", "action": "INSERT", "table": "city", "name": "Keithton", "parent_id": 114}
+1604346877085 - AIOKafkaProducer going to sleep for 1 second
+1604346878089 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24786", "action": "DELETE", "table": "city", "id": 219}
+1604346878090 - AIOKafkaProducer going to sleep for 1 second
+1604346879092 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64399", "action": "UPDATE", "table": "country", "attribute": "area", "value": 739776, "id": 27}
+1604346879092 - AIOKafkaProducer going to sleep for 1 second
+1604346880096 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38308", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 192447, "id": 26}
+1604346880097 - AIOKafkaProducer going to sleep for 1 second
+1604346881101 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12759", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 745699, "id": 23}
+1604346881102 - AIOKafkaProducer going to sleep for 1 second
+1604346882107 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "1642", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 918583, "id": 9}
+1604346882107 - AIOKafkaProducer going to sleep for 1 second
+1604346883111 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94996", "action": "DELETE", "table": "city", "id": 280}
+1604346883111 - AIOKafkaProducer going to sleep for 1 second
+1604346884133 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "47265", "action": "INSERT", "table": "city", "name": "South Andrea", "parent_id": 43}
+1604346884133 - AIOKafkaProducer going to sleep for 1 second
+1604346885155 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25314", "action": "INSERT", "table": "city", "name": "Richardmouth", "parent_id": 6}
+1604346885155 - AIOKafkaProducer going to sleep for 1 second
+1604346886159 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24453", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 246216, "id": 24}
+1604346886160 - AIOKafkaProducer going to sleep for 1 second
+1604346887209 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52744", "action": "INSERT", "table": "city", "name": "Amandatown", "parent_id": 15}
+1604346887209 - AIOKafkaProducer going to sleep for 1 second
+1604346888256 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "58686", "action": "INSERT", "table": "city", "name": "Hamiltonview", "parent_id": 115}
+1604346888256 - AIOKafkaProducer going to sleep for 1 second
+1604346889261 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97607", "action": "DELETE", "table": "city", "id": 379}
+1604346889261 - AIOKafkaProducer going to sleep for 1 second
+1604346890264 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76818", "action": "DELETE", "table": "city", "id": 136}
+1604346890264 - AIOKafkaProducer going to sleep for 1 second
+1604346891269 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "60852", "action": "DELETE", "table": "city", "id": 536}
+1604346891270 - AIOKafkaProducer going to sleep for 1 second
+1604346892292 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "66796", "action": "INSERT", "table": "city", "name": "Lake Jimmyfort", "parent_id": 73}
+1604346892292 - AIOKafkaProducer going to sleep for 1 second
+1604346893312 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31312", "action": "INSERT", "table": "city", "name": "Patriciastad", "parent_id": 107}
+1604346893312 - AIOKafkaProducer going to sleep for 1 second
+1604346894328 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "86298", "action": "INSERT", "table": "city", "name": "Brownstad", "parent_id": 29}
+1604346894329 - AIOKafkaProducer going to sleep for 1 second
+1604346895333 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64314", "action": "UPDATE", "table": "country", "attribute": "area", "value": 585484, "id": 45}
+1604346895333 - AIOKafkaProducer going to sleep for 1 second
+1604346896339 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76276", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 950335, "id": 78}
+1604346896339 - AIOKafkaProducer going to sleep for 1 second
+1604346897344 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "95287", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 933115, "id": 53}
+1604346897344 - AIOKafkaProducer going to sleep for 1 second
+1604346898366 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71239", "action": "INSERT", "table": "city", "name": "East Sarahville", "parent_id": 62}
+1604346898366 - AIOKafkaProducer going to sleep for 1 second
+1604346899388 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "48805", "action": "INSERT", "table": "city", "name": "West Davidstad", "parent_id": 32}
+1604346899388 - AIOKafkaProducer going to sleep for 1 second
+1604346900394 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89516", "action": "UPDATE", "table": "city", "attribute": "population", "value": 479596, "id": 34}
+1604346900394 - AIOKafkaProducer going to sleep for 1 second
+1604346901400 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "41707", "action": "UPDATE", "table": "country", "attribute": "population", "value": 528951, "id": 52}
+1604346901400 - AIOKafkaProducer going to sleep for 1 second
+1604346902405 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14536", "action": "DELETE", "table": "city", "id": 478}
+1604346902406 - AIOKafkaProducer going to sleep for 1 second
+1604346903409 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23426", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 641877, "id": 68}
+1604346903409 - AIOKafkaProducer going to sleep for 1 second
+1604346904415 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "67473", "action": "DELETE", "table": "city", "id": 384}
+1604346904416 - AIOKafkaProducer going to sleep for 1 second
+1604346905421 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15293", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 28333, "id": 61}
+1604346905421 - AIOKafkaProducer going to sleep for 1 second
+1604346906427 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52031", "action": "DELETE", "table": "city", "id": 800}
+1604346906427 - AIOKafkaProducer going to sleep for 1 second
+1604346907432 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12949", "action": "UPDATE", "table": "country", "attribute": "population", "value": 357686, "id": 69}
+1604346907432 - AIOKafkaProducer going to sleep for 1 second
+1604346908437 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10672", "action": "DELETE", "table": "city", "id": 528}
+1604346908437 - AIOKafkaProducer going to sleep for 1 second
+1604346909483 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "16642", "action": "INSERT", "table": "city", "name": "Grayhaven", "parent_id": 71}
+1604346909483 - AIOKafkaProducer going to sleep for 1 second
+1604346910488 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53970", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 847517, "id": 49}
+1604346910489 - AIOKafkaProducer going to sleep for 1 second
+1604346911493 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72738", "action": "DELETE", "table": "city", "id": 450}
+1604346911493 - AIOKafkaProducer going to sleep for 1 second
+1604346912498 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "29148", "action": "DELETE", "table": "city", "id": 68}
+1604346912499 - AIOKafkaProducer going to sleep for 1 second
+1604346913503 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24658", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 642383, "id": 27}
+1604346913504 - AIOKafkaProducer going to sleep for 1 second
+1604346914552 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "75646", "action": "INSERT", "table": "city", "name": "East Carrie", "parent_id": 119}
+1604346914552 - AIOKafkaProducer going to sleep for 1 second
+1604346915557 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7015", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 789683, "id": 53}
+1604346915557 - AIOKafkaProducer going to sleep for 1 second
+1604346916563 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25662", "action": "DELETE", "table": "city", "id": 501}
+1604346916563 - AIOKafkaProducer going to sleep for 1 second
+1604346917568 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "88132", "action": "DELETE", "table": "city", "id": 702}
+1604346917569 - AIOKafkaProducer going to sleep for 1 second
+1604346918613 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4295", "action": "INSERT", "table": "city", "name": "Kirbyport", "parent_id": 20}
+1604346918613 - AIOKafkaProducer going to sleep for 1 second
+1604346919617 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "39777", "action": "DELETE", "table": "city", "id": 584}
+1604346919617 - AIOKafkaProducer going to sleep for 1 second
+1604346920622 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "1797", "action": "DELETE", "table": "city", "id": 713}
+1604346920622 - AIOKafkaProducer going to sleep for 1 second
+1604346921628 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "13945", "action": "DELETE", "table": "city", "id": 47}
+1604346921628 - AIOKafkaProducer going to sleep for 1 second
+1604346922634 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8505", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 337885, "id": 88}
+1604346922634 - AIOKafkaProducer going to sleep for 1 second
+1604346923640 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31163", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 813240, "id": 90}
+1604346923640 - AIOKafkaProducer going to sleep for 1 second
+1604346924643 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76203", "action": "DELETE", "table": "city", "id": 429}
+1604346924643 - AIOKafkaProducer going to sleep for 1 second
+1604346925648 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93613", "action": "DELETE", "table": "city", "id": 58}
+1604346925648 - AIOKafkaProducer going to sleep for 1 second
+1604346926655 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "2532", "action": "DELETE", "table": "city", "id": 95}
+1604346926655 - AIOKafkaProducer going to sleep for 1 second
+1604346927661 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14256", "action": "DELETE", "table": "city", "id": 547}
+1604346927661 - AIOKafkaProducer going to sleep for 1 second
+1604346928666 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "32336", "action": "DELETE", "table": "city", "id": 37}
+1604346928666 - AIOKafkaProducer going to sleep for 1 second
+1604346929671 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "26664", "action": "DELETE", "table": "city", "id": 517}
+1604346929671 - AIOKafkaProducer going to sleep for 1 second
+1604346930675 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '93613', 'response': '0 record(s) deleted'}|timestamp=1604346930667
+1604346930694 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14486", "action": "INSERT", "table": "city", "name": "West Jessicastad", "parent_id": 23}
+1604346930694 - AIOKafkaProducer going to sleep for 1 second
+1604346931678 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '2532', 'response': '0 record(s) deleted'}|timestamp=1604346931671
+1604346931696 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27096", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 46658, "id": 59}
+1604346931697 - AIOKafkaProducer going to sleep for 1 second
+1604346932685 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '14256', 'response': '0 record(s) deleted'}|timestamp=1604346932677
+1604346932700 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "66492", "action": "DELETE", "table": "city", "id": 247}
+1604346932700 - AIOKafkaProducer going to sleep for 1 second
+1604346933691 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '32336', 'response': '0 record(s) deleted'}|timestamp=1604346933683
+1604346933719 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77460", "action": "INSERT", "table": "city", "name": "Stephaniefort", "parent_id": 32}
+1604346933719 - AIOKafkaProducer going to sleep for 1 second
+1604346934696 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '26664', 'response': '0 record(s) deleted'}|timestamp=1604346934690
+1604346934722 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "41317", "action": "UPDATE", "table": "country", "attribute": "no_hospitals", "value": 73379, "id": 6}
+1604346934722 - AIOKafkaProducer going to sleep for 1 second
+1604346935736 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '14486', 'response': '1 record(s) inserted'}|timestamp=1604346935733
+1604346935746 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27576", "action": "INSERT", "table": "city", "name": "Port Isaiahhaven", "parent_id": 67}
+1604346935746 - AIOKafkaProducer going to sleep for 1 second
+1604346936720 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '27096', 'response': '0 record(s) updated'}|timestamp=1604346936714
+1604346936751 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12900", "action": "DELETE", "table": "city", "id": 233}
+1604346936751 - AIOKafkaProducer going to sleep for 1 second
+1604346937730 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '66492', 'response': '1 record(s) deleted'}|timestamp=1604346937722
+1604346937754 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64096", "action": "DELETE", "table": "city", "id": 20}
+1604346937754 - AIOKafkaProducer going to sleep for 1 second
+1604346938751 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '77460', 'response': '1 record(s) inserted'}|timestamp=1604346938744
+1604346938756 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28890", "action": "DELETE", "table": "city", "id": 206}
+1604346938756 - AIOKafkaProducer going to sleep for 1 second
+1604346939756 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '41317', 'response': '1 record(s) updated'}|timestamp=1604346939747
+1604346939763 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "92422", "action": "DELETE", "table": "city", "id": 251}
+1604346939763 - AIOKafkaProducer going to sleep for 1 second
+1604346940768 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62062", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 799849, "id": 74}
+1604346940768 - AIOKafkaProducer going to sleep for 1 second
+1604346940771 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '27576', 'response': '1 record(s) inserted'}|timestamp=1604346940769
+1604346941775 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52525", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 707208, "id": 39}
+1604346941775 - AIOKafkaProducer going to sleep for 1 second
+1604346941776 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '12900', 'response': '0 record(s) deleted'}|timestamp=1604346941770
+1604346942780 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "63210", "action": "DELETE", "table": "city", "id": 664}
+1604346942781 - AIOKafkaProducer going to sleep for 1 second
+1604346942784 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '64096', 'response': '1 record(s) deleted'}|timestamp=1604346942775
+1604346943784 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "86470", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 303529, "id": 31}
+1604346943784 - AIOKafkaProducer going to sleep for 1 second
+1604346943785 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '28890', 'response': '1 record(s) deleted'}|timestamp=1604346943778
+1604346944788 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22314", "action": "DELETE", "table": "city", "id": 359}
+1604346944788 - AIOKafkaProducer going to sleep for 1 second
+1604346944792 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '92422', 'response': '0 record(s) deleted'}|timestamp=1604346944784
+1604346945795 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31834", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 21952, "id": 85}
+1604346945795 - AIOKafkaProducer going to sleep for 1 second
+1604346945799 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '62062', 'response': '0 record(s) updated'}|timestamp=1604346945789
+1604346946801 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "56771", "action": "DELETE", "table": "city", "id": 685}
+1604346946801 - AIOKafkaProducer going to sleep for 1 second
+1604346946805 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '52525', 'response': '1 record(s) updated'}|timestamp=1604346946798
+1604346947806 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72437", "action": "DELETE", "table": "city", "id": 447}
+1604346947806 - AIOKafkaProducer going to sleep for 1 second
+1604346947807 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '63210', 'response': '0 record(s) deleted'}|timestamp=1604346947801
+1604346948791 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '86470', 'response': '0 record(s) updated'}|timestamp=1604346948789
+1604346948809 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4121", "action": "DELETE", "table": "city", "id": 521}
+1604346948810 - AIOKafkaProducer going to sleep for 1 second
+1604346949815 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77564", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 416745, "id": 100}
+1604346949815 - AIOKafkaProducer going to sleep for 1 second
+1604346949821 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '22314', 'response': '1 record(s) deleted'}|timestamp=1604346949811
+1604346950810 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '31834', 'response': '1 record(s) updated'}|timestamp=1604346950807
+1604346950831 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64466", "action": "INSERT", "table": "city", "name": "Lindamouth", "parent_id": 86}
+1604346950832 - AIOKafkaProducer going to sleep for 1 second
+1604346951827 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '56771', 'response': '0 record(s) deleted'}|timestamp=1604346951819
+1604346951838 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "48320", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 735953, "id": 64}
+1604346951838 - AIOKafkaProducer going to sleep for 1 second
+1604346952831 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '72437', 'response': '1 record(s) deleted'}|timestamp=1604346952822
+1604346952845 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23438", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 628971, "id": 55}
+1604346952845 - AIOKafkaProducer going to sleep for 1 second
+1604346953820 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '4121', 'response': '1 record(s) deleted'}|timestamp=1604346953818
+1604346953850 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5954", "action": "DELETE", "table": "city", "id": 687}
+1604346953850 - AIOKafkaProducer going to sleep for 1 second
+1604346954840 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '77564', 'response': '0 record(s) updated'}|timestamp=1604346954833
+1604346954856 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97793", "action": "DELETE", "table": "city", "id": 204}
+1604346954856 - AIOKafkaProducer going to sleep for 1 second
+1604346955845 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '64466', 'response': '1 record(s) inserted'}|timestamp=1604346955842
+1604346955883 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99499", "action": "INSERT", "table": "city", "name": "Floresfort", "parent_id": 7}
+1604346955883 - AIOKafkaProducer going to sleep for 1 second
+1604346956847 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '48320', 'response': '0 record(s) updated'}|timestamp=1604346956845
+1604346956888 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "83799", "action": "DELETE", "table": "city", "id": 793}
+1604346956888 - AIOKafkaProducer going to sleep for 1 second
+1604346957877 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '23438', 'response': '1 record(s) updated'}|timestamp=1604346957868
+1604346957931 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77543", "action": "INSERT", "table": "city", "name": "Clarkshire", "parent_id": 28}
+1604346957931 - AIOKafkaProducer going to sleep for 1 second
+1604346958877 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '5954', 'response': '1 record(s) deleted'}|timestamp=1604346958869
+1604346958938 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "26848", "action": "UPDATE", "table": "country", "attribute": "area", "value": 44665, "id": 86}
+1604346958938 - AIOKafkaProducer going to sleep for 1 second
+1604346959883 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '97793', 'response': '1 record(s) deleted'}|timestamp=1604346959875
+1604346959944 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "18832", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 659962, "id": 14}
+1604346959944 - AIOKafkaProducer going to sleep for 1 second
+1604346960894 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '99499', 'response': '1 record(s) inserted'}|timestamp=1604346960892
+1604346960985 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90038", "action": "INSERT", "table": "city", "name": "Ericburgh", "parent_id": 38}
+1604346960985 - AIOKafkaProducer going to sleep for 1 second
+1604346961915 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '83799', 'response': '0 record(s) deleted'}|timestamp=1604346961907
+1604346962032 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "47066", "action": "INSERT", "table": "city", "name": "Victoriaside", "parent_id": 26}
+1604346962032 - AIOKafkaProducer going to sleep for 1 second
+1604346962961 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '77543', 'response': '1 record(s) inserted'}|timestamp=1604346962953
+1604346963039 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59644", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 262334, "id": 34}
+1604346963039 - AIOKafkaProducer going to sleep for 1 second
+1604346963971 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '26848', 'response': '1 record(s) updated'}|timestamp=1604346963962
+1604346964045 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7728", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 852008, "id": 11}
+1604346964045 - AIOKafkaProducer going to sleep for 1 second
+1604346964976 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '18832', 'response': '1 record(s) updated'}|timestamp=1604346964967
+1604346965090 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "67774", "action": "INSERT", "table": "city", "name": "Port Jose", "parent_id": 37}
+1604346965090 - AIOKafkaProducer going to sleep for 1 second
+1604346965997 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '90038', 'response': '1 record(s) inserted'}|timestamp=1604346965994
+1604346966107 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20375", "action": "INSERT", "table": "city", "name": "Willieport", "parent_id": 66}
+1604346966107 - AIOKafkaProducer going to sleep for 1 second
+1604346967062 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '47066', 'response': '1 record(s) inserted'}|timestamp=1604346967054
+1604346967110 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "76137", "action": "DELETE", "table": "city", "id": 436}
+1604346967110 - AIOKafkaProducer going to sleep for 1 second
+1604346968065 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '59644', 'response': '0 record(s) updated'}|timestamp=1604346968057
+1604346968128 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "58509", "action": "INSERT", "table": "city", "name": "Donaldfort", "parent_id": 47}
+1604346968128 - AIOKafkaProducer going to sleep for 1 second
+1604346969072 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '7728', 'response': 'Failed to update: 1644 (45000): check constraint schools failed'}|timestamp=1604346969065
+1604346969134 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "17057", "action": "UPDATE", "table": "country", "attribute": "population", "value": 31191, "id": 12}
+1604346969134 - AIOKafkaProducer going to sleep for 1 second
+1604346970111 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '67774', 'response': '1 record(s) inserted'}|timestamp=1604346970106
+1604346970139 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8363", "action": "DELETE", "table": "city", "id": 267}
+1604346970139 - AIOKafkaProducer going to sleep for 1 second
+1604346971128 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '20375', 'response': '1 record(s) inserted'}|timestamp=1604346971124
+1604346971142 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37639", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 374763, "id": 69}
+1604346971142 - AIOKafkaProducer going to sleep for 1 second
+1604346972134 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '76137', 'response': '1 record(s) deleted'}|timestamp=1604346972126
+1604346972146 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "83489", "action": "DELETE", "table": "city", "id": 254}
+1604346972147 - AIOKafkaProducer going to sleep for 1 second
+1604346973143 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '58509', 'response': '1 record(s) inserted'}|timestamp=1604346973140
+1604346973172 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24498", "action": "INSERT", "table": "city", "name": "Romerostad", "parent_id": 38}
+1604346973172 - AIOKafkaProducer going to sleep for 1 second
+1604346974160 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '17057', 'response': '1 record(s) updated'}|timestamp=1604346974153
+1604346974178 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38949", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 897606, "id": 41}
+1604346974179 - AIOKafkaProducer going to sleep for 1 second
+1604346975147 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '8363', 'response': '0 record(s) deleted'}|timestamp=1604346975144
+1604346975181 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "18906", "action": "DELETE", "table": "city", "id": 404}
+1604346975181 - AIOKafkaProducer going to sleep for 1 second
+1604346976167 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '37639', 'response': '0 record(s) updated'}|timestamp=1604346976159
+1604346976202 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "85566", "action": "INSERT", "table": "city", "name": "Aguilarfort", "parent_id": 46}
+1604346976203 - AIOKafkaProducer going to sleep for 1 second
+1604346977157 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '83489', 'response': '0 record(s) deleted'}|timestamp=1604346977154
+1604346977206 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "46486", "action": "DELETE", "table": "city", "id": 195}
+1604346977206 - AIOKafkaProducer going to sleep for 1 second
+1604346978202 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '24498', 'response': '1 record(s) inserted'}|timestamp=1604346978195
+1604346978211 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68222", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 987822, "id": 22}
+1604346978211 - AIOKafkaProducer going to sleep for 1 second
+1604346979203 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '38949', 'response': '0 record(s) updated'}|timestamp=1604346979196
+1604346979225 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14310", "action": "INSERT", "table": "city", "name": "Shaneview", "parent_id": 98}
+1604346979225 - AIOKafkaProducer going to sleep for 1 second
+1604346980195 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '18906', 'response': '1 record(s) deleted'}|timestamp=1604346980191
+1604346980230 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "79597", "action": "DELETE", "table": "city", "id": 601}
+1604346980230 - AIOKafkaProducer going to sleep for 1 second
+1604346981234 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '85566', 'response': '1 record(s) inserted'}|timestamp=1604346981226
+1604346981254 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59500", "action": "INSERT", "table": "city", "name": "New Sandra", "parent_id": 11}
+1604346981254 - AIOKafkaProducer going to sleep for 1 second
+1604346982217 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '46486', 'response': '0 record(s) deleted'}|timestamp=1604346982213
+1604346982258 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37292", "action": "DELETE", "table": "city", "id": 114}
+1604346982258 - AIOKafkaProducer going to sleep for 1 second
+1604346983237 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '68222', 'response': '0 record(s) updated'}|timestamp=1604346983228
+1604346983305 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35335", "action": "INSERT", "table": "city", "name": "Chavezshire", "parent_id": 106}
+1604346983305 - AIOKafkaProducer going to sleep for 1 second
+1604346984257 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '14310', 'response': '1 record(s) inserted'}|timestamp=1604346984247
+1604346984310 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24364", "action": "DELETE", "table": "city", "id": 135}
+1604346984310 - AIOKafkaProducer going to sleep for 1 second
+1604346985256 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '79597', 'response': '1 record(s) deleted'}|timestamp=1604346985249
+1604346985342 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "29106", "action": "INSERT", "table": "city", "name": "New Kristi", "parent_id": 11}
+1604346985342 - AIOKafkaProducer going to sleep for 1 second
+1604346986265 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '59500', 'response': '1 record(s) inserted'}|timestamp=1604346986262
+1604346986385 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "11640", "action": "INSERT", "table": "city", "name": "Chenview", "parent_id": 40}
+1604346986385 - AIOKafkaProducer going to sleep for 1 second
+1604346987290 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '37292', 'response': '1 record(s) deleted'}|timestamp=1604346987280
+1604346987406 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "51047", "action": "INSERT", "table": "city", "name": "North Alicia", "parent_id": 18}
+1604346987406 - AIOKafkaProducer going to sleep for 1 second
+1604346988320 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '35335', 'response': '1 record(s) inserted'}|timestamp=1604346988316
+1604346988409 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12866", "action": "DELETE", "table": "city", "id": 449}
+1604346988409 - AIOKafkaProducer going to sleep for 1 second
+1604346989341 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '24364', 'response': '1 record(s) deleted'}|timestamp=1604346989332
+1604346989455 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "65235", "action": "INSERT", "table": "city", "name": "Ronaldshire", "parent_id": 7}
+1604346989455 - AIOKafkaProducer going to sleep for 1 second
+1604346990371 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '29106', 'response': '1 record(s) inserted'}|timestamp=1604346990364
+1604346990473 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71318", "action": "INSERT", "table": "city", "name": "East Markport", "parent_id": 80}
+1604346990473 - AIOKafkaProducer going to sleep for 1 second
+1604346991415 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '11640', 'response': '1 record(s) inserted'}|timestamp=1604346991407
+1604346991478 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20216", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 534180, "id": 76}
+1604346991479 - AIOKafkaProducer going to sleep for 1 second
+1604346992437 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '51047', 'response': '1 record(s) inserted'}|timestamp=1604346992429
+1604346992484 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24706", "action": "DELETE", "table": "city", "id": 467}
+1604346992484 - AIOKafkaProducer going to sleep for 1 second
+1604346993437 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '12866', 'response': '0 record(s) deleted'}|timestamp=1604346993427
+1604346993487 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "34640", "action": "DELETE", "table": "city", "id": 162}
+1604346993487 - AIOKafkaProducer going to sleep for 1 second
+1604346994485 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '65235', 'response': '1 record(s) inserted'}|timestamp=1604346994476
+1604346994503 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15750", "action": "INSERT", "table": "city", "name": "Sextonberg", "parent_id": 125}
+1604346994503 - AIOKafkaProducer going to sleep for 1 second
+1604346995486 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '71318', 'response': '1 record(s) inserted'}|timestamp=1604346995482
+1604346995520 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "81656", "action": "INSERT", "table": "city", "name": "Nelsonmouth", "parent_id": 86}
+1604346995520 - AIOKafkaProducer going to sleep for 1 second
+1604346996502 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '20216', 'response': '0 record(s) updated'}|timestamp=1604346996495
+1604346996538 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5923", "action": "INSERT", "table": "city", "name": "Port Brian", "parent_id": 85}
+1604346996538 - AIOKafkaProducer going to sleep for 1 second
+1604346997512 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '24706', 'response': '1 record(s) deleted'}|timestamp=1604346997504
+1604346997578 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5141", "action": "INSERT", "table": "city", "name": "Nathanielburgh", "parent_id": 26}
+1604346997578 - AIOKafkaProducer going to sleep for 1 second
+1604346998512 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '34640', 'response': '1 record(s) deleted'}|timestamp=1604346998505
+1604346998583 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "71274", "action": "DELETE", "table": "city", "id": 721}
+1604346998583 - AIOKafkaProducer going to sleep for 1 second
+1604346999532 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '15750', 'response': '1 record(s) inserted'}|timestamp=1604346999524
+1604346999598 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78494", "action": "INSERT", "table": "city", "name": "Lake Stephanie", "parent_id": 20}
+1604346999598 - AIOKafkaProducer going to sleep for 1 second
+1604347000549 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '81656', 'response': '1 record(s) inserted'}|timestamp=1604347000542
+1604347000615 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20329", "action": "INSERT", "table": "city", "name": "West Peter", "parent_id": 60}
+1604347000615 - AIOKafkaProducer going to sleep for 1 second
+1604347001569 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '5923', 'response': '1 record(s) inserted'}|timestamp=1604347001561
+1604347001630 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69448", "action": "INSERT", "table": "city", "name": "Jerrymouth", "parent_id": 28}
+1604347001630 - AIOKafkaProducer going to sleep for 1 second
+1604347002609 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '5141', 'response': '1 record(s) inserted'}|timestamp=1604347002600
+1604347002633 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14505", "action": "DELETE", "table": "city", "id": 390}
+1604347002633 - AIOKafkaProducer going to sleep for 1 second
+1604347003605 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '71274', 'response': '0 record(s) deleted'}|timestamp=1604347003598
+1604347003649 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28697", "action": "INSERT", "table": "city", "name": "New Charles", "parent_id": 115}
+1604347003649 - AIOKafkaProducer going to sleep for 1 second
+1604347004625 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '78494', 'response': '1 record(s) inserted'}|timestamp=1604347004618
+1604347004670 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "39003", "action": "INSERT", "table": "city", "name": "Tamarashire", "parent_id": 66}
+1604347004670 - AIOKafkaProducer going to sleep for 1 second
+1604347005645 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '20329', 'response': '1 record(s) inserted'}|timestamp=1604347005637
+1604347005689 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59188", "action": "INSERT", "table": "city", "name": "Samanthafurt", "parent_id": 74}
+1604347005689 - AIOKafkaProducer going to sleep for 1 second
+1604347006655 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '69448', 'response': '1 record(s) inserted'}|timestamp=1604347006648
+1604347006694 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "93065", "action": "DELETE", "table": "city", "id": 432}
+1604347006695 - AIOKafkaProducer going to sleep for 1 second
+1604347007644 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '14505', 'response': '0 record(s) deleted'}|timestamp=1604347007641
+1604347007699 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40817", "action": "DELETE", "table": "city", "id": 135}
+1604347007699 - AIOKafkaProducer going to sleep for 1 second
+1604347008660 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '28697', 'response': '1 record(s) inserted'}|timestamp=1604347008658
+1604347008702 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7264", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 536468, "id": 24}
+1604347008702 - AIOKafkaProducer going to sleep for 1 second
+1604347009701 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '39003', 'response': '1 record(s) inserted'}|timestamp=1604347009693
+1604347009708 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "92342", "action": "DELETE", "table": "city", "id": 369}
+1604347009708 - AIOKafkaProducer going to sleep for 1 second
+1604347010702 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '59188', 'response': '1 record(s) inserted'}|timestamp=1604347010699
+1604347010726 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36753", "action": "INSERT", "table": "city", "name": "Rachelport", "parent_id": 53}
+1604347010727 - AIOKafkaProducer going to sleep for 1 second
+1604347011721 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '93065', 'response': '0 record(s) deleted'}|timestamp=1604347011713
+1604347011733 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "32188", "action": "DELETE", "table": "city", "id": 382}
+1604347011733 - AIOKafkaProducer going to sleep for 1 second
+1604347012712 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '40817', 'response': '0 record(s) deleted'}|timestamp=1604347012707
+1604347012737 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "34299", "action": "DELETE", "table": "city", "id": 601}
+1604347012737 - AIOKafkaProducer going to sleep for 1 second
+1604347013727 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '7264', 'response': '1 record(s) updated'}|timestamp=1604347013720
+1604347013742 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "47612", "action": "DELETE", "table": "city", "id": 456}
+1604347013742 - AIOKafkaProducer going to sleep for 1 second
+1604347014737 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '92342', 'response': '0 record(s) deleted'}|timestamp=1604347014727
+1604347014747 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "66478", "action": "DELETE", "table": "city", "id": 606}
+1604347014748 - AIOKafkaProducer going to sleep for 1 second
+1604347015752 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77436", "action": "DELETE", "table": "city", "id": 106}
+1604347015753 - AIOKafkaProducer going to sleep for 1 second
+1604347015754 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '36753', 'response': '1 record(s) inserted'}|timestamp=1604347015745
+1604347016757 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '32188', 'response': '0 record(s) deleted'}|timestamp=1604347016750
+1604347016758 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "28452", "action": "DELETE", "table": "city", "id": 555}
+1604347016758 - AIOKafkaProducer going to sleep for 1 second
+1604347017763 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '34299', 'response': '0 record(s) deleted'}|timestamp=1604347017755
+1604347017779 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "75316", "action": "INSERT", "table": "city", "name": "Lake Sarahfort", "parent_id": 80}
+1604347017779 - AIOKafkaProducer going to sleep for 1 second
+1604347018766 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '47612', 'response': '0 record(s) deleted'}|timestamp=1604347018759
+1604347018782 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82222", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 390777, "id": 38}
+1604347018782 - AIOKafkaProducer going to sleep for 1 second
+1604347019774 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '66478', 'response': '0 record(s) deleted'}|timestamp=1604347019765
+1604347019796 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82156", "action": "INSERT", "table": "city", "name": "Michaeltown", "parent_id": 6}
+1604347019796 - AIOKafkaProducer going to sleep for 1 second
+1604347020764 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '77436', 'response': '0 record(s) deleted'}|timestamp=1604347020761
+1604347020800 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "33385", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 193355, "id": 13}
+1604347020800 - AIOKafkaProducer going to sleep for 1 second
+1604347021783 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '28452', 'response': '1 record(s) deleted'}|timestamp=1604347021776
+1604347021805 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69008", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 226044, "id": 74}
+1604347021806 - AIOKafkaProducer going to sleep for 1 second
+1604347022811 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "13832", "action": "DELETE", "table": "city", "id": 108}
+1604347022811 - AIOKafkaProducer going to sleep for 1 second
+1604347022815 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '75316', 'response': '1 record(s) inserted'}|timestamp=1604347022804
+1604347023808 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '82222', 'response': '0 record(s) updated'}|timestamp=1604347023800
+1604347023819 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "591", "action": "DELETE", "table": "city", "id": 543}
+1604347023819 - AIOKafkaProducer going to sleep for 1 second
+1604347024806 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '82156', 'response': '1 record(s) inserted'}|timestamp=1604347024804
+1604347024822 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "2287", "action": "DELETE", "table": "city", "id": 287}
+1604347024822 - AIOKafkaProducer going to sleep for 1 second
+1604347025826 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '33385', 'response': '0 record(s) updated'}|timestamp=1604347025818
+1604347025827 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27904", "action": "DELETE", "table": "city", "id": 421}
+1604347025828 - AIOKafkaProducer going to sleep for 1 second
+1604347026823 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '69008', 'response': '1 record(s) updated'}|timestamp=1604347026820
+1604347026848 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "3441", "action": "INSERT", "table": "city", "name": "Morganton", "parent_id": 113}
+1604347026848 - AIOKafkaProducer going to sleep for 1 second
+1604347027841 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '13832', 'response': '0 record(s) deleted'}|timestamp=1604347027831
+1604347027864 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "1124", "action": "INSERT", "table": "city", "name": "Davidfort", "parent_id": 9}
+1604347027864 - AIOKafkaProducer going to sleep for 1 second
+1604347028829 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '591', 'response': '0 record(s) deleted'}|timestamp=1604347028826
+1604347028868 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37579", "action": "DELETE", "table": "city", "id": 297}
+1604347028868 - AIOKafkaProducer going to sleep for 1 second
+1604347029848 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '2287', 'response': '0 record(s) deleted'}|timestamp=1604347029839
+1604347029887 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22669", "action": "INSERT", "table": "city", "name": "Jimenezbury", "parent_id": 21}
+1604347029887 - AIOKafkaProducer going to sleep for 1 second
+1604347030851 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '27904', 'response': '0 record(s) deleted'}|timestamp=1604347030847
+1604347030903 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "65295", "action": "INSERT", "table": "city", "name": "Morenoborough", "parent_id": 2}
+1604347030903 - AIOKafkaProducer going to sleep for 1 second
+1604347031878 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '3441', 'response': '1 record(s) inserted'}|timestamp=1604347031870
+1604347031918 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "96018", "action": "INSERT", "table": "city", "name": "Allenbury", "parent_id": 76}
+1604347031918 - AIOKafkaProducer going to sleep for 1 second
+1604347032894 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '1124', 'response': '1 record(s) inserted'}|timestamp=1604347032886
+1604347032921 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "41300", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 401967, "id": 42}
+1604347032921 - AIOKafkaProducer going to sleep for 1 second
+1604347033896 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '37579', 'response': '1 record(s) deleted'}|timestamp=1604347033889
+1604347033923 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "60975", "action": "UPDATE", "table": "city", "attribute": "area", "value": 785370, "id": 46}
+1604347033924 - AIOKafkaProducer going to sleep for 1 second
+1604347034918 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '22669', 'response': '1 record(s) inserted'}|timestamp=1604347034910
+1604347034929 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "87725", "action": "UPDATE", "table": "country", "attribute": "no_hospitals", "value": 660407, "id": 60}
+1604347034929 - AIOKafkaProducer going to sleep for 1 second
+1604347035936 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "39561", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 624203, "id": 67}
+1604347035937 - AIOKafkaProducer going to sleep for 1 second
+1604347035940 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '65295', 'response': '1 record(s) inserted'}|timestamp=1604347035928
+1604347036931 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '96018', 'response': '1 record(s) inserted'}|timestamp=1604347036929
+1604347036940 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "29259", "action": "UPDATE", "table": "country", "attribute": "population", "value": 431021, "id": 42}
+1604347036940 - AIOKafkaProducer going to sleep for 1 second
+1604347037944 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "34471", "action": "DELETE", "table": "city", "id": 717}
+1604347037945 - AIOKafkaProducer going to sleep for 1 second
+1604347037952 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '41300', 'response': '1 record(s) updated'}|timestamp=1604347037942
+1604347038951 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "86029", "action": "UPDATE", "table": "country", "attribute": "area", "value": 476168, "id": 9}
+1604347038951 - AIOKafkaProducer going to sleep for 1 second
+1604347038952 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '60975', 'response': '0 record(s) updated'}|timestamp=1604347038942
+1604347039942 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '87725', 'response': '1 record(s) updated'}|timestamp=1604347039940
+1604347039967 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "91699", "action": "INSERT", "table": "city", "name": "Patelview", "parent_id": 102}
+1604347039967 - AIOKafkaProducer going to sleep for 1 second
+1604347040948 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '39561', 'response': '0 record(s) updated'}|timestamp=1604347040945
+1604347040971 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89008", "action": "DELETE", "table": "city", "id": 123}
+1604347040971 - AIOKafkaProducer going to sleep for 1 second
+1604347041967 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '29259', 'response': 'Failed to update: 1644 (45000): check constraint population failed'}|timestamp=1604347041959
+1604347041977 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24091", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 672204, "id": 60}
+1604347041977 - AIOKafkaProducer going to sleep for 1 second
+1604347042968 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '34471', 'response': '0 record(s) deleted'}|timestamp=1604347042962
+1604347042980 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "16024", "action": "DELETE", "table": "city", "id": 72}
+1604347042980 - AIOKafkaProducer going to sleep for 1 second
+1604347043983 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '86029', 'response': '1 record(s) updated'}|timestamp=1604347043974
+1604347043989 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25529", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 417658, "id": 11}
+1604347043989 - AIOKafkaProducer going to sleep for 1 second
+1604347044999 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '91699', 'response': '1 record(s) inserted'}|timestamp=1604347044989
+1604347045041 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30885", "action": "INSERT", "table": "city", "name": "Erikaland", "parent_id": 46}
+1604347045041 - AIOKafkaProducer going to sleep for 1 second
+1604347045998 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '89008', 'response': '0 record(s) deleted'}|timestamp=1604347045990
+1604347046043 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14037", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 267469, "id": 40}
+1604347046043 - AIOKafkaProducer going to sleep for 1 second
+1604347047000 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '24091', 'response': '1 record(s) updated'}|timestamp=1604347046997
+1604347047047 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "35130", "action": "UPDATE", "table": "city", "attribute": "area", "value": 206596, "id": 38}
+1604347047047 - AIOKafkaProducer going to sleep for 1 second
+1604347048005 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '16024', 'response': '0 record(s) deleted'}|timestamp=1604347047998
+1604347048052 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61425", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 267347, "id": 56}
+1604347048052 - AIOKafkaProducer going to sleep for 1 second
+1604347049015 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '25529', 'response': '0 record(s) updated'}|timestamp=1604347049007
+1604347049057 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "61161", "action": "DELETE", "table": "city", "id": 637}
+1604347049057 - AIOKafkaProducer going to sleep for 1 second
+1604347050062 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12452", "action": "DELETE", "table": "city", "id": 93}
+1604347050063 - AIOKafkaProducer going to sleep for 1 second
+1604347050067 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '30885', 'response': '1 record(s) inserted'}|timestamp=1604347050064
+1604347051053 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '14037', 'response': '0 record(s) updated'}|timestamp=1604347051050
+1604347051066 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "64405", "action": "UPDATE", "table": "city", "attribute": "area", "value": 136656, "id": 32}
+1604347051066 - AIOKafkaProducer going to sleep for 1 second
+1604347052070 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "38363", "action": "UPDATE", "table": "country", "attribute": "population", "value": 842760, "id": 4}
+1604347052070 - AIOKafkaProducer going to sleep for 1 second
+1604347053090 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "97024", "action": "INSERT", "table": "city", "name": "Lake Michaelchester", "parent_id": 9}
+1604347053090 - AIOKafkaProducer going to sleep for 1 second
+1604347054137 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "91666", "action": "INSERT", "table": "city", "name": "Johnsonland", "parent_id": 125}
+1604347054137 - AIOKafkaProducer going to sleep for 1 second
+1604347055142 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "63938", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 165190, "id": 24}
+1604347055142 - AIOKafkaProducer going to sleep for 1 second
+1604347056163 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "26246", "action": "INSERT", "table": "city", "name": "East David", "parent_id": 48}
+1604347056163 - AIOKafkaProducer going to sleep for 1 second
+1604347057169 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "20672", "action": "DELETE", "table": "city", "id": 548}
+1604347057169 - AIOKafkaProducer going to sleep for 1 second
+1604347058127 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '97024', 'response': '1 record(s) inserted'}|timestamp=1604347058119
+1604347058172 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52786", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 843288, "id": 68}
+1604347058172 - AIOKafkaProducer going to sleep for 1 second
+1604347059166 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '91666', 'response': '1 record(s) inserted'}|timestamp=1604347059157
+1604347059196 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "5526", "action": "INSERT", "table": "city", "name": "Mitchellmouth", "parent_id": 121}
+1604347059196 - AIOKafkaProducer going to sleep for 1 second
+1604347060168 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '63938', 'response': '0 record(s) updated'}|timestamp=1604347060162
+1604347060198 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "95316", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 524977, "id": 97}
+1604347060198 - AIOKafkaProducer going to sleep for 1 second
+1604347061195 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '26246', 'response': '1 record(s) inserted'}|timestamp=1604347061187
+1604347061204 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "57986", "action": "DELETE", "table": "city", "id": 740}
+1604347061204 - AIOKafkaProducer going to sleep for 1 second
+1604347062196 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '20672', 'response': '1 record(s) deleted'}|timestamp=1604347062190
+1604347062206 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78164", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 150781, "id": 74}
+1604347062206 - AIOKafkaProducer going to sleep for 1 second
+1604347063199 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '52786', 'response': '0 record(s) updated'}|timestamp=1604347063190
+1604347063223 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "44767", "action": "INSERT", "table": "city", "name": "New Jennifershire", "parent_id": 43}
+1604347063223 - AIOKafkaProducer going to sleep for 1 second
+1604347064226 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '5526', 'response': '1 record(s) inserted'}|timestamp=1604347064217
+1604347064232 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "49455", "action": "DELETE", "table": "city", "id": 582}
+1604347064232 - AIOKafkaProducer going to sleep for 1 second
+1604347065229 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '95316', 'response': '1 record(s) updated'}|timestamp=1604347065223
+1604347065247 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "18105", "action": "INSERT", "table": "city", "name": "Ambermouth", "parent_id": 99}
+1604347065247 - AIOKafkaProducer going to sleep for 1 second
+1604347066231 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '57986', 'response': '1 record(s) deleted'}|timestamp=1604347066225
+1604347066262 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72023", "action": "INSERT", "table": "city", "name": "Martinezchester", "parent_id": 32}
+1604347066262 - AIOKafkaProducer going to sleep for 1 second
+1604347067230 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '78164', 'response': '0 record(s) updated'}|timestamp=1604347067225
+1604347067264 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "42616", "action": "DELETE", "table": "city", "id": 434}
+1604347067264 - AIOKafkaProducer going to sleep for 1 second
+1604347068249 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '44767', 'response': '1 record(s) inserted'}|timestamp=1604347068244
+1604347068268 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "56055", "action": "DELETE", "table": "city", "id": 94}
+1604347068268 - AIOKafkaProducer going to sleep for 1 second
+1604347069257 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '49455', 'response': '0 record(s) deleted'}|timestamp=1604347069250
+1604347069270 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22757", "action": "DELETE", "table": "city", "id": 73}
+1604347069271 - AIOKafkaProducer going to sleep for 1 second
+1604347070276 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99912", "action": "DELETE", "table": "city", "id": 755}
+1604347070277 - AIOKafkaProducer going to sleep for 1 second
+1604347070278 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '18105', 'response': '1 record(s) inserted'}|timestamp=1604347070270
+1604347071283 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30119", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 405536, "id": 90}
+1604347071283 - AIOKafkaProducer going to sleep for 1 second
+1604347071289 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '72023', 'response': '1 record(s) inserted'}|timestamp=1604347071287
+1604347072289 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "91689", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 759453, "id": 58}
+1604347072290 - AIOKafkaProducer going to sleep for 1 second
+1604347072300 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '42616', 'response': '1 record(s) deleted'}|timestamp=1604347072291
+1604347073294 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "89505", "action": "UPDATE", "table": "country", "attribute": "population", "value": 458194, "id": 44}
+1604347073295 - AIOKafkaProducer going to sleep for 1 second
+1604347073295 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '56055', 'response': '1 record(s) deleted'}|timestamp=1604347073289
+1604347074296 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '22757', 'response': '0 record(s) deleted'}|timestamp=1604347074290
+1604347074299 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "77553", "action": "DELETE", "table": "city", "id": 130}
+1604347074299 - AIOKafkaProducer going to sleep for 1 second
+1604347075302 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "78811", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 568640, "id": 8}
+1604347075302 - AIOKafkaProducer going to sleep for 1 second
+1604347075302 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '99912', 'response': '0 record(s) deleted'}|timestamp=1604347075296
+1604347076315 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '30119', 'response': '1 record(s) updated'}|timestamp=1604347076306
+1604347076335 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "22900", "action": "INSERT", "table": "city", "name": "North Jaystad", "parent_id": 109}
+1604347076335 - AIOKafkaProducer going to sleep for 1 second
+1604347077319 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '91689', 'response': '0 record(s) updated'}|timestamp=1604347077313
+1604347077349 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "25961", "action": "INSERT", "table": "city", "name": "West Michaelview", "parent_id": 84}
+1604347077350 - AIOKafkaProducer going to sleep for 1 second
+1604347078320 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '89505', 'response': 'Failed to update: 1644 (45000): check constraint population failed'}|timestamp=1604347078313
+1604347078353 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24431", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 920178, "id": 95}
+1604347078353 - AIOKafkaProducer going to sleep for 1 second
+1604347079324 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '77553', 'response': '0 record(s) deleted'}|timestamp=1604347079317
+1604347079356 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52379", "action": "DELETE", "table": "city", "id": 190}
+1604347079356 - AIOKafkaProducer going to sleep for 1 second
+1604347080328 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '78811', 'response': '0 record(s) updated'}|timestamp=1604347080322
+1604347080370 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "72471", "action": "INSERT", "table": "city", "name": "East Michelle", "parent_id": 19}
+1604347080370 - AIOKafkaProducer going to sleep for 1 second
+1604347081362 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '22900', 'response': '1 record(s) inserted'}|timestamp=1604347081356
+1604347081385 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "99804", "action": "INSERT", "table": "city", "name": "Nunezfort", "parent_id": 95}
+1604347081385 - AIOKafkaProducer going to sleep for 1 second
+1604347082378 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '25961', 'response': '1 record(s) inserted'}|timestamp=1604347082371
+1604347082409 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45467", "action": "INSERT", "table": "city", "name": "Williamhaven", "parent_id": 43}
+1604347082409 - AIOKafkaProducer going to sleep for 1 second
+1604347083381 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '24431', 'response': '0 record(s) updated'}|timestamp=1604347083373
+1604347083422 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70405", "action": "INSERT", "table": "city", "name": "Andersonfurt", "parent_id": 60}
+1604347083422 - AIOKafkaProducer going to sleep for 1 second
+1604347084383 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '52379', 'response': '0 record(s) deleted'}|timestamp=1604347084374
+1604347084425 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7992", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 340221, "id": 59}
+1604347084425 - AIOKafkaProducer going to sleep for 1 second
+1604347085397 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '72471', 'response': '1 record(s) inserted'}|timestamp=1604347085391
+1604347085428 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "96285", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 878261, "id": 44}
+1604347085428 - AIOKafkaProducer going to sleep for 1 second
+1604347086413 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '99804', 'response': '1 record(s) inserted'}|timestamp=1604347086407
+1604347086442 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55881", "action": "INSERT", "table": "city", "name": "East Jennifer", "parent_id": 45}
+1604347086443 - AIOKafkaProducer going to sleep for 1 second
+1604347087439 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '45467', 'response': '1 record(s) inserted'}|timestamp=1604347087431
+1604347087491 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "14016", "action": "INSERT", "table": "city", "name": "West George", "parent_id": 117}
+1604347087491 - AIOKafkaProducer going to sleep for 1 second
+1604347088453 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '70405', 'response': '1 record(s) inserted'}|timestamp=1604347088445
+1604347088497 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52032", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 970324, "id": 32}
+1604347088498 - AIOKafkaProducer going to sleep for 1 second
+1604347089449 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '7992', 'response': '0 record(s) updated'}|timestamp=1604347089442
+1604347089514 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "45036", "action": "INSERT", "table": "city", "name": "North Troyview", "parent_id": 72}
+1604347089514 - AIOKafkaProducer going to sleep for 1 second
+1604347090442 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '96285', 'response': '0 record(s) updated'}|timestamp=1604347090437
+1604347090521 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53778", "action": "DELETE", "table": "city", "id": 20}
+1604347090521 - AIOKafkaProducer going to sleep for 1 second
+1604347091470 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '55881', 'response': '1 record(s) inserted'}|timestamp=1604347091466
+1604347091527 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23253", "action": "DELETE", "table": "city", "id": 257}
+1604347091527 - AIOKafkaProducer going to sleep for 1 second
+1604347092507 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '14016', 'response': '1 record(s) inserted'}|timestamp=1604347092503
+1604347092530 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27693", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 923545, "id": 16}
+1604347092530 - AIOKafkaProducer going to sleep for 1 second
+1604347093526 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '52032', 'response': '1 record(s) updated'}|timestamp=1604347093519
+1604347093533 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "74798", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 482247, "id": 93}
+1604347093533 - AIOKafkaProducer going to sleep for 1 second
+1604347094539 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "86649", "action": "DELETE", "table": "city", "id": 392}
+1604347094539 - AIOKafkaProducer going to sleep for 1 second
+1604347094541 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '45036', 'response': '1 record(s) inserted'}|timestamp=1604347094536
+1604347095548 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '53778', 'response': '0 record(s) deleted'}|timestamp=1604347095538
+1604347095591 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "16559", "action": "INSERT", "table": "city", "name": "East Dwayneburgh", "parent_id": 44}
+1604347095591 - AIOKafkaProducer going to sleep for 1 second
+1604347096551 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '23253', 'response': '0 record(s) deleted'}|timestamp=1604347096545
+1604347096593 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "17015", "action": "DELETE", "table": "city", "id": 164}
+1604347096593 - AIOKafkaProducer going to sleep for 1 second
+1604347097559 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '27693', 'response': '1 record(s) updated'}|timestamp=1604347097552
+1604347097609 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68859", "action": "INSERT", "table": "city", "name": "Lake Elainemouth", "parent_id": 19}
+1604347097609 - AIOKafkaProducer going to sleep for 1 second
+1604347098557 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '74798', 'response': '0 record(s) updated'}|timestamp=1604347098551
+1604347098616 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30963", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 681788, "id": 14}
+1604347098616 - AIOKafkaProducer going to sleep for 1 second
+1604347099564 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '86649', 'response': '0 record(s) deleted'}|timestamp=1604347099558
+1604347099662 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "12971", "action": "INSERT", "table": "city", "name": "West Samuelmouth", "parent_id": 89}
+1604347099663 - AIOKafkaProducer going to sleep for 1 second
+1604347100619 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '16559', 'response': '1 record(s) inserted'}|timestamp=1604347100612
+1604347100668 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "59788", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 143721, "id": 63}
+1604347100668 - AIOKafkaProducer going to sleep for 1 second
+1604347101618 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '17015', 'response': '0 record(s) deleted'}|timestamp=1604347101610
+1604347101670 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "40140", "action": "UPDATE", "table": "city", "attribute": "population", "value": 702313, "id": 82}
+1604347101670 - AIOKafkaProducer going to sleep for 1 second
+1604347102636 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '68859', 'response': '1 record(s) inserted'}|timestamp=1604347102629
+1604347102693 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "57345", "action": "INSERT", "table": "city", "name": "Parsonsbury", "parent_id": 68}
+1604347102693 - AIOKafkaProducer going to sleep for 1 second
+1604347103647 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '30963', 'response': '1 record(s) updated'}|timestamp=1604347103640
+1604347103727 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68804", "action": "INSERT", "table": "city", "name": "Woodsshire", "parent_id": 39}
+1604347103727 - AIOKafkaProducer going to sleep for 1 second
+1604347104690 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '12971', 'response': '1 record(s) inserted'}|timestamp=1604347104684
+1604347104743 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "19716", "action": "INSERT", "table": "city", "name": "Lake William", "parent_id": 56}
+1604347104743 - AIOKafkaProducer going to sleep for 1 second
+1604347105681 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '59788', 'response': '1 record(s) updated'}|timestamp=1604347105679
+1604347105760 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "4762", "action": "INSERT", "table": "city", "name": "Lake Robertfort", "parent_id": 120}
+1604347105760 - AIOKafkaProducer going to sleep for 1 second
+1604347106697 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '40140', 'response': '0 record(s) updated'}|timestamp=1604347106688
+1604347106764 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "33567", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 950232, "id": 75}
+1604347106764 - AIOKafkaProducer going to sleep for 1 second
+1604347107721 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '57345', 'response': '1 record(s) inserted'}|timestamp=1604347107715
+1604347107766 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27533", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 642051, "id": 33}
+1604347107766 - AIOKafkaProducer going to sleep for 1 second
+1604347108754 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '68804', 'response': '1 record(s) inserted'}|timestamp=1604347108748
+1604347108768 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "9976", "action": "DELETE", "table": "city", "id": 769}
+1604347108769 - AIOKafkaProducer going to sleep for 1 second
+1604347109771 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '19716', 'response': '1 record(s) inserted'}|timestamp=1604347109765
+1604347109785 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52874", "action": "INSERT", "table": "city", "name": "New Robert", "parent_id": 40}
+1604347109785 - AIOKafkaProducer going to sleep for 1 second
+1604347110782 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '4762', 'response': '1 record(s) inserted'}|timestamp=1604347110779
+1604347110801 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94217", "action": "INSERT", "table": "city", "name": "North Kylemouth", "parent_id": 40}
+1604347110801 - AIOKafkaProducer going to sleep for 1 second
+1604347111786 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '33567', 'response': '0 record(s) updated'}|timestamp=1604347111782
+1604347111804 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94705", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 65858, "id": 46}
+1604347111804 - AIOKafkaProducer going to sleep for 1 second
+1604347112776 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '27533', 'response': '0 record(s) updated'}|timestamp=1604347112774
+1604347112806 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "41008", "action": "DELETE", "table": "city", "id": 466}
+1604347112807 - AIOKafkaProducer going to sleep for 1 second
+1604347113796 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '9976', 'response': '0 record(s) deleted'}|timestamp=1604347113787
+1604347113813 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "81594", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 805421, "id": 96}
+1604347113813 - AIOKafkaProducer going to sleep for 1 second
+1604347114813 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '52874', 'response': '1 record(s) inserted'}|timestamp=1604347114807
+1604347114816 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "90469", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 100010, "id": 35}
+1604347114816 - AIOKafkaProducer going to sleep for 1 second
+1604347115822 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "50754", "action": "UPDATE", "table": "country", "attribute": "area", "value": 551061, "id": 66}
+1604347115822 - AIOKafkaProducer going to sleep for 1 second
+1604347115826 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '94217', 'response': '1 record(s) inserted'}|timestamp=1604347115823
+1604347116831 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '94705', 'response': '1 record(s) updated'}|timestamp=1604347116827
+1604347116843 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "9066", "action": "INSERT", "table": "city", "name": "Port Nicholas", "parent_id": 110}
+1604347116844 - AIOKafkaProducer going to sleep for 1 second
+1604347117833 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '41008', 'response': '1 record(s) deleted'}|timestamp=1604347117825
+1604347117847 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "30019", "action": "DELETE", "table": "city", "id": 346}
+1604347117847 - AIOKafkaProducer going to sleep for 1 second
+1604347118844 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '81594', 'response': '1 record(s) updated'}|timestamp=1604347118835
+1604347118867 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "36657", "action": "INSERT", "table": "city", "name": "South Kathy", "parent_id": 80}
+1604347118867 - AIOKafkaProducer going to sleep for 1 second
+1604347119843 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '90469', 'response': '0 record(s) updated'}|timestamp=1604347119835
+1604347119872 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "37223", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 746958, "id": 30}
+1604347119872 - AIOKafkaProducer going to sleep for 1 second
+1604347120857 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '50754', 'response': '1 record(s) updated'}|timestamp=1604347120848
+1604347120917 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "54765", "action": "INSERT", "table": "city", "name": "Acevedoport", "parent_id": 39}
+1604347120918 - AIOKafkaProducer going to sleep for 1 second
+1604347121857 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '9066', 'response': '1 record(s) inserted'}|timestamp=1604347121854
+1604347121921 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23688", "action": "UPDATE", "table": "country", "attribute": "area", "value": 56056, "id": 1}
+1604347121921 - AIOKafkaProducer going to sleep for 1 second
+1604347122875 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '30019', 'response': '1 record(s) deleted'}|timestamp=1604347122866
+1604347122962 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "75534", "action": "INSERT", "table": "city", "name": "Victoriaville", "parent_id": 71}
+1604347122962 - AIOKafkaProducer going to sleep for 1 second
+1604347123897 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '36657', 'response': '1 record(s) inserted'}|timestamp=1604347123889
+1604347123978 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "10187", "action": "INSERT", "table": "city", "name": "Adamsville", "parent_id": 109}
+1604347123979 - AIOKafkaProducer going to sleep for 1 second
+1604347124899 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '37223', 'response': '0 record(s) updated'}|timestamp=1604347124890
+1604347124984 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "6041", "action": "DELETE", "table": "city", "id": 151}
+1604347124984 - AIOKafkaProducer going to sleep for 1 second
+1604347125946 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '54765', 'response': '1 record(s) inserted'}|timestamp=1604347125940
+1604347125987 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "86270", "action": "DELETE", "table": "city", "id": 770}
+1604347125987 - AIOKafkaProducer going to sleep for 1 second
+1604347126931 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '23688', 'response': '1 record(s) updated'}|timestamp=1604347126929
+1604347126992 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "53841", "action": "DELETE", "table": "city", "id": 156}
+1604347126992 - AIOKafkaProducer going to sleep for 1 second
+1604347127975 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '75534', 'response': '1 record(s) inserted'}|timestamp=1604347127973
+1604347127996 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "73454", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 710370, "id": 41}
+1604347127997 - AIOKafkaProducer going to sleep for 1 second
+1604347128989 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '10187', 'response': '1 record(s) inserted'}|timestamp=1604347128987
+1604347128999 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "15974", "action": "DELETE", "table": "city", "id": 683}
+1604347128999 - AIOKafkaProducer going to sleep for 1 second
+1604347129992 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '6041', 'response': '0 record(s) deleted'}|timestamp=1604347129990
+1604347130002 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "79906", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 572674, "id": 89}
+1604347130002 - AIOKafkaProducer going to sleep for 1 second
+1604347131007 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "85716", "action": "DELETE", "table": "city", "id": 573}
+1604347131008 - AIOKafkaProducer going to sleep for 1 second
+1604347131012 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '86270', 'response': '0 record(s) deleted'}|timestamp=1604347131004
+1604347132018 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '53841', 'response': '1 record(s) deleted'}|timestamp=1604347132011
+1604347132031 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "95229", "action": "INSERT", "table": "city", "name": "Gatesport", "parent_id": 122}
+1604347132031 - AIOKafkaProducer going to sleep for 1 second
+1604347133019 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '73454', 'response': '0 record(s) updated'}|timestamp=1604347133013
+1604347133046 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "63868", "action": "INSERT", "table": "city", "name": "East Jason", "parent_id": 1}
+1604347133046 - AIOKafkaProducer going to sleep for 1 second
+1604347134022 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '15974', 'response': '0 record(s) deleted'}|timestamp=1604347134015
+1604347134048 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "24605", "action": "DELETE", "table": "city", "id": 222}
+1604347134048 - AIOKafkaProducer going to sleep for 1 second
+1604347135028 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '79906', 'response': '1 record(s) updated'}|timestamp=1604347135020
+1604347135051 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "88379", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 413557, "id": 8}
+1604347135051 - AIOKafkaProducer going to sleep for 1 second
+1604347136032 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '85716', 'response': '0 record(s) deleted'}|timestamp=1604347136024
+1604347136053 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "52568", "action": "DELETE", "table": "city", "id": 264}
+1604347136053 - AIOKafkaProducer going to sleep for 1 second
+1604347137059 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '95229', 'response': '1 record(s) inserted'}|timestamp=1604347137050
+1604347137079 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "55726", "action": "INSERT", "table": "city", "name": "Westton", "parent_id": 8}
+1604347137079 - AIOKafkaProducer going to sleep for 1 second
+1604347138074 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '63868', 'response': '1 record(s) inserted'}|timestamp=1604347138067
+1604347138098 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "44273", "action": "INSERT", "table": "city", "name": "Pattonville", "parent_id": 18}
+1604347138098 - AIOKafkaProducer going to sleep for 1 second
+1604347139073 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '24605', 'response': '0 record(s) deleted'}|timestamp=1604347139065
+1604347139102 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "8779", "action": "DELETE", "table": "city", "id": 460}
+1604347139102 - AIOKafkaProducer going to sleep for 1 second
+1604347140081 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '88379', 'response': '1 record(s) updated'}|timestamp=1604347140073
+1604347140115 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "11505", "action": "INSERT", "table": "city", "name": "Hudsonborough", "parent_id": 95}
+1604347140115 - AIOKafkaProducer going to sleep for 1 second
+1604347141076 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '52568', 'response': '0 record(s) deleted'}|timestamp=1604347141073
+1604347141129 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7344", "action": "INSERT", "table": "city", "name": "Kristenland", "parent_id": 27}
+1604347141129 - AIOKafkaProducer going to sleep for 1 second
+1604347142108 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '55726', 'response': '1 record(s) inserted'}|timestamp=1604347142100
+1604347142134 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27204", "action": "DELETE", "table": "city", "id": 8}
+1604347142134 - AIOKafkaProducer going to sleep for 1 second
+1604347143128 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '44273', 'response': '1 record(s) inserted'}|timestamp=1604347143120
+1604347143140 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "68918", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 505618, "id": 100}
+1604347143140 - AIOKafkaProducer going to sleep for 1 second
+1604347144126 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '8779', 'response': '0 record(s) deleted'}|timestamp=1604347144119
+1604347144156 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "82965", "action": "INSERT", "table": "city", "name": "West Heather", "parent_id": 64}
+1604347144156 - AIOKafkaProducer going to sleep for 1 second
+1604347145146 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '11505', 'response': '1 record(s) inserted'}|timestamp=1604347145137
+1604347145160 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "46047", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 432389, "id": 88}
+1604347145160 - AIOKafkaProducer going to sleep for 1 second
+1604347146143 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '7344', 'response': '1 record(s) inserted'}|timestamp=1604347146140
+1604347146164 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "23178", "action": "DELETE", "table": "city", "id": 304}
+1604347146164 - AIOKafkaProducer going to sleep for 1 second
+1604347147157 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '27204', 'response': '0 record(s) deleted'}|timestamp=1604347147150
+1604347147171 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "31617", "action": "DELETE", "table": "city", "id": 34}
+1604347147171 - AIOKafkaProducer going to sleep for 1 second
+1604347148162 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '68918', 'response': '1 record(s) updated'}|timestamp=1604347148159
+1604347148174 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "50015", "action": "DELETE", "table": "city", "id": 156}
+1604347148174 - AIOKafkaProducer going to sleep for 1 second
+1604347149171 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '82965', 'response': '1 record(s) inserted'}|timestamp=1604347149166
+1604347149177 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "85455", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 553037, "id": 61}
+1604347149177 - AIOKafkaProducer going to sleep for 1 second
+1604347150182 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "27989", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 705514, "id": 68}
+1604347150183 - AIOKafkaProducer going to sleep for 1 second
+1604347150190 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '46047', 'response': '0 record(s) updated'}|timestamp=1604347150179
+1604347151189 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "73970", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 647861, "id": 23}
+1604347151189 - AIOKafkaProducer going to sleep for 1 second
+1604347151192 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '23178', 'response': '0 record(s) deleted'}|timestamp=1604347151181
+1604347152197 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '31617', 'response': '0 record(s) deleted'}|timestamp=1604347152188
+1604347152220 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "7969", "action": "INSERT", "table": "city", "name": "Port Jessetown", "parent_id": 117}
+1604347152220 - AIOKafkaProducer going to sleep for 1 second
+1604347153199 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '50015', 'response': '0 record(s) deleted'}|timestamp=1604347153191
+1604347153222 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "69702", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 187746, "id": 1}
+1604347153222 - AIOKafkaProducer going to sleep for 1 second
+1604347154203 - AIOKafkaConsumer Received: topic=geowiki|key=69484359|value={'request_id': '85455', 'response': '0 record(s) updated'}|timestamp=1604347154194
+1604347154238 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "70556", "action": "INSERT", "table": "city", "name": "Angelaberg", "parent_id": 42}
+1604347154238 - AIOKafkaProducer going to sleep for 1 second
+1604347155260 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "94069", "action": "INSERT", "table": "city", "name": "Schultzburgh", "parent_id": 102}
+1604347155260 - AIOKafkaProducer going to sleep for 1 second
+1604347156264 - AIOKafkaProducer Sending: key 1 value {"client_id": "69484359", "request_id": "62041", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 440013, "id": 55}
+1604347156264 - AIOKafkaProducer going to sleep for 1 second

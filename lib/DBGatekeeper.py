@@ -1,39 +1,6 @@
 from mysql.connector import (connection)
 import json
-from lib.config import *
-
-
-def validate_table(_table):
-    assert _table in ('continent', 'country', 'city'), 'Unacceptable table given!'
-    return True
-
-
-def validate_id_type(_id):
-    assert type(_id) is int, 'Unacceptable ID type given!'
-    return True
-
-
-def validate_attr(_table, _attr):
-
-    updatable_attributes = {
-        'continent': config['updatable_attributes']['continent'].split(','),
-        'country': config['updatable_attributes']['country'].split(','),
-        'city': config['updatable_attributes']['city'].split(',')
-    }
-    assert _attr in updatable_attributes[_table], 'Unacceptable attribute for table given!'
-    return True
-
-
-def validate_attr_value(_value):
-    assert type(_value) is int, 'Unacceptable attribute value!'
-    return True
-
-
-def determine_foreign_key(_table):
-    if _table == 'country': return 'cont_id'
-    elif _table == 'city':  return 'country_id'
-    else: raise Exception(f'Could not determine the foreign key for table {_table}!')
-
+from lib.validations import *
 
 
 class DBGatekeeper:
@@ -113,11 +80,11 @@ class DBGatekeeper:
         cursor = self.cnx.cursor(prepared = True)
 
         query = (f'''
-            UPDATE {_table} SET {_attr} = {_value} WHERE id = %s;
+            UPDATE {_table} SET {_attr} = %s WHERE id = %s;
         ''')
 
         try:
-            cursor.execute(query, (_id,))
+            cursor.execute(query, (_value, _id,))
             self.cnx.commit()
             self.status = "{} record(s) updated".format(cursor.rowcount)
 
@@ -135,11 +102,11 @@ class DBGatekeeper:
         cursor = self.cnx.cursor(prepared=True)
 
         query = (f'''
-            INSERT INTO {_table} (name, {parent_id_type}) VALUES ("{_name}", {_parent_id})
+            INSERT INTO {_table} (name, {parent_id_type}) VALUES (%s, %s)
         ''')
 
         try:
-            cursor.execute(query)
+            cursor.execute(query, (_name, _parent_id))
             self.cnx.commit()
             self.status = "{} record(s) inserted".format(cursor.rowcount)
 

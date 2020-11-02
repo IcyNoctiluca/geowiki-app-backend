@@ -12,7 +12,3 @@ topic = geowiki
 continent = area,population
 country = area,population,no_schools,no_hospitals,no_parks,no_rivers
 city = area,population,no_schools,no_roads,no_trees,no_shops
-
-[logging]
-client = 1
-writer = 1

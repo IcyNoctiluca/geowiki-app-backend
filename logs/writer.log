@@ -1,0 +1,978 @@
+1604346924868 - Writer initialised
+1604346924871 - Running main writer execution loop
+1604346924871 - Updating subscribed topics to: frozenset({'geowiki'})
+1604346924875 - Metadata for topic has changed from {} to {'geowiki': 1}. 
+1604346925648 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "93613", "action": "DELETE", "table": "city", "id": 58}|timestamp=1604346925645, sending received message to handler
+1604346926654 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "2532", "action": "DELETE", "table": "city", "id": 95}|timestamp=1604346926651, sending received message to handler
+1604346927660 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "14256", "action": "DELETE", "table": "city", "id": 547}|timestamp=1604346927657, sending received message to handler
+1604346928666 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "32336", "action": "DELETE", "table": "city", "id": 37}|timestamp=1604346928663, sending received message to handler
+1604346929672 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "26664", "action": "DELETE", "table": "city", "id": 517}|timestamp=1604346929668, sending received message to handler
+1604346930653 - DB action message successful!
+1604346930654 - Send callback for message id 93613 to client 69484359
+1604346930674 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '93613', 'response': '0 record(s) deleted'}|timestamp=1604346930667
+1604346930694 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "14486", "action": "INSERT", "table": "city", "name": "West Jessicastad", "parent_id": 23}|timestamp=1604346930692, sending received message to handler
+1604346931658 - DB action message successful!
+1604346931659 - Send callback for message id 2532 to client 69484359
+1604346931678 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '2532', 'response': '0 record(s) deleted'}|timestamp=1604346931671
+1604346931696 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27096", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 46658, "id": 59}|timestamp=1604346931695, sending received message to handler
+1604346932665 - DB action message successful!
+1604346932665 - Send callback for message id 14256 to client 69484359
+1604346932685 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '14256', 'response': '0 record(s) deleted'}|timestamp=1604346932677
+1604346932700 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "66492", "action": "DELETE", "table": "city", "id": 247}|timestamp=1604346932698, sending received message to handler
+1604346933670 - DB action message successful!
+1604346933671 - Send callback for message id 32336 to client 69484359
+1604346933691 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '32336', 'response': '0 record(s) deleted'}|timestamp=1604346933683
+1604346933719 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "77460", "action": "INSERT", "table": "city", "name": "Stephaniefort", "parent_id": 32}|timestamp=1604346933718, sending received message to handler
+1604346934676 - DB action message successful!
+1604346934676 - Send callback for message id 26664 to client 69484359
+1604346934696 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '26664', 'response': '0 record(s) deleted'}|timestamp=1604346934690
+1604346934722 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "41317", "action": "UPDATE", "table": "country", "attribute": "no_hospitals", "value": 73379, "id": 6}|timestamp=1604346934721, sending received message to handler
+1604346935719 - DB action message successful!
+1604346935720 - Send callback for message id 14486 to client 69484359
+1604346935736 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '14486', 'response': '1 record(s) inserted'}|timestamp=1604346935733
+1604346935746 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27576", "action": "INSERT", "table": "city", "name": "Port Isaiahhaven", "parent_id": 67}|timestamp=1604346935745, sending received message to handler
+1604346936701 - DB action message successful!
+1604346936701 - Send callback for message id 27096 to client 69484359
+1604346936720 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '27096', 'response': '0 record(s) updated'}|timestamp=1604346936714
+1604346936751 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "12900", "action": "DELETE", "table": "city", "id": 233}|timestamp=1604346936749, sending received message to handler
+1604346937709 - DB action message successful!
+1604346937709 - Send callback for message id 66492 to client 69484359
+1604346937730 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '66492', 'response': '1 record(s) deleted'}|timestamp=1604346937722
+1604346937754 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "64096", "action": "DELETE", "table": "city", "id": 20}|timestamp=1604346937752, sending received message to handler
+1604346938730 - DB action message successful!
+1604346938730 - Send callback for message id 77460 to client 69484359
+1604346938751 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '77460', 'response': '1 record(s) inserted'}|timestamp=1604346938744
+1604346938756 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "28890", "action": "DELETE", "table": "city", "id": 206}|timestamp=1604346938755, sending received message to handler
+1604346939732 - DB action message successful!
+1604346939733 - Send callback for message id 41317 to client 69484359
+1604346939756 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '41317', 'response': '1 record(s) updated'}|timestamp=1604346939747
+1604346939763 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "92422", "action": "DELETE", "table": "city", "id": 251}|timestamp=1604346939759, sending received message to handler
+1604346940754 - DB action message successful!
+1604346940755 - Send callback for message id 27576 to client 69484359
+1604346940769 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "62062", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 799849, "id": 74}|timestamp=1604346940766, sending received message to handler
+1604346940771 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '27576', 'response': '1 record(s) inserted'}|timestamp=1604346940769
+1604346941756 - DB action message successful!
+1604346941756 - Send callback for message id 12900 to client 69484359
+1604346941774 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "52525", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 707208, "id": 39}|timestamp=1604346941771, sending received message to handler
+1604346941776 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '12900', 'response': '0 record(s) deleted'}|timestamp=1604346941770
+1604346942761 - DB action message successful!
+1604346942761 - Send callback for message id 64096 to client 69484359
+1604346942781 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "63210", "action": "DELETE", "table": "city", "id": 664}|timestamp=1604346942777, sending received message to handler
+1604346942784 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '64096', 'response': '1 record(s) deleted'}|timestamp=1604346942775
+1604346943764 - DB action message successful!
+1604346943764 - Send callback for message id 28890 to client 69484359
+1604346943784 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "86470", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 303529, "id": 31}|timestamp=1604346943782, sending received message to handler
+1604346943784 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '28890', 'response': '1 record(s) deleted'}|timestamp=1604346943778
+1604346944767 - DB action message successful!
+1604346944768 - Send callback for message id 92422 to client 69484359
+1604346944790 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "22314", "action": "DELETE", "table": "city", "id": 359}|timestamp=1604346944785, sending received message to handler
+1604346944792 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '92422', 'response': '0 record(s) deleted'}|timestamp=1604346944784
+1604346945774 - DB action message successful!
+1604346945775 - Send callback for message id 62062 to client 69484359
+1604346945795 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "31834", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 21952, "id": 85}|timestamp=1604346945791, sending received message to handler
+1604346945799 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '62062', 'response': '0 record(s) updated'}|timestamp=1604346945789
+1604346946784 - DB action message successful!
+1604346946784 - Send callback for message id 52525 to client 69484359
+1604346946801 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "56771", "action": "DELETE", "table": "city", "id": 685}|timestamp=1604346946797, sending received message to handler
+1604346946805 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '52525', 'response': '1 record(s) updated'}|timestamp=1604346946798
+1604346947786 - DB action message successful!
+1604346947787 - Send callback for message id 63210 to client 69484359
+1604346947806 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "72437", "action": "DELETE", "table": "city", "id": 447}|timestamp=1604346947804, sending received message to handler
+1604346947807 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '63210', 'response': '0 record(s) deleted'}|timestamp=1604346947801
+1604346948786 - DB action message successful!
+1604346948786 - Send callback for message id 86470 to client 69484359
+1604346948791 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '86470', 'response': '0 record(s) updated'}|timestamp=1604346948789
+1604346948809 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "4121", "action": "DELETE", "table": "city", "id": 521}|timestamp=1604346948807, sending received message to handler
+1604346949797 - DB action message successful!
+1604346949797 - Send callback for message id 22314 to client 69484359
+1604346949816 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "77564", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 416745, "id": 100}|timestamp=1604346949812, sending received message to handler
+1604346949821 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '22314', 'response': '1 record(s) deleted'}|timestamp=1604346949811
+1604346950802 - DB action message successful!
+1604346950802 - Send callback for message id 31834 to client 69484359
+1604346950810 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '31834', 'response': '1 record(s) updated'}|timestamp=1604346950807
+1604346950832 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "64466", "action": "INSERT", "table": "city", "name": "Lindamouth", "parent_id": 86}|timestamp=1604346950829, sending received message to handler
+1604346951806 - DB action message successful!
+1604346951806 - Send callback for message id 56771 to client 69484359
+1604346951827 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '56771', 'response': '0 record(s) deleted'}|timestamp=1604346951819
+1604346951838 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "48320", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 735953, "id": 64}|timestamp=1604346951834, sending received message to handler
+1604346952811 - DB action message successful!
+1604346952811 - Send callback for message id 72437 to client 69484359
+1604346952832 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '72437', 'response': '1 record(s) deleted'}|timestamp=1604346952822
+1604346952845 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "23438", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 628971, "id": 55}|timestamp=1604346952841, sending received message to handler
+1604346953814 - DB action message successful!
+1604346953814 - Send callback for message id 4121 to client 69484359
+1604346953820 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '4121', 'response': '1 record(s) deleted'}|timestamp=1604346953818
+1604346953850 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "5954", "action": "DELETE", "table": "city", "id": 687}|timestamp=1604346953848, sending received message to handler
+1604346954820 - DB action message successful!
+1604346954821 - Send callback for message id 77564 to client 69484359
+1604346954841 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '77564', 'response': '0 record(s) updated'}|timestamp=1604346954833
+1604346954855 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "97793", "action": "DELETE", "table": "city", "id": 204}|timestamp=1604346954853, sending received message to handler
+1604346955837 - DB action message successful!
+1604346955838 - Send callback for message id 64466 to client 69484359
+1604346955845 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '64466', 'response': '1 record(s) inserted'}|timestamp=1604346955842
+1604346955883 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "99499", "action": "INSERT", "table": "city", "name": "Floresfort", "parent_id": 7}|timestamp=1604346955881, sending received message to handler
+1604346956842 - DB action message successful!
+1604346956842 - Send callback for message id 48320 to client 69484359
+1604346956847 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '48320', 'response': '0 record(s) updated'}|timestamp=1604346956845
+1604346956887 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "83799", "action": "DELETE", "table": "city", "id": 793}|timestamp=1604346956886, sending received message to handler
+1604346957855 - DB action message successful!
+1604346957855 - Send callback for message id 23438 to client 69484359
+1604346957877 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '23438', 'response': '1 record(s) updated'}|timestamp=1604346957868
+1604346957931 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "77543", "action": "INSERT", "table": "city", "name": "Clarkshire", "parent_id": 28}|timestamp=1604346957930, sending received message to handler
+1604346958855 - DB action message successful!
+1604346958856 - Send callback for message id 5954 to client 69484359
+1604346958877 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '5954', 'response': '1 record(s) deleted'}|timestamp=1604346958869
+1604346958937 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "26848", "action": "UPDATE", "table": "country", "attribute": "area", "value": 44665, "id": 86}|timestamp=1604346958934, sending received message to handler
+1604346959862 - DB action message successful!
+1604346959863 - Send callback for message id 97793 to client 69484359
+1604346959884 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '97793', 'response': '1 record(s) deleted'}|timestamp=1604346959875
+1604346959944 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "18832", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 659962, "id": 14}|timestamp=1604346959941, sending received message to handler
+1604346960888 - DB action message successful!
+1604346960888 - Send callback for message id 99499 to client 69484359
+1604346960894 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '99499', 'response': '1 record(s) inserted'}|timestamp=1604346960892
+1604346960985 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "90038", "action": "INSERT", "table": "city", "name": "Ericburgh", "parent_id": 38}|timestamp=1604346960983, sending received message to handler
+1604346961892 - DB action message successful!
+1604346961893 - Send callback for message id 83799 to client 69484359
+1604346961916 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '83799', 'response': '0 record(s) deleted'}|timestamp=1604346961907
+1604346962032 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "47066", "action": "INSERT", "table": "city", "name": "Victoriaside", "parent_id": 26}|timestamp=1604346962030, sending received message to handler
+1604346962939 - DB action message successful!
+1604346962939 - Send callback for message id 77543 to client 69484359
+1604346962961 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '77543', 'response': '1 record(s) inserted'}|timestamp=1604346962953
+1604346963038 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "59644", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 262334, "id": 34}|timestamp=1604346963035, sending received message to handler
+1604346963948 - DB action message successful!
+1604346963949 - Send callback for message id 26848 to client 69484359
+1604346963971 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '26848', 'response': '1 record(s) updated'}|timestamp=1604346963962
+1604346964045 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "7728", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 852008, "id": 11}|timestamp=1604346964041, sending received message to handler
+1604346964954 - DB action message successful!
+1604346964954 - Send callback for message id 18832 to client 69484359
+1604346964977 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '18832', 'response': '1 record(s) updated'}|timestamp=1604346964967
+1604346965090 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "67774", "action": "INSERT", "table": "city", "name": "Port Jose", "parent_id": 37}|timestamp=1604346965089, sending received message to handler
+1604346965989 - DB action message successful!
+1604346965989 - Send callback for message id 90038 to client 69484359
+1604346965997 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '90038', 'response': '1 record(s) inserted'}|timestamp=1604346965994
+1604346966107 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "20375", "action": "INSERT", "table": "city", "name": "Willieport", "parent_id": 66}|timestamp=1604346966105, sending received message to handler
+1604346967040 - DB action message successful!
+1604346967040 - Send callback for message id 47066 to client 69484359
+1604346967062 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '47066', 'response': '1 record(s) inserted'}|timestamp=1604346967054
+1604346967110 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "76137", "action": "DELETE", "table": "city", "id": 436}|timestamp=1604346967109, sending received message to handler
+1604346968044 - DB action message successful!
+1604346968044 - Send callback for message id 59644 to client 69484359
+1604346968065 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '59644', 'response': '0 record(s) updated'}|timestamp=1604346968057
+1604346968128 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "58509", "action": "INSERT", "table": "city", "name": "Donaldfort", "parent_id": 47}|timestamp=1604346968127, sending received message to handler
+1604346969051 - DB action message successful!
+1604346969052 - Send callback for message id 7728 to client 69484359
+1604346969072 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '7728', 'response': 'Failed to update: 1644 (45000): check constraint schools failed'}|timestamp=1604346969065
+1604346969134 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "17057", "action": "UPDATE", "table": "country", "attribute": "population", "value": 31191, "id": 12}|timestamp=1604346969130, sending received message to handler
+1604346970098 - DB action message successful!
+1604346970098 - Send callback for message id 67774 to client 69484359
+1604346970111 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '67774', 'response': '1 record(s) inserted'}|timestamp=1604346970106
+1604346970139 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "8363", "action": "DELETE", "table": "city", "id": 267}|timestamp=1604346970136, sending received message to handler
+1604346971115 - DB action message successful!
+1604346971115 - Send callback for message id 20375 to client 69484359
+1604346971128 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '20375', 'response': '1 record(s) inserted'}|timestamp=1604346971124
+1604346971142 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "37639", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 374763, "id": 69}|timestamp=1604346971140, sending received message to handler
+1604346972115 - DB action message successful!
+1604346972115 - Send callback for message id 76137 to client 69484359
+1604346972134 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '76137', 'response': '1 record(s) deleted'}|timestamp=1604346972126
+1604346972146 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "83489", "action": "DELETE", "table": "city", "id": 254}|timestamp=1604346972144, sending received message to handler
+1604346973135 - DB action message successful!
+1604346973135 - Send callback for message id 58509 to client 69484359
+1604346973143 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '58509', 'response': '1 record(s) inserted'}|timestamp=1604346973140
+1604346973173 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "24498", "action": "INSERT", "table": "city", "name": "Romerostad", "parent_id": 38}|timestamp=1604346973171, sending received message to handler
+1604346974140 - DB action message successful!
+1604346974140 - Send callback for message id 17057 to client 69484359
+1604346974161 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '17057', 'response': '1 record(s) updated'}|timestamp=1604346974153
+1604346974178 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "38949", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 897606, "id": 41}|timestamp=1604346974175, sending received message to handler
+1604346975141 - DB action message successful!
+1604346975141 - Send callback for message id 8363 to client 69484359
+1604346975146 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '8363', 'response': '0 record(s) deleted'}|timestamp=1604346975144
+1604346975181 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "18906", "action": "DELETE", "table": "city", "id": 404}|timestamp=1604346975180, sending received message to handler
+1604346976146 - DB action message successful!
+1604346976146 - Send callback for message id 37639 to client 69484359
+1604346976167 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '37639', 'response': '0 record(s) updated'}|timestamp=1604346976159
+1604346976202 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "85566", "action": "INSERT", "table": "city", "name": "Aguilarfort", "parent_id": 46}|timestamp=1604346976201, sending received message to handler
+1604346977149 - DB action message successful!
+1604346977149 - Send callback for message id 83489 to client 69484359
+1604346977157 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '83489', 'response': '0 record(s) deleted'}|timestamp=1604346977154
+1604346977206 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "46486", "action": "DELETE", "table": "city", "id": 195}|timestamp=1604346977204, sending received message to handler
+1604346978182 - DB action message successful!
+1604346978183 - Send callback for message id 24498 to client 69484359
+1604346978202 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '24498', 'response': '1 record(s) inserted'}|timestamp=1604346978195
+1604346978210 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "68222", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 987822, "id": 22}|timestamp=1604346978207, sending received message to handler
+1604346979183 - DB action message successful!
+1604346979183 - Send callback for message id 38949 to client 69484359
+1604346979203 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '38949', 'response': '0 record(s) updated'}|timestamp=1604346979196
+1604346979225 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "14310", "action": "INSERT", "table": "city", "name": "Shaneview", "parent_id": 98}|timestamp=1604346979224, sending received message to handler
+1604346980185 - DB action message successful!
+1604346980185 - Send callback for message id 18906 to client 69484359
+1604346980195 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '18906', 'response': '1 record(s) deleted'}|timestamp=1604346980191
+1604346980230 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "79597", "action": "DELETE", "table": "city", "id": 601}|timestamp=1604346980227, sending received message to handler
+1604346981212 - DB action message successful!
+1604346981213 - Send callback for message id 85566 to client 69484359
+1604346981234 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '85566', 'response': '1 record(s) inserted'}|timestamp=1604346981226
+1604346981254 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "59500", "action": "INSERT", "table": "city", "name": "New Sandra", "parent_id": 11}|timestamp=1604346981254, sending received message to handler
+1604346982207 - DB action message successful!
+1604346982208 - Send callback for message id 46486 to client 69484359
+1604346982216 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '46486', 'response': '0 record(s) deleted'}|timestamp=1604346982213
+1604346982258 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "37292", "action": "DELETE", "table": "city", "id": 114}|timestamp=1604346982256, sending received message to handler
+1604346983215 - DB action message successful!
+1604346983215 - Send callback for message id 68222 to client 69484359
+1604346983237 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '68222', 'response': '0 record(s) updated'}|timestamp=1604346983228
+1604346983305 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "35335", "action": "INSERT", "table": "city", "name": "Chavezshire", "parent_id": 106}|timestamp=1604346983303, sending received message to handler
+1604346984233 - DB action message successful!
+1604346984233 - Send callback for message id 14310 to client 69484359
+1604346984257 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '14310', 'response': '1 record(s) inserted'}|timestamp=1604346984247
+1604346984310 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "24364", "action": "DELETE", "table": "city", "id": 135}|timestamp=1604346984307, sending received message to handler
+1604346985237 - DB action message successful!
+1604346985237 - Send callback for message id 79597 to client 69484359
+1604346985257 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '79597', 'response': '1 record(s) deleted'}|timestamp=1604346985249
+1604346985341 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "29106", "action": "INSERT", "table": "city", "name": "New Kristi", "parent_id": 11}|timestamp=1604346985340, sending received message to handler
+1604346986259 - DB action message successful!
+1604346986259 - Send callback for message id 59500 to client 69484359
+1604346986265 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '59500', 'response': '1 record(s) inserted'}|timestamp=1604346986262
+1604346986385 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "11640", "action": "INSERT", "table": "city", "name": "Chenview", "parent_id": 40}|timestamp=1604346986384, sending received message to handler
+1604346987266 - DB action message successful!
+1604346987266 - Send callback for message id 37292 to client 69484359
+1604346987290 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '37292', 'response': '1 record(s) deleted'}|timestamp=1604346987280
+1604346987406 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "51047", "action": "INSERT", "table": "city", "name": "North Alicia", "parent_id": 18}|timestamp=1604346987404, sending received message to handler
+1604346988309 - DB action message successful!
+1604346988309 - Send callback for message id 35335 to client 69484359
+1604346988320 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '35335', 'response': '1 record(s) inserted'}|timestamp=1604346988316
+1604346988409 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "12866", "action": "DELETE", "table": "city", "id": 449}|timestamp=1604346988407, sending received message to handler
+1604346989318 - DB action message successful!
+1604346989319 - Send callback for message id 24364 to client 69484359
+1604346989341 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '24364', 'response': '1 record(s) deleted'}|timestamp=1604346989332
+1604346989455 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "65235", "action": "INSERT", "table": "city", "name": "Ronaldshire", "parent_id": 7}|timestamp=1604346989453, sending received message to handler
+1604346990351 - DB action message successful!
+1604346990351 - Send callback for message id 29106 to client 69484359
+1604346990371 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '29106', 'response': '1 record(s) inserted'}|timestamp=1604346990364
+1604346990473 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "71318", "action": "INSERT", "table": "city", "name": "East Markport", "parent_id": 80}|timestamp=1604346990472, sending received message to handler
+1604346991394 - DB action message successful!
+1604346991394 - Send callback for message id 11640 to client 69484359
+1604346991415 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '11640', 'response': '1 record(s) inserted'}|timestamp=1604346991407
+1604346991478 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "20216", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 534180, "id": 76}|timestamp=1604346991475, sending received message to handler
+1604346992416 - DB action message successful!
+1604346992416 - Send callback for message id 51047 to client 69484359
+1604346992437 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '51047', 'response': '1 record(s) inserted'}|timestamp=1604346992429
+1604346992483 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "24706", "action": "DELETE", "table": "city", "id": 467}|timestamp=1604346992481, sending received message to handler
+1604346993413 - DB action message successful!
+1604346993414 - Send callback for message id 12866 to client 69484359
+1604346993437 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '12866', 'response': '0 record(s) deleted'}|timestamp=1604346993427
+1604346993487 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "34640", "action": "DELETE", "table": "city", "id": 162}|timestamp=1604346993486, sending received message to handler
+1604346994463 - DB action message successful!
+1604346994463 - Send callback for message id 65235 to client 69484359
+1604346994485 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '65235', 'response': '1 record(s) inserted'}|timestamp=1604346994476
+1604346994503 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "15750", "action": "INSERT", "table": "city", "name": "Sextonberg", "parent_id": 125}|timestamp=1604346994501, sending received message to handler
+1604346995478 - DB action message successful!
+1604346995478 - Send callback for message id 71318 to client 69484359
+1604346995486 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '71318', 'response': '1 record(s) inserted'}|timestamp=1604346995482
+1604346995520 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "81656", "action": "INSERT", "table": "city", "name": "Nelsonmouth", "parent_id": 86}|timestamp=1604346995518, sending received message to handler
+1604346996483 - DB action message successful!
+1604346996483 - Send callback for message id 20216 to client 69484359
+1604346996502 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '20216', 'response': '0 record(s) updated'}|timestamp=1604346996495
+1604346996538 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "5923", "action": "INSERT", "table": "city", "name": "Port Brian", "parent_id": 85}|timestamp=1604346996536, sending received message to handler
+1604346997490 - DB action message successful!
+1604346997490 - Send callback for message id 24706 to client 69484359
+1604346997512 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '24706', 'response': '1 record(s) deleted'}|timestamp=1604346997504
+1604346997578 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "5141", "action": "INSERT", "table": "city", "name": "Nathanielburgh", "parent_id": 26}|timestamp=1604346997576, sending received message to handler
+1604346998493 - DB action message successful!
+1604346998494 - Send callback for message id 34640 to client 69484359
+1604346998513 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '34640', 'response': '1 record(s) deleted'}|timestamp=1604346998505
+1604346998583 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "71274", "action": "DELETE", "table": "city", "id": 721}|timestamp=1604346998580, sending received message to handler
+1604346999511 - DB action message successful!
+1604346999511 - Send callback for message id 15750 to client 69484359
+1604346999532 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '15750', 'response': '1 record(s) inserted'}|timestamp=1604346999524
+1604346999598 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "78494", "action": "INSERT", "table": "city", "name": "Lake Stephanie", "parent_id": 20}|timestamp=1604346999597, sending received message to handler
+1604347000529 - DB action message successful!
+1604347000529 - Send callback for message id 81656 to client 69484359
+1604347000549 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '81656', 'response': '1 record(s) inserted'}|timestamp=1604347000542
+1604347000615 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "20329", "action": "INSERT", "table": "city", "name": "West Peter", "parent_id": 60}|timestamp=1604347000614, sending received message to handler
+1604347001547 - DB action message successful!
+1604347001548 - Send callback for message id 5923 to client 69484359
+1604347001570 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '5923', 'response': '1 record(s) inserted'}|timestamp=1604347001561
+1604347001630 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "69448", "action": "INSERT", "table": "city", "name": "Jerrymouth", "parent_id": 28}|timestamp=1604347001629, sending received message to handler
+1604347002587 - DB action message successful!
+1604347002587 - Send callback for message id 5141 to client 69484359
+1604347002609 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '5141', 'response': '1 record(s) inserted'}|timestamp=1604347002600
+1604347002633 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "14505", "action": "DELETE", "table": "city", "id": 390}|timestamp=1604347002631, sending received message to handler
+1604347003586 - DB action message successful!
+1604347003586 - Send callback for message id 71274 to client 69484359
+1604347003606 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '71274', 'response': '0 record(s) deleted'}|timestamp=1604347003598
+1604347003650 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "28697", "action": "INSERT", "table": "city", "name": "New Charles", "parent_id": 115}|timestamp=1604347003648, sending received message to handler
+1604347004606 - DB action message successful!
+1604347004606 - Send callback for message id 78494 to client 69484359
+1604347004625 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '78494', 'response': '1 record(s) inserted'}|timestamp=1604347004618
+1604347004670 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "39003", "action": "INSERT", "table": "city", "name": "Tamarashire", "parent_id": 66}|timestamp=1604347004668, sending received message to handler
+1604347005623 - DB action message successful!
+1604347005624 - Send callback for message id 20329 to client 69484359
+1604347005646 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '20329', 'response': '1 record(s) inserted'}|timestamp=1604347005637
+1604347005689 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "59188", "action": "INSERT", "table": "city", "name": "Samanthafurt", "parent_id": 74}|timestamp=1604347005688, sending received message to handler
+1604347006637 - DB action message successful!
+1604347006637 - Send callback for message id 69448 to client 69484359
+1604347006655 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '69448', 'response': '1 record(s) inserted'}|timestamp=1604347006648
+1604347006694 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "93065", "action": "DELETE", "table": "city", "id": 432}|timestamp=1604347006691, sending received message to handler
+1604347007636 - DB action message successful!
+1604347007636 - Send callback for message id 14505 to client 69484359
+1604347007644 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '14505', 'response': '0 record(s) deleted'}|timestamp=1604347007641
+1604347007698 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "40817", "action": "DELETE", "table": "city", "id": 135}|timestamp=1604347007696, sending received message to handler
+1604347008654 - DB action message successful!
+1604347008654 - Send callback for message id 28697 to client 69484359
+1604347008660 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '28697', 'response': '1 record(s) inserted'}|timestamp=1604347008658
+1604347008702 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "7264", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 536468, "id": 24}|timestamp=1604347008700, sending received message to handler
+1604347009679 - DB action message successful!
+1604347009680 - Send callback for message id 39003 to client 69484359
+1604347009701 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '39003', 'response': '1 record(s) inserted'}|timestamp=1604347009693
+1604347009708 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "92342", "action": "DELETE", "table": "city", "id": 369}|timestamp=1604347009704, sending received message to handler
+1604347010695 - DB action message successful!
+1604347010695 - Send callback for message id 59188 to client 69484359
+1604347010702 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '59188', 'response': '1 record(s) inserted'}|timestamp=1604347010699
+1604347010726 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "36753", "action": "INSERT", "table": "city", "name": "Rachelport", "parent_id": 53}|timestamp=1604347010725, sending received message to handler
+1604347011699 - DB action message successful!
+1604347011699 - Send callback for message id 93065 to client 69484359
+1604347011721 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '93065', 'response': '0 record(s) deleted'}|timestamp=1604347011713
+1604347011733 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "32188", "action": "DELETE", "table": "city", "id": 382}|timestamp=1604347011729, sending received message to handler
+1604347012702 - DB action message successful!
+1604347012702 - Send callback for message id 40817 to client 69484359
+1604347012713 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '40817', 'response': '0 record(s) deleted'}|timestamp=1604347012707
+1604347012737 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "34299", "action": "DELETE", "table": "city", "id": 601}|timestamp=1604347012735, sending received message to handler
+1604347013709 - DB action message successful!
+1604347013709 - Send callback for message id 7264 to client 69484359
+1604347013727 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '7264', 'response': '1 record(s) updated'}|timestamp=1604347013720
+1604347013742 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "47612", "action": "DELETE", "table": "city", "id": 456}|timestamp=1604347013739, sending received message to handler
+1604347014712 - DB action message successful!
+1604347014712 - Send callback for message id 92342 to client 69484359
+1604347014737 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '92342', 'response': '0 record(s) deleted'}|timestamp=1604347014727
+1604347014747 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "66478", "action": "DELETE", "table": "city", "id": 606}|timestamp=1604347014745, sending received message to handler
+1604347015734 - DB action message successful!
+1604347015734 - Send callback for message id 36753 to client 69484359
+1604347015752 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '36753', 'response': '1 record(s) inserted'}|timestamp=1604347015745
+1604347015755 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "77436", "action": "DELETE", "table": "city", "id": 106}|timestamp=1604347015750, sending received message to handler
+1604347016737 - DB action message successful!
+1604347016737 - Send callback for message id 32188 to client 69484359
+1604347016757 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '32188', 'response': '0 record(s) deleted'}|timestamp=1604347016750
+1604347016758 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "28452", "action": "DELETE", "table": "city", "id": 555}|timestamp=1604347016755, sending received message to handler
+1604347017742 - DB action message successful!
+1604347017742 - Send callback for message id 34299 to client 69484359
+1604347017763 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '34299', 'response': '0 record(s) deleted'}|timestamp=1604347017755
+1604347017779 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "75316", "action": "INSERT", "table": "city", "name": "Lake Sarahfort", "parent_id": 80}|timestamp=1604347017778, sending received message to handler
+1604347018746 - DB action message successful!
+1604347018747 - Send callback for message id 47612 to client 69484359
+1604347018767 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '47612', 'response': '0 record(s) deleted'}|timestamp=1604347018759
+1604347018782 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "82222", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 390777, "id": 38}|timestamp=1604347018780, sending received message to handler
+1604347019752 - DB action message successful!
+1604347019752 - Send callback for message id 66478 to client 69484359
+1604347019774 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '66478', 'response': '0 record(s) deleted'}|timestamp=1604347019765
+1604347019796 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "82156", "action": "INSERT", "table": "city", "name": "Michaeltown", "parent_id": 6}|timestamp=1604347019795, sending received message to handler
+1604347020757 - DB action message successful!
+1604347020757 - Send callback for message id 77436 to client 69484359
+1604347020764 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '77436', 'response': '0 record(s) deleted'}|timestamp=1604347020761
+1604347020799 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "33385", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 193355, "id": 13}|timestamp=1604347020797, sending received message to handler
+1604347021763 - DB action message successful!
+1604347021764 - Send callback for message id 28452 to client 69484359
+1604347021783 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '28452', 'response': '1 record(s) deleted'}|timestamp=1604347021776
+1604347021805 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "69008", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 226044, "id": 74}|timestamp=1604347021802, sending received message to handler
+1604347022790 - DB action message successful!
+1604347022790 - Send callback for message id 75316 to client 69484359
+1604347022813 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "13832", "action": "DELETE", "table": "city", "id": 108}|timestamp=1604347022808, sending received message to handler
+1604347022814 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '75316', 'response': '1 record(s) inserted'}|timestamp=1604347022804
+1604347023786 - DB action message successful!
+1604347023787 - Send callback for message id 82222 to client 69484359
+1604347023808 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '82222', 'response': '0 record(s) updated'}|timestamp=1604347023800
+1604347023818 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "591", "action": "DELETE", "table": "city", "id": 543}|timestamp=1604347023814, sending received message to handler
+1604347024800 - DB action message successful!
+1604347024800 - Send callback for message id 82156 to client 69484359
+1604347024806 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '82156', 'response': '1 record(s) inserted'}|timestamp=1604347024804
+1604347024822 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "2287", "action": "DELETE", "table": "city", "id": 287}|timestamp=1604347024821, sending received message to handler
+1604347025804 - DB action message successful!
+1604347025805 - Send callback for message id 33385 to client 69484359
+1604347025826 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '33385', 'response': '0 record(s) updated'}|timestamp=1604347025818
+1604347025829 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27904", "action": "DELETE", "table": "city", "id": 421}|timestamp=1604347025824, sending received message to handler
+1604347026814 - DB action message successful!
+1604347026814 - Send callback for message id 69008 to client 69484359
+1604347026824 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '69008', 'response': '1 record(s) updated'}|timestamp=1604347026820
+1604347026848 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "3441", "action": "INSERT", "table": "city", "name": "Morganton", "parent_id": 113}|timestamp=1604347026846, sending received message to handler
+1604347027818 - DB action message successful!
+1604347027819 - Send callback for message id 13832 to client 69484359
+1604347027841 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '13832', 'response': '0 record(s) deleted'}|timestamp=1604347027831
+1604347027864 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "1124", "action": "INSERT", "table": "city", "name": "Davidfort", "parent_id": 9}|timestamp=1604347027863, sending received message to handler
+1604347028820 - DB action message successful!
+1604347028821 - Send callback for message id 591 to client 69484359
+1604347028829 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '591', 'response': '0 record(s) deleted'}|timestamp=1604347028826
+1604347028868 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "37579", "action": "DELETE", "table": "city", "id": 297}|timestamp=1604347028867, sending received message to handler
+1604347029826 - DB action message successful!
+1604347029826 - Send callback for message id 2287 to client 69484359
+1604347029848 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '2287', 'response': '0 record(s) deleted'}|timestamp=1604347029839
+1604347029887 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "22669", "action": "INSERT", "table": "city", "name": "Jimenezbury", "parent_id": 21}|timestamp=1604347029886, sending received message to handler
+1604347030833 - DB action message successful!
+1604347030834 - Send callback for message id 27904 to client 69484359
+1604347030851 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '27904', 'response': '0 record(s) deleted'}|timestamp=1604347030847
+1604347030903 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "65295", "action": "INSERT", "table": "city", "name": "Morenoborough", "parent_id": 2}|timestamp=1604347030902, sending received message to handler
+1604347031856 - DB action message successful!
+1604347031856 - Send callback for message id 3441 to client 69484359
+1604347031879 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '3441', 'response': '1 record(s) inserted'}|timestamp=1604347031870
+1604347031918 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "96018", "action": "INSERT", "table": "city", "name": "Allenbury", "parent_id": 76}|timestamp=1604347031916, sending received message to handler
+1604347032872 - DB action message successful!
+1604347032872 - Send callback for message id 1124 to client 69484359
+1604347032895 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '1124', 'response': '1 record(s) inserted'}|timestamp=1604347032886
+1604347032921 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "41300", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 401967, "id": 42}|timestamp=1604347032920, sending received message to handler
+1604347033875 - DB action message successful!
+1604347033876 - Send callback for message id 37579 to client 69484359
+1604347033896 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '37579', 'response': '1 record(s) deleted'}|timestamp=1604347033889
+1604347033923 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "60975", "action": "UPDATE", "table": "city", "attribute": "area", "value": 785370, "id": 46}|timestamp=1604347033922, sending received message to handler
+1604347034896 - DB action message successful!
+1604347034896 - Send callback for message id 22669 to client 69484359
+1604347034919 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '22669', 'response': '1 record(s) inserted'}|timestamp=1604347034910
+1604347034929 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "87725", "action": "UPDATE", "table": "country", "attribute": "no_hospitals", "value": 660407, "id": 60}|timestamp=1604347034925, sending received message to handler
+1604347035914 - DB action message successful!
+1604347035914 - Send callback for message id 65295 to client 69484359
+1604347035936 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "39561", "action": "UPDATE", "table": "city", "attribute": "no_shops", "value": 624203, "id": 67}|timestamp=1604347035932, sending received message to handler
+1604347035941 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '65295', 'response': '1 record(s) inserted'}|timestamp=1604347035928
+1604347036924 - DB action message successful!
+1604347036924 - Send callback for message id 96018 to client 69484359
+1604347036931 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '96018', 'response': '1 record(s) inserted'}|timestamp=1604347036929
+1604347036940 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "29259", "action": "UPDATE", "table": "country", "attribute": "population", "value": 431021, "id": 42}|timestamp=1604347036938, sending received message to handler
+1604347037929 - DB action message successful!
+1604347037929 - Send callback for message id 41300 to client 69484359
+1604347037945 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "34471", "action": "DELETE", "table": "city", "id": 717}|timestamp=1604347037941, sending received message to handler
+1604347037952 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '41300', 'response': '1 record(s) updated'}|timestamp=1604347037942
+1604347038929 - DB action message successful!
+1604347038929 - Send callback for message id 60975 to client 69484359
+1604347038951 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '60975', 'response': '0 record(s) updated'}|timestamp=1604347038942
+1604347038952 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "86029", "action": "UPDATE", "table": "country", "attribute": "area", "value": 476168, "id": 9}|timestamp=1604347038947, sending received message to handler
+1604347039936 - DB action message successful!
+1604347039937 - Send callback for message id 87725 to client 69484359
+1604347039942 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '87725', 'response': '1 record(s) updated'}|timestamp=1604347039940
+1604347039967 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "91699", "action": "INSERT", "table": "city", "name": "Patelview", "parent_id": 102}|timestamp=1604347039965, sending received message to handler
+1604347040939 - DB action message successful!
+1604347040940 - Send callback for message id 39561 to client 69484359
+1604347040948 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '39561', 'response': '0 record(s) updated'}|timestamp=1604347040945
+1604347040971 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "89008", "action": "DELETE", "table": "city", "id": 123}|timestamp=1604347040969, sending received message to handler
+1604347041946 - DB action message successful!
+1604347041946 - Send callback for message id 29259 to client 69484359
+1604347041967 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '29259', 'response': 'Failed to update: 1644 (45000): check constraint population failed'}|timestamp=1604347041959
+1604347041977 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "24091", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 672204, "id": 60}|timestamp=1604347041973, sending received message to handler
+1604347042949 - DB action message successful!
+1604347042950 - Send callback for message id 34471 to client 69484359
+1604347042968 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '34471', 'response': '0 record(s) deleted'}|timestamp=1604347042962
+1604347042980 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "16024", "action": "DELETE", "table": "city", "id": 72}|timestamp=1604347042979, sending received message to handler
+1604347043961 - DB action message successful!
+1604347043961 - Send callback for message id 86029 to client 69484359
+1604347043983 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '86029', 'response': '1 record(s) updated'}|timestamp=1604347043974
+1604347043989 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "25529", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 417658, "id": 11}|timestamp=1604347043984, sending received message to handler
+1604347044976 - DB action message successful!
+1604347044976 - Send callback for message id 91699 to client 69484359
+1604347044998 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '91699', 'response': '1 record(s) inserted'}|timestamp=1604347044989
+1604347045041 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "30885", "action": "INSERT", "table": "city", "name": "Erikaland", "parent_id": 46}|timestamp=1604347045040, sending received message to handler
+1604347045976 - DB action message successful!
+1604347045976 - Send callback for message id 89008 to client 69484359
+1604347045998 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '89008', 'response': '0 record(s) deleted'}|timestamp=1604347045990
+1604347046043 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "14037", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 267469, "id": 40}|timestamp=1604347046042, sending received message to handler
+1604347046986 - DB action message successful!
+1604347046986 - Send callback for message id 24091 to client 69484359
+1604347047000 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '24091', 'response': '1 record(s) updated'}|timestamp=1604347046997
+1604347047047 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "35130", "action": "UPDATE", "table": "city", "attribute": "area", "value": 206596, "id": 38}|timestamp=1604347047045, sending received message to handler
+1604347047984 - DB action message successful!
+1604347047985 - Send callback for message id 16024 to client 69484359
+1604347048006 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '16024', 'response': '0 record(s) deleted'}|timestamp=1604347047998
+1604347048052 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "61425", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 267347, "id": 56}|timestamp=1604347048049, sending received message to handler
+1604347048994 - DB action message successful!
+1604347048994 - Send callback for message id 25529 to client 69484359
+1604347049015 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '25529', 'response': '0 record(s) updated'}|timestamp=1604347049007
+1604347049057 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "61161", "action": "DELETE", "table": "city", "id": 637}|timestamp=1604347049055, sending received message to handler
+1604347050050 - DB action message successful!
+1604347050050 - Send callback for message id 30885 to client 69484359
+1604347050062 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "12452", "action": "DELETE", "table": "city", "id": 93}|timestamp=1604347050059, sending received message to handler
+1604347050067 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '30885', 'response': '1 record(s) inserted'}|timestamp=1604347050064
+1604347051046 - DB action message successful!
+1604347051046 - Send callback for message id 14037 to client 69484359
+1604347051053 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '14037', 'response': '0 record(s) updated'}|timestamp=1604347051050
+1604347051066 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "64405", "action": "UPDATE", "table": "city", "attribute": "area", "value": 136656, "id": 32}|timestamp=1604347051064, sending received message to handler
+1604347052917 - Writer initialised
+1604347052919 - Running main writer execution loop
+1604347052919 - Updating subscribed topics to: frozenset({'geowiki'})
+1604347052923 - Metadata for topic has changed from {} to {'geowiki': 1}. 
+1604347053090 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "97024", "action": "INSERT", "table": "city", "name": "Lake Michaelchester", "parent_id": 9}|timestamp=1604347053089, sending received message to handler
+1604347054137 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "91666", "action": "INSERT", "table": "city", "name": "Johnsonland", "parent_id": 125}|timestamp=1604347054135, sending received message to handler
+1604347055142 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "63938", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 165190, "id": 24}|timestamp=1604347055139, sending received message to handler
+1604347056163 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "26246", "action": "INSERT", "table": "city", "name": "East David", "parent_id": 48}|timestamp=1604347056162, sending received message to handler
+1604347057168 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "20672", "action": "DELETE", "table": "city", "id": 548}|timestamp=1604347057165, sending received message to handler
+1604347058105 - DB action message successful! 1 record(s) inserted
+1604347058106 - Processing callback for message id 97024 to client 69484359
+1604347058127 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '97024', 'response': '1 record(s) inserted'}|timestamp=1604347058119
+1604347058127 - Sent callback to client 69484359!
+1604347058172 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "52786", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 843288, "id": 68}|timestamp=1604347058170, sending received message to handler
+1604347059145 - DB action message successful! 1 record(s) inserted
+1604347059145 - Processing callback for message id 91666 to client 69484359
+1604347059166 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '91666', 'response': '1 record(s) inserted'}|timestamp=1604347059157
+1604347059166 - Sent callback to client 69484359!
+1604347059196 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "5526", "action": "INSERT", "table": "city", "name": "Mitchellmouth", "parent_id": 121}|timestamp=1604347059194, sending received message to handler
+1604347060148 - DB action message successful! 0 record(s) updated
+1604347060148 - Processing callback for message id 63938 to client 69484359
+1604347060168 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '63938', 'response': '0 record(s) updated'}|timestamp=1604347060162
+1604347060169 - Sent callback to client 69484359!
+1604347060198 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "95316", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 524977, "id": 97}|timestamp=1604347060197, sending received message to handler
+1604347061173 - DB action message successful! 1 record(s) inserted
+1604347061173 - Processing callback for message id 26246 to client 69484359
+1604347061195 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '26246', 'response': '1 record(s) inserted'}|timestamp=1604347061187
+1604347061195 - Sent callback to client 69484359!
+1604347061204 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "57986", "action": "DELETE", "table": "city", "id": 740}|timestamp=1604347061201, sending received message to handler
+1604347062175 - DB action message successful! 1 record(s) deleted
+1604347062176 - Processing callback for message id 20672 to client 69484359
+1604347062196 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '20672', 'response': '1 record(s) deleted'}|timestamp=1604347062190
+1604347062197 - Sent callback to client 69484359!
+1604347062206 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "78164", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 150781, "id": 74}|timestamp=1604347062205, sending received message to handler
+1604347063176 - DB action message successful! 0 record(s) updated
+1604347063176 - Processing callback for message id 52786 to client 69484359
+1604347063199 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '52786', 'response': '0 record(s) updated'}|timestamp=1604347063190
+1604347063199 - Sent callback to client 69484359!
+1604347063223 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "44767", "action": "INSERT", "table": "city", "name": "New Jennifershire", "parent_id": 43}|timestamp=1604347063222, sending received message to handler
+1604347064203 - DB action message successful! 1 record(s) inserted
+1604347064203 - Processing callback for message id 5526 to client 69484359
+1604347064226 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '5526', 'response': '1 record(s) inserted'}|timestamp=1604347064217
+1604347064226 - Sent callback to client 69484359!
+1604347064232 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "49455", "action": "DELETE", "table": "city", "id": 582}|timestamp=1604347064228, sending received message to handler
+1604347065210 - DB action message successful! 1 record(s) updated
+1604347065210 - Processing callback for message id 95316 to client 69484359
+1604347065229 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '95316', 'response': '1 record(s) updated'}|timestamp=1604347065223
+1604347065229 - Sent callback to client 69484359!
+1604347065247 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "18105", "action": "INSERT", "table": "city", "name": "Ambermouth", "parent_id": 99}|timestamp=1604347065245, sending received message to handler
+1604347066211 - DB action message successful! 1 record(s) deleted
+1604347066212 - Processing callback for message id 57986 to client 69484359
+1604347066231 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '57986', 'response': '1 record(s) deleted'}|timestamp=1604347066225
+1604347066231 - Sent callback to client 69484359!
+1604347066262 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "72023", "action": "INSERT", "table": "city", "name": "Martinezchester", "parent_id": 32}|timestamp=1604347066261, sending received message to handler
+1604347067211 - DB action message successful! 0 record(s) updated
+1604347067211 - Processing callback for message id 78164 to client 69484359
+1604347067230 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '78164', 'response': '0 record(s) updated'}|timestamp=1604347067225
+1604347067231 - Sent callback to client 69484359!
+1604347067264 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "42616", "action": "DELETE", "table": "city", "id": 434}|timestamp=1604347067263, sending received message to handler
+1604347068230 - DB action message successful! 1 record(s) inserted
+1604347068230 - Processing callback for message id 44767 to client 69484359
+1604347068249 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '44767', 'response': '1 record(s) inserted'}|timestamp=1604347068244
+1604347068249 - Sent callback to client 69484359!
+1604347068268 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "56055", "action": "DELETE", "table": "city", "id": 94}|timestamp=1604347068266, sending received message to handler
+1604347069237 - DB action message successful! 0 record(s) deleted
+1604347069237 - Processing callback for message id 49455 to client 69484359
+1604347069257 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '49455', 'response': '0 record(s) deleted'}|timestamp=1604347069250
+1604347069257 - Sent callback to client 69484359!
+1604347069270 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "22757", "action": "DELETE", "table": "city", "id": 73}|timestamp=1604347069269, sending received message to handler
+1604347070255 - DB action message successful! 1 record(s) inserted
+1604347070255 - Processing callback for message id 18105 to client 69484359
+1604347070278 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "99912", "action": "DELETE", "table": "city", "id": 755}|timestamp=1604347070273, sending received message to handler
+1604347070278 - Sent callback to client 69484359!
+1604347070279 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '18105', 'response': '1 record(s) inserted'}|timestamp=1604347070270
+1604347071270 - DB action message successful! 1 record(s) inserted
+1604347071271 - Processing callback for message id 72023 to client 69484359
+1604347071284 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "30119", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 405536, "id": 90}|timestamp=1604347071279, sending received message to handler
+1604347071289 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '72023', 'response': '1 record(s) inserted'}|timestamp=1604347071287
+1604347071290 - Sent callback to client 69484359!
+1604347072272 - DB action message successful! 1 record(s) deleted
+1604347072273 - Processing callback for message id 42616 to client 69484359
+1604347072293 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "91689", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 759453, "id": 58}|timestamp=1604347072286, sending received message to handler
+1604347072300 - Sent callback to client 69484359!
+1604347072301 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '42616', 'response': '1 record(s) deleted'}|timestamp=1604347072291
+1604347073275 - DB action message successful! 1 record(s) deleted
+1604347073275 - Processing callback for message id 56055 to client 69484359
+1604347073295 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "89505", "action": "UPDATE", "table": "country", "attribute": "population", "value": 458194, "id": 44}|timestamp=1604347073292, sending received message to handler
+1604347073295 - Sent callback to client 69484359!
+1604347073296 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '56055', 'response': '1 record(s) deleted'}|timestamp=1604347073289
+1604347074276 - DB action message successful! 0 record(s) deleted
+1604347074276 - Processing callback for message id 22757 to client 69484359
+1604347074296 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '22757', 'response': '0 record(s) deleted'}|timestamp=1604347074290
+1604347074296 - Sent callback to client 69484359!
+1604347074299 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "77553", "action": "DELETE", "table": "city", "id": 130}|timestamp=1604347074297, sending received message to handler
+1604347075282 - DB action message successful! 0 record(s) deleted
+1604347075282 - Processing callback for message id 99912 to client 69484359
+1604347075302 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '99912', 'response': '0 record(s) deleted'}|timestamp=1604347075296
+1604347075302 - Sent callback to client 69484359!
+1604347075304 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "78811", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 568640, "id": 8}|timestamp=1604347075301, sending received message to handler
+1604347076292 - DB action message successful! 1 record(s) updated
+1604347076293 - Processing callback for message id 30119 to client 69484359
+1604347076315 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '30119', 'response': '1 record(s) updated'}|timestamp=1604347076306
+1604347076315 - Sent callback to client 69484359!
+1604347076335 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "22900", "action": "INSERT", "table": "city", "name": "North Jaystad", "parent_id": 109}|timestamp=1604347076334, sending received message to handler
+1604347077298 - DB action message successful! 0 record(s) updated
+1604347077298 - Processing callback for message id 91689 to client 69484359
+1604347077319 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '91689', 'response': '0 record(s) updated'}|timestamp=1604347077313
+1604347077319 - Sent callback to client 69484359!
+1604347077350 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "25961", "action": "INSERT", "table": "city", "name": "West Michaelview", "parent_id": 84}|timestamp=1604347077348, sending received message to handler
+1604347078300 - DB action message successful! Failed to update: 1644 (45000): check constraint population failed
+1604347078300 - Processing callback for message id 89505 to client 69484359
+1604347078320 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '89505', 'response': 'Failed to update: 1644 (45000): check constraint population failed'}|timestamp=1604347078313
+1604347078320 - Sent callback to client 69484359!
+1604347078353 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "24431", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 920178, "id": 95}|timestamp=1604347078351, sending received message to handler
+1604347079304 - DB action message successful! 0 record(s) deleted
+1604347079304 - Processing callback for message id 77553 to client 69484359
+1604347079324 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '77553', 'response': '0 record(s) deleted'}|timestamp=1604347079317
+1604347079324 - Sent callback to client 69484359!
+1604347079356 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "52379", "action": "DELETE", "table": "city", "id": 190}|timestamp=1604347079355, sending received message to handler
+1604347080308 - DB action message successful! 0 record(s) updated
+1604347080309 - Processing callback for message id 78811 to client 69484359
+1604347080328 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '78811', 'response': '0 record(s) updated'}|timestamp=1604347080322
+1604347080328 - Sent callback to client 69484359!
+1604347080370 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "72471", "action": "INSERT", "table": "city", "name": "East Michelle", "parent_id": 19}|timestamp=1604347080369, sending received message to handler
+1604347081343 - DB action message successful! 1 record(s) inserted
+1604347081343 - Processing callback for message id 22900 to client 69484359
+1604347081362 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '22900', 'response': '1 record(s) inserted'}|timestamp=1604347081356
+1604347081362 - Sent callback to client 69484359!
+1604347081385 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "99804", "action": "INSERT", "table": "city", "name": "Nunezfort", "parent_id": 95}|timestamp=1604347081384, sending received message to handler
+1604347082357 - DB action message successful! 1 record(s) inserted
+1604347082358 - Processing callback for message id 25961 to client 69484359
+1604347082379 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '25961', 'response': '1 record(s) inserted'}|timestamp=1604347082371
+1604347082379 - Sent callback to client 69484359!
+1604347082409 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "45467", "action": "INSERT", "table": "city", "name": "Williamhaven", "parent_id": 43}|timestamp=1604347082407, sending received message to handler
+1604347083358 - DB action message successful! 0 record(s) updated
+1604347083359 - Processing callback for message id 24431 to client 69484359
+1604347083381 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '24431', 'response': '0 record(s) updated'}|timestamp=1604347083373
+1604347083382 - Sent callback to client 69484359!
+1604347083422 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "70405", "action": "INSERT", "table": "city", "name": "Andersonfurt", "parent_id": 60}|timestamp=1604347083421, sending received message to handler
+1604347084360 - DB action message successful! 0 record(s) deleted
+1604347084361 - Processing callback for message id 52379 to client 69484359
+1604347084383 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '52379', 'response': '0 record(s) deleted'}|timestamp=1604347084374
+1604347084384 - Sent callback to client 69484359!
+1604347084425 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "7992", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 340221, "id": 59}|timestamp=1604347084424, sending received message to handler
+1604347085378 - DB action message successful! 1 record(s) inserted
+1604347085378 - Processing callback for message id 72471 to client 69484359
+1604347085397 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '72471', 'response': '1 record(s) inserted'}|timestamp=1604347085391
+1604347085397 - Sent callback to client 69484359!
+1604347085428 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "96285", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 878261, "id": 44}|timestamp=1604347085426, sending received message to handler
+1604347086393 - DB action message successful! 1 record(s) inserted
+1604347086393 - Processing callback for message id 99804 to client 69484359
+1604347086413 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '99804', 'response': '1 record(s) inserted'}|timestamp=1604347086407
+1604347086413 - Sent callback to client 69484359!
+1604347086443 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "55881", "action": "INSERT", "table": "city", "name": "East Jennifer", "parent_id": 45}|timestamp=1604347086442, sending received message to handler
+1604347087418 - DB action message successful! 1 record(s) inserted
+1604347087418 - Processing callback for message id 45467 to client 69484359
+1604347087439 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '45467', 'response': '1 record(s) inserted'}|timestamp=1604347087431
+1604347087440 - Sent callback to client 69484359!
+1604347087491 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "14016", "action": "INSERT", "table": "city", "name": "West George", "parent_id": 117}|timestamp=1604347087489, sending received message to handler
+1604347088430 - DB action message successful! 1 record(s) inserted
+1604347088431 - Processing callback for message id 70405 to client 69484359
+1604347088452 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '70405', 'response': '1 record(s) inserted'}|timestamp=1604347088445
+1604347088453 - Sent callback to client 69484359!
+1604347088497 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "52032", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 970324, "id": 32}|timestamp=1604347088494, sending received message to handler
+1604347089429 - DB action message successful! 0 record(s) updated
+1604347089429 - Processing callback for message id 7992 to client 69484359
+1604347089449 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '7992', 'response': '0 record(s) updated'}|timestamp=1604347089442
+1604347089449 - Sent callback to client 69484359!
+1604347089514 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "45036", "action": "INSERT", "table": "city", "name": "North Troyview", "parent_id": 72}|timestamp=1604347089513, sending received message to handler
+1604347090430 - DB action message successful! 0 record(s) updated
+1604347090430 - Processing callback for message id 96285 to client 69484359
+1604347090442 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '96285', 'response': '0 record(s) updated'}|timestamp=1604347090437
+1604347090442 - Sent callback to client 69484359!
+1604347090521 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "53778", "action": "DELETE", "table": "city", "id": 20}|timestamp=1604347090518, sending received message to handler
+1604347091453 - DB action message successful! 1 record(s) inserted
+1604347091453 - Processing callback for message id 55881 to client 69484359
+1604347091470 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '55881', 'response': '1 record(s) inserted'}|timestamp=1604347091466
+1604347091471 - Sent callback to client 69484359!
+1604347091527 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "23253", "action": "DELETE", "table": "city", "id": 257}|timestamp=1604347091524, sending received message to handler
+1604347092497 - DB action message successful! 1 record(s) inserted
+1604347092497 - Processing callback for message id 14016 to client 69484359
+1604347092507 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '14016', 'response': '1 record(s) inserted'}|timestamp=1604347092503
+1604347092507 - Sent callback to client 69484359!
+1604347092530 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27693", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 923545, "id": 16}|timestamp=1604347092529, sending received message to handler
+1604347093506 - DB action message successful! 1 record(s) updated
+1604347093506 - Processing callback for message id 52032 to client 69484359
+1604347093526 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '52032', 'response': '1 record(s) updated'}|timestamp=1604347093519
+1604347093526 - Sent callback to client 69484359!
+1604347093533 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "74798", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 482247, "id": 93}|timestamp=1604347093532, sending received message to handler
+1604347094522 - DB action message successful! 1 record(s) inserted
+1604347094522 - Processing callback for message id 45036 to client 69484359
+1604347094540 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "86649", "action": "DELETE", "table": "city", "id": 392}|timestamp=1604347094535, sending received message to handler
+1604347094541 - Sent callback to client 69484359!
+1604347094542 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '45036', 'response': '1 record(s) inserted'}|timestamp=1604347094536
+1604347095525 - DB action message successful! 0 record(s) deleted
+1604347095525 - Processing callback for message id 53778 to client 69484359
+1604347095546 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '53778', 'response': '0 record(s) deleted'}|timestamp=1604347095538
+1604347095547 - Sent callback to client 69484359!
+1604347095591 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "16559", "action": "INSERT", "table": "city", "name": "East Dwayneburgh", "parent_id": 44}|timestamp=1604347095590, sending received message to handler
+1604347096531 - DB action message successful! 0 record(s) deleted
+1604347096531 - Processing callback for message id 23253 to client 69484359
+1604347096551 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '23253', 'response': '0 record(s) deleted'}|timestamp=1604347096545
+1604347096551 - Sent callback to client 69484359!
+1604347096593 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "17015", "action": "DELETE", "table": "city", "id": 164}|timestamp=1604347096592, sending received message to handler
+1604347097539 - DB action message successful! 1 record(s) updated
+1604347097539 - Processing callback for message id 27693 to client 69484359
+1604347097559 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '27693', 'response': '1 record(s) updated'}|timestamp=1604347097552
+1604347097559 - Sent callback to client 69484359!
+1604347097609 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "68859", "action": "INSERT", "table": "city", "name": "Lake Elainemouth", "parent_id": 19}|timestamp=1604347097607, sending received message to handler
+1604347098538 - DB action message successful! 0 record(s) updated
+1604347098538 - Processing callback for message id 74798 to client 69484359
+1604347098557 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '74798', 'response': '0 record(s) updated'}|timestamp=1604347098551
+1604347098557 - Sent callback to client 69484359!
+1604347098616 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "30963", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 681788, "id": 14}|timestamp=1604347098612, sending received message to handler
+1604347099544 - DB action message successful! 0 record(s) deleted
+1604347099545 - Processing callback for message id 86649 to client 69484359
+1604347099564 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '86649', 'response': '0 record(s) deleted'}|timestamp=1604347099558
+1604347099564 - Sent callback to client 69484359!
+1604347099663 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "12971", "action": "INSERT", "table": "city", "name": "West Samuelmouth", "parent_id": 89}|timestamp=1604347099661, sending received message to handler
+1604347100599 - DB action message successful! 1 record(s) inserted
+1604347100599 - Processing callback for message id 16559 to client 69484359
+1604347100619 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '16559', 'response': '1 record(s) inserted'}|timestamp=1604347100612
+1604347100619 - Sent callback to client 69484359!
+1604347100668 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "59788", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 143721, "id": 63}|timestamp=1604347100665, sending received message to handler
+1604347101597 - DB action message successful! 0 record(s) deleted
+1604347101598 - Processing callback for message id 17015 to client 69484359
+1604347101619 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '17015', 'response': '0 record(s) deleted'}|timestamp=1604347101610
+1604347101619 - Sent callback to client 69484359!
+1604347101670 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "40140", "action": "UPDATE", "table": "city", "attribute": "population", "value": 702313, "id": 82}|timestamp=1604347101669, sending received message to handler
+1604347102616 - DB action message successful! 1 record(s) inserted
+1604347102616 - Processing callback for message id 68859 to client 69484359
+1604347102636 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '68859', 'response': '1 record(s) inserted'}|timestamp=1604347102629
+1604347102636 - Sent callback to client 69484359!
+1604347102693 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "57345", "action": "INSERT", "table": "city", "name": "Parsonsbury", "parent_id": 68}|timestamp=1604347102692, sending received message to handler
+1604347103627 - DB action message successful! 1 record(s) updated
+1604347103627 - Processing callback for message id 30963 to client 69484359
+1604347103647 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '30963', 'response': '1 record(s) updated'}|timestamp=1604347103640
+1604347103647 - Sent callback to client 69484359!
+1604347103727 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "68804", "action": "INSERT", "table": "city", "name": "Woodsshire", "parent_id": 39}|timestamp=1604347103725, sending received message to handler
+1604347104671 - DB action message successful! 1 record(s) inserted
+1604347104671 - Processing callback for message id 12971 to client 69484359
+1604347104690 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '12971', 'response': '1 record(s) inserted'}|timestamp=1604347104684
+1604347104690 - Sent callback to client 69484359!
+1604347104743 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "19716", "action": "INSERT", "table": "city", "name": "Lake William", "parent_id": 56}|timestamp=1604347104742, sending received message to handler
+1604347105675 - DB action message successful! 1 record(s) updated
+1604347105675 - Processing callback for message id 59788 to client 69484359
+1604347105681 - Sent callback to client 69484359!
+1604347105681 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '59788', 'response': '1 record(s) updated'}|timestamp=1604347105679
+1604347105760 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "4762", "action": "INSERT", "table": "city", "name": "Lake Robertfort", "parent_id": 120}|timestamp=1604347105759, sending received message to handler
+1604347106674 - DB action message successful! 0 record(s) updated
+1604347106674 - Processing callback for message id 40140 to client 69484359
+1604347106697 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '40140', 'response': '0 record(s) updated'}|timestamp=1604347106688
+1604347106698 - Sent callback to client 69484359!
+1604347106764 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "33567", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 950232, "id": 75}|timestamp=1604347106762, sending received message to handler
+1604347107701 - DB action message successful! 1 record(s) inserted
+1604347107702 - Processing callback for message id 57345 to client 69484359
+1604347107721 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '57345', 'response': '1 record(s) inserted'}|timestamp=1604347107715
+1604347107721 - Sent callback to client 69484359!
+1604347107766 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27533", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 642051, "id": 33}|timestamp=1604347107765, sending received message to handler
+1604347108734 - DB action message successful! 1 record(s) inserted
+1604347108735 - Processing callback for message id 68804 to client 69484359
+1604347108754 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '68804', 'response': '1 record(s) inserted'}|timestamp=1604347108748
+1604347108754 - Sent callback to client 69484359!
+1604347108768 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "9976", "action": "DELETE", "table": "city", "id": 769}|timestamp=1604347108767, sending received message to handler
+1604347109752 - DB action message successful! 1 record(s) inserted
+1604347109752 - Processing callback for message id 19716 to client 69484359
+1604347109771 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '19716', 'response': '1 record(s) inserted'}|timestamp=1604347109765
+1604347109771 - Sent callback to client 69484359!
+1604347109785 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "52874", "action": "INSERT", "table": "city", "name": "New Robert", "parent_id": 40}|timestamp=1604347109784, sending received message to handler
+1604347110769 - DB action message successful! 1 record(s) inserted
+1604347110770 - Processing callback for message id 4762 to client 69484359
+1604347110782 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '4762', 'response': '1 record(s) inserted'}|timestamp=1604347110779
+1604347110782 - Sent callback to client 69484359!
+1604347110801 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "94217", "action": "INSERT", "table": "city", "name": "North Kylemouth", "parent_id": 40}|timestamp=1604347110800, sending received message to handler
+1604347111769 - DB action message successful! 0 record(s) updated
+1604347111769 - Processing callback for message id 33567 to client 69484359
+1604347111785 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '33567', 'response': '0 record(s) updated'}|timestamp=1604347111782
+1604347111786 - Sent callback to client 69484359!
+1604347111804 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "94705", "action": "UPDATE", "table": "country", "attribute": "no_rivers", "value": 65858, "id": 46}|timestamp=1604347111803, sending received message to handler
+1604347112769 - DB action message successful! 0 record(s) updated
+1604347112769 - Processing callback for message id 27533 to client 69484359
+1604347112776 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '27533', 'response': '0 record(s) updated'}|timestamp=1604347112774
+1604347112776 - Sent callback to client 69484359!
+1604347112806 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "41008", "action": "DELETE", "table": "city", "id": 466}|timestamp=1604347112805, sending received message to handler
+1604347113773 - DB action message successful! 0 record(s) deleted
+1604347113773 - Processing callback for message id 9976 to client 69484359
+1604347113796 - Sent callback to client 69484359!
+1604347113796 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '9976', 'response': '0 record(s) deleted'}|timestamp=1604347113787
+1604347113812 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "81594", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 805421, "id": 96}|timestamp=1604347113809, sending received message to handler
+1604347114793 - DB action message successful! 1 record(s) inserted
+1604347114793 - Processing callback for message id 52874 to client 69484359
+1604347114812 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '52874', 'response': '1 record(s) inserted'}|timestamp=1604347114807
+1604347114813 - Sent callback to client 69484359!
+1604347114816 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "90469", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 100010, "id": 35}|timestamp=1604347114814, sending received message to handler
+1604347115809 - DB action message successful! 1 record(s) inserted
+1604347115810 - Processing callback for message id 94217 to client 69484359
+1604347115824 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "50754", "action": "UPDATE", "table": "country", "attribute": "area", "value": 551061, "id": 66}|timestamp=1604347115818, sending received message to handler
+1604347115826 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '94217', 'response': '1 record(s) inserted'}|timestamp=1604347115823
+1604347115826 - Sent callback to client 69484359!
+1604347116812 - DB action message successful! 1 record(s) updated
+1604347116813 - Processing callback for message id 94705 to client 69484359
+1604347116831 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '94705', 'response': '1 record(s) updated'}|timestamp=1604347116827
+1604347116832 - Sent callback to client 69484359!
+1604347116843 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "9066", "action": "INSERT", "table": "city", "name": "Port Nicholas", "parent_id": 110}|timestamp=1604347116842, sending received message to handler
+1604347117813 - DB action message successful! 1 record(s) deleted
+1604347117813 - Processing callback for message id 41008 to client 69484359
+1604347117834 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '41008', 'response': '1 record(s) deleted'}|timestamp=1604347117825
+1604347117834 - Sent callback to client 69484359!
+1604347117847 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "30019", "action": "DELETE", "table": "city", "id": 346}|timestamp=1604347117846, sending received message to handler
+1604347118821 - DB action message successful! 1 record(s) updated
+1604347118821 - Processing callback for message id 81594 to client 69484359
+1604347118844 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '81594', 'response': '1 record(s) updated'}|timestamp=1604347118835
+1604347118844 - Sent callback to client 69484359!
+1604347118867 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "36657", "action": "INSERT", "table": "city", "name": "South Kathy", "parent_id": 80}|timestamp=1604347118865, sending received message to handler
+1604347119820 - DB action message successful! 0 record(s) updated
+1604347119821 - Processing callback for message id 90469 to client 69484359
+1604347119843 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '90469', 'response': '0 record(s) updated'}|timestamp=1604347119835
+1604347119844 - Sent callback to client 69484359!
+1604347119871 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "37223", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 746958, "id": 30}|timestamp=1604347119869, sending received message to handler
+1604347120834 - DB action message successful! 1 record(s) updated
+1604347120835 - Processing callback for message id 50754 to client 69484359
+1604347120857 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '50754', 'response': '1 record(s) updated'}|timestamp=1604347120848
+1604347120858 - Sent callback to client 69484359!
+1604347120917 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "54765", "action": "INSERT", "table": "city", "name": "Acevedoport", "parent_id": 39}|timestamp=1604347120916, sending received message to handler
+1604347121850 - DB action message successful! 1 record(s) inserted
+1604347121850 - Processing callback for message id 9066 to client 69484359
+1604347121857 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '9066', 'response': '1 record(s) inserted'}|timestamp=1604347121854
+1604347121857 - Sent callback to client 69484359!
+1604347121921 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "23688", "action": "UPDATE", "table": "country", "attribute": "area", "value": 56056, "id": 1}|timestamp=1604347121919, sending received message to handler
+1604347122853 - DB action message successful! 1 record(s) deleted
+1604347122853 - Processing callback for message id 30019 to client 69484359
+1604347122875 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '30019', 'response': '1 record(s) deleted'}|timestamp=1604347122866
+1604347122875 - Sent callback to client 69484359!
+1604347122962 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "75534", "action": "INSERT", "table": "city", "name": "Victoriaville", "parent_id": 71}|timestamp=1604347122960, sending received message to handler
+1604347123875 - DB action message successful! 1 record(s) inserted
+1604347123875 - Processing callback for message id 36657 to client 69484359
+1604347123897 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '36657', 'response': '1 record(s) inserted'}|timestamp=1604347123889
+1604347123898 - Sent callback to client 69484359!
+1604347123978 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "10187", "action": "INSERT", "table": "city", "name": "Adamsville", "parent_id": 109}|timestamp=1604347123977, sending received message to handler
+1604347124876 - DB action message successful! 0 record(s) updated
+1604347124876 - Processing callback for message id 37223 to client 69484359
+1604347124899 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '37223', 'response': '0 record(s) updated'}|timestamp=1604347124890
+1604347124899 - Sent callback to client 69484359!
+1604347124983 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "6041", "action": "DELETE", "table": "city", "id": 151}|timestamp=1604347124980, sending received message to handler
+1604347125926 - DB action message successful! 1 record(s) inserted
+1604347125926 - Processing callback for message id 54765 to client 69484359
+1604347125946 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '54765', 'response': '1 record(s) inserted'}|timestamp=1604347125940
+1604347125946 - Sent callback to client 69484359!
+1604347125987 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "86270", "action": "DELETE", "table": "city", "id": 770}|timestamp=1604347125985, sending received message to handler
+1604347126925 - DB action message successful! 1 record(s) updated
+1604347126926 - Processing callback for message id 23688 to client 69484359
+1604347126931 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '23688', 'response': '1 record(s) updated'}|timestamp=1604347126929
+1604347126931 - Sent callback to client 69484359!
+1604347126992 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "53841", "action": "DELETE", "table": "city", "id": 156}|timestamp=1604347126989, sending received message to handler
+1604347127969 - DB action message successful! 1 record(s) inserted
+1604347127969 - Processing callback for message id 75534 to client 69484359
+1604347127975 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '75534', 'response': '1 record(s) inserted'}|timestamp=1604347127973
+1604347127975 - Sent callback to client 69484359!
+1604347127996 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "73454", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 710370, "id": 41}|timestamp=1604347127995, sending received message to handler
+1604347128982 - DB action message successful! 1 record(s) inserted
+1604347128983 - Processing callback for message id 10187 to client 69484359
+1604347128989 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '10187', 'response': '1 record(s) inserted'}|timestamp=1604347128987
+1604347128990 - Sent callback to client 69484359!
+1604347128999 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "15974", "action": "DELETE", "table": "city", "id": 683}|timestamp=1604347128997, sending received message to handler
+1604347129986 - DB action message successful! 0 record(s) deleted
+1604347129986 - Processing callback for message id 6041 to client 69484359
+1604347129992 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '6041', 'response': '0 record(s) deleted'}|timestamp=1604347129990
+1604347129992 - Sent callback to client 69484359!
+1604347130002 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "79906", "action": "UPDATE", "table": "city", "attribute": "no_roads", "value": 572674, "id": 89}|timestamp=1604347130000, sending received message to handler
+1604347130991 - DB action message successful! 0 record(s) deleted
+1604347130991 - Processing callback for message id 86270 to client 69484359
+1604347131008 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "85716", "action": "DELETE", "table": "city", "id": 573}|timestamp=1604347131004, sending received message to handler
+1604347131012 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '86270', 'response': '0 record(s) deleted'}|timestamp=1604347131004
+1604347131012 - Sent callback to client 69484359!
+1604347131998 - DB action message successful! 1 record(s) deleted
+1604347131998 - Processing callback for message id 53841 to client 69484359
+1604347132018 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '53841', 'response': '1 record(s) deleted'}|timestamp=1604347132011
+1604347132018 - Sent callback to client 69484359!
+1604347132031 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "95229", "action": "INSERT", "table": "city", "name": "Gatesport", "parent_id": 122}|timestamp=1604347132029, sending received message to handler
+1604347133000 - DB action message successful! 0 record(s) updated
+1604347133000 - Processing callback for message id 73454 to client 69484359
+1604347133019 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '73454', 'response': '0 record(s) updated'}|timestamp=1604347133013
+1604347133019 - Sent callback to client 69484359!
+1604347133046 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "63868", "action": "INSERT", "table": "city", "name": "East Jason", "parent_id": 1}|timestamp=1604347133045, sending received message to handler
+1604347134003 - DB action message successful! 0 record(s) deleted
+1604347134003 - Processing callback for message id 15974 to client 69484359
+1604347134022 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '15974', 'response': '0 record(s) deleted'}|timestamp=1604347134015
+1604347134022 - Sent callback to client 69484359!
+1604347134048 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "24605", "action": "DELETE", "table": "city", "id": 222}|timestamp=1604347134047, sending received message to handler
+1604347135008 - DB action message successful! 1 record(s) updated
+1604347135008 - Processing callback for message id 79906 to client 69484359
+1604347135028 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '79906', 'response': '1 record(s) updated'}|timestamp=1604347135020
+1604347135028 - Sent callback to client 69484359!
+1604347135051 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "88379", "action": "UPDATE", "table": "country", "attribute": "no_schools", "value": 413557, "id": 8}|timestamp=1604347135049, sending received message to handler
+1604347136012 - DB action message successful! 0 record(s) deleted
+1604347136013 - Processing callback for message id 85716 to client 69484359
+1604347136032 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '85716', 'response': '0 record(s) deleted'}|timestamp=1604347136024
+1604347136032 - Sent callback to client 69484359!
+1604347136053 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "52568", "action": "DELETE", "table": "city", "id": 264}|timestamp=1604347136052, sending received message to handler
+1604347137038 - DB action message successful! 1 record(s) inserted
+1604347137039 - Processing callback for message id 95229 to client 69484359
+1604347137059 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '95229', 'response': '1 record(s) inserted'}|timestamp=1604347137050
+1604347137059 - Sent callback to client 69484359!
+1604347137079 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "55726", "action": "INSERT", "table": "city", "name": "Westton", "parent_id": 8}|timestamp=1604347137078, sending received message to handler
+1604347138054 - DB action message successful! 1 record(s) inserted
+1604347138054 - Processing callback for message id 63868 to client 69484359
+1604347138074 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '63868', 'response': '1 record(s) inserted'}|timestamp=1604347138067
+1604347138074 - Sent callback to client 69484359!
+1604347138098 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "44273", "action": "INSERT", "table": "city", "name": "Pattonville", "parent_id": 18}|timestamp=1604347138097, sending received message to handler
+1604347139052 - DB action message successful! 0 record(s) deleted
+1604347139052 - Processing callback for message id 24605 to client 69484359
+1604347139073 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '24605', 'response': '0 record(s) deleted'}|timestamp=1604347139065
+1604347139073 - Sent callback to client 69484359!
+1604347139102 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "8779", "action": "DELETE", "table": "city", "id": 460}|timestamp=1604347139100, sending received message to handler
+1604347140059 - DB action message successful! 1 record(s) updated
+1604347140060 - Processing callback for message id 88379 to client 69484359
+1604347140081 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '88379', 'response': '1 record(s) updated'}|timestamp=1604347140073
+1604347140082 - Sent callback to client 69484359!
+1604347140116 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "11505", "action": "INSERT", "table": "city", "name": "Hudsonborough", "parent_id": 95}|timestamp=1604347140115, sending received message to handler
+1604347141057 - DB action message successful! 0 record(s) deleted
+1604347141057 - Processing callback for message id 52568 to client 69484359
+1604347141076 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '52568', 'response': '0 record(s) deleted'}|timestamp=1604347141073
+1604347141076 - Sent callback to client 69484359!
+1604347141129 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "7344", "action": "INSERT", "table": "city", "name": "Kristenland", "parent_id": 27}|timestamp=1604347141128, sending received message to handler
+1604347142087 - DB action message successful! 1 record(s) inserted
+1604347142087 - Processing callback for message id 55726 to client 69484359
+1604347142108 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '55726', 'response': '1 record(s) inserted'}|timestamp=1604347142100
+1604347142108 - Sent callback to client 69484359!
+1604347142134 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27204", "action": "DELETE", "table": "city", "id": 8}|timestamp=1604347142131, sending received message to handler
+1604347143108 - DB action message successful! 1 record(s) inserted
+1604347143108 - Processing callback for message id 44273 to client 69484359
+1604347143128 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '44273', 'response': '1 record(s) inserted'}|timestamp=1604347143120
+1604347143129 - Sent callback to client 69484359!
+1604347143140 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "68918", "action": "UPDATE", "table": "country", "attribute": "no_parks", "value": 505618, "id": 100}|timestamp=1604347143137, sending received message to handler
+1604347144106 - DB action message successful! 0 record(s) deleted
+1604347144107 - Processing callback for message id 8779 to client 69484359
+1604347144127 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '8779', 'response': '0 record(s) deleted'}|timestamp=1604347144119
+1604347144127 - Sent callback to client 69484359!
+1604347144156 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "82965", "action": "INSERT", "table": "city", "name": "West Heather", "parent_id": 64}|timestamp=1604347144155, sending received message to handler
+1604347145124 - DB action message successful! 1 record(s) inserted
+1604347145124 - Processing callback for message id 11505 to client 69484359
+1604347145146 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '11505', 'response': '1 record(s) inserted'}|timestamp=1604347145137
+1604347145147 - Sent callback to client 69484359!
+1604347145160 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "46047", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 432389, "id": 88}|timestamp=1604347145158, sending received message to handler
+1604347146134 - DB action message successful! 1 record(s) inserted
+1604347146134 - Processing callback for message id 7344 to client 69484359
+1604347146143 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '7344', 'response': '1 record(s) inserted'}|timestamp=1604347146140
+1604347146143 - Sent callback to client 69484359!
+1604347146164 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "23178", "action": "DELETE", "table": "city", "id": 304}|timestamp=1604347146163, sending received message to handler
+1604347147139 - DB action message successful! 0 record(s) deleted
+1604347147139 - Processing callback for message id 27204 to client 69484359
+1604347147157 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '27204', 'response': '0 record(s) deleted'}|timestamp=1604347147150
+1604347147157 - Sent callback to client 69484359!
+1604347147170 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "31617", "action": "DELETE", "table": "city", "id": 34}|timestamp=1604347147166, sending received message to handler
+1604347148149 - DB action message successful! 1 record(s) updated
+1604347148149 - Processing callback for message id 68918 to client 69484359
+1604347148162 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '68918', 'response': '1 record(s) updated'}|timestamp=1604347148159
+1604347148162 - Sent callback to client 69484359!
+1604347148174 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "50015", "action": "DELETE", "table": "city", "id": 156}|timestamp=1604347148173, sending received message to handler
+1604347149160 - DB action message successful! 1 record(s) inserted
+1604347149161 - Processing callback for message id 82965 to client 69484359
+1604347149171 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '82965', 'response': '1 record(s) inserted'}|timestamp=1604347149166
+1604347149172 - Sent callback to client 69484359!
+1604347149177 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "85455", "action": "UPDATE", "table": "continent", "attribute": "area", "value": 553037, "id": 61}|timestamp=1604347149175, sending received message to handler
+1604347150165 - DB action message successful! 0 record(s) updated
+1604347150165 - Processing callback for message id 46047 to client 69484359
+1604347150184 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "27989", "action": "UPDATE", "table": "continent", "attribute": "population", "value": 705514, "id": 68}|timestamp=1604347150180, sending received message to handler
+1604347150191 - Sent callback to client 69484359!
+1604347150191 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '46047', 'response': '0 record(s) updated'}|timestamp=1604347150179
+1604347151168 - DB action message successful! 0 record(s) deleted
+1604347151168 - Processing callback for message id 23178 to client 69484359
+1604347151189 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "73970", "action": "UPDATE", "table": "city", "attribute": "no_trees", "value": 647861, "id": 23}|timestamp=1604347151185, sending received message to handler
+1604347151190 - Sent callback to client 69484359!
+1604347151193 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '23178', 'response': '0 record(s) deleted'}|timestamp=1604347151181
+1604347152175 - DB action message successful! 0 record(s) deleted
+1604347152175 - Processing callback for message id 31617 to client 69484359
+1604347152196 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '31617', 'response': '0 record(s) deleted'}|timestamp=1604347152188
+1604347152197 - Sent callback to client 69484359!
+1604347152220 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "7969", "action": "INSERT", "table": "city", "name": "Port Jessetown", "parent_id": 117}|timestamp=1604347152219, sending received message to handler
+1604347153178 - DB action message successful! 0 record(s) deleted
+1604347153178 - Processing callback for message id 50015 to client 69484359
+1604347153199 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '50015', 'response': '0 record(s) deleted'}|timestamp=1604347153191
+1604347153200 - Sent callback to client 69484359!
+1604347153222 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "69702", "action": "UPDATE", "table": "city", "attribute": "no_schools", "value": 187746, "id": 1}|timestamp=1604347153221, sending received message to handler
+1604347154181 - DB action message successful! 0 record(s) updated
+1604347154181 - Processing callback for message id 85455 to client 69484359
+1604347154203 - DB received message not meant for DB, probably meant for client. Ignoring: topic=geowiki|key=69484359|value={'request_id': '85455', 'response': '0 record(s) updated'}|timestamp=1604347154194
+1604347154203 - Sent callback to client 69484359!
+1604347154238 - DB received message topic=geowiki|key=1|value={"client_id": "69484359", "request_id": "70556", "action": "INSERT", "table": "city", "name": "Angelaberg", "parent_id": 42}|timestamp=1604347154236, sending received message to handler
