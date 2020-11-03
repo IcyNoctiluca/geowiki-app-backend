@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS`geowiki`;
+DROP DATABASE IF EXISTS `geowiki`;
 CREATE DATABASE `geowiki`;
 USE `geowiki`;
 

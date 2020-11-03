@@ -1,4 +1,4 @@
-# geowiki-app-backend
+# geowiki application backend
 
 An instance of the writer application is made by executing ```writer.py```, and a client by ```client.py```. 
 
@@ -9,7 +9,7 @@ While multiple client instances may be made, only a single server application is
 Python libraries from ```requirements.txt```
 
 ###### Kafka 
-* https://kafka.apache.org/downloads 
+* https://kafka.apache.org/downloads (tar file in ```lib/```)
 * Version 2.6 used for development
 * Requires service to be running with commands in seperate terminals: 
 
@@ -26,7 +26,7 @@ bin/kafka-topics.sh --create --topic geowiki --bootstrap-server localhost:9092
 
 ###### MySQL server 
 * Version 14.14 used for development
-* Upon running, ```lib/geowiki.sql``` can be executed in SQL terminal to create user, tables etc.
+* Upon running, ```db/geowiki.sql``` can be executed in SQL terminal to create user, tables etc.
 
 
 #### Design & Implementation Details
@@ -52,7 +52,8 @@ Given the main function of the writer is to manipulate the tables based on incom
 encompass all requests going to the DB. This means that the connection to the DB can remain open indefinitely, since periodically
 calling a subroutine to make an alteration would require opening and closing a DB session. Consequently, requests can be processed much more quickly.
 
-The writer functionalities include the receiving of messages, the processing thereof, and then sending a callback to the underlying client based on the message handling.
+The writer functionalities include the receiving of messages ```writer_main```, the processing thereof ```handle_message```, and then sending a callback ```send_callback``` 
+to the underlying client based on the message handling.
 Similar to the client design, a writer class was not implemented due to lack of shared components of the writers functionalities.
 
 \
@@ -65,7 +66,7 @@ then keep a local state of the tables which would be further maintained by liste
 #### Running in the Cloud
 Using a single DB and writer cause instability if the application is overloaded with a lot of client requests. A more appropriate way would be to deploy replicated DBs
 and writer applications. A master and slave setup would not suffice since the master would still be overloaded, therefore
-a active replication would be a better model to implement. This would improve robustness. Such a deployment would require load-balancing on the side of
+an active replication would be a better model to implement. This would improve robustness, but such a deployment would require load-balancing on the side of
 the writer applications. Better use of Kafka should be made to use rules to redirect messages so specific writers for example, based on their current load,
 which would improve their stability.
 
