@@ -6,12 +6,15 @@ from faker import Faker
 from lib.config import *
 import logging
 
-
+# generates a random message to be send to the writer application
+# returns string in JSON format, detailing the SQL updates to be made
+# also includes client and message IDs for identification and callback processing
 def generate_request():
 
     global local_client_id
     request_id = str(random.randint(0,100000))
 
+    # choose a random request type
     action = random.choice(['INSERT', 'UPDATE', 'DELETE'])
 
     updatable_attributes = {
@@ -22,6 +25,7 @@ def generate_request():
 
     logging.debug(f'updatable_attributes: {updatable_attributes}')
 
+    # choose random table to make request on
     table = random.choice(['continent', 'country', 'city'])
 
     if action == 'INSERT':
@@ -59,6 +63,7 @@ def generate_request():
         })
 
 
+# routine used to send an update request to the writer application
 async def client_send_update():
 
     producer = AIOKafkaProducer(
@@ -71,11 +76,15 @@ async def client_send_update():
 
     while True:
 
+        # make sure a random request to be sent is generated
         db_request = await loop.run_in_executor(None, generate_request)
         logging.debug(f'Random request generated to be sent: {db_request}')
 
         try:
-            key = str(1)
+            # key for messages to go to writer application
+            key = config['broker_topics']['writer_key']
+
+            # send request to writer application
             await producer.send_and_wait(
                 config['broker_topics']['topic'],
                 key=key.encode(),
@@ -84,15 +93,15 @@ async def client_send_update():
             logging.info(f'AIOKafkaProducer Sending: key {key} value {db_request}')
 
         finally:
-            # Wait for all pending messages to be delivered or expire.
-            logging.info(f'AIOKafkaProducer going to sleep for 1 second')
+
+            logging.info(f'AIOKafkaProducer going to sleep for a second')
             await asyncio.sleep(1)
 
     await producer.stop()
     logging.debug(f'AIOKafkaProducer stopped')
 
 
-
+# routine used for a client to receive a callback message from the writer application
 async def client_receive_callback():
 
     global local_client_id
@@ -110,13 +119,12 @@ async def client_receive_callback():
         # Consume messages
         async for msg in consumer:
 
+            # check the message is to be received by this client by looking at the key
             if not(msg.key.decode() == local_client_id):
                 continue
 
-            #print("Received: ", msg.topic, msg.key, msg.value, msg.timestamp)
-
+            # serialise message to string and send to logger
             serialised_message = 'topic=' + msg.topic + '|key=' + msg.key.decode() + '|value=' + msg.value.decode() + '|timestamp=' + str( msg.timestamp)
-
             logging.info(f'AIOKafkaConsumer Received: {serialised_message}')
 
     finally:
@@ -139,10 +147,6 @@ if __name__ == '__main__':
         level=logging.INFO
     )
     logging.info(f'Client initialised with ID {local_client_id}')
-
-    # logging.error('python-logstash-async: test logstash error message.')
-    # logging.info('python-logstash-async: test logstash info message.')
-    # logging.warning('python-logstash-async: test logstash warning message.')
 
     # start asynchronous loops of main client execution
     loop = asyncio.get_event_loop()

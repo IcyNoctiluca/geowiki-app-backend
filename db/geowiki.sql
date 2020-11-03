@@ -319,7 +319,7 @@ DELIMITER ;
 
 
 
-
+-- populate tables with dummy data
 
 INSERT INTO continent (name, population, area) VALUES ('ASIA', 4463000, 44580000);
 INSERT INTO continent (name, population, area) VALUES ('AUSTRALIA', 39000, 8600000);

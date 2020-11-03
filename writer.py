@@ -5,7 +5,7 @@ from lib.validations import *
 import json
 import logging
 
-
+# send a callback to the client with a given ID
 async def send_callback(client_id, resp):
 
     producer = AIOKafkaProducer(
@@ -18,6 +18,7 @@ async def send_callback(client_id, resp):
 
     # Produce message
     try:
+        # ensure the key of the message is the client ID, so the client can identify its message
         await producer.send_and_wait(
             config['broker_topics']['topic'],
             key=client_id.encode(),
@@ -27,11 +28,11 @@ async def send_callback(client_id, resp):
 
 
     finally:
-        # Wait for all pending messages to be delivered or expire.
         await producer.stop()
         logging.debug('AIOKafkaProducer stopped')
 
 
+# main routine for parsing the clients request and sending it to the DB for processing
 async def handle_message(msg):
 
     global gatekeeper
@@ -41,11 +42,14 @@ async def handle_message(msg):
         logging.debug('Parsing message')
         parsed_message = json.loads(msg.value.decode())
 
+        # validate fields in message
         validate_action(parsed_message)
         validate_client_id(parsed_message)
         validate_message_id(parsed_message)
 
         request_id = parsed_message['request_id']
+
+        # send message to DB depending on action requested #
 
         if parsed_message['action'] == 'INSERT':
 
@@ -65,6 +69,7 @@ async def handle_message(msg):
             assert validate_delete(parsed_message)
             gatekeeper.delete(parsed_message['table'], parsed_message['id'])
 
+        # get request response from the gatekeeper for sending back to the client
         resp = gatekeeper.status
         logging.info(f'DB action message ID {request_id} successful! {resp}')
 
@@ -74,12 +79,14 @@ async def handle_message(msg):
 
     finally:
 
+        # prepare message to be sent back to the client
         client_id = parsed_message['client_id']
         return_message = str({
             'request_id': parsed_message['request_id'],
             'response': resp
         })
 
+        # send response back to client via callback function
         logging.info(f'Processing callback for message id {request_id} to client {client_id}')
         _ = asyncio.ensure_future(send_callback(client_id, return_message))
 
@@ -97,19 +104,22 @@ async def writer_main():
     logging.debug('AIOKafkaConsumer started')
 
     try:
+
+        # get the key so the writer knows which messages to look for
+        writer_key = config['broker_topics']['writer_key']
+
         # Consume messages
         async for msg in consumer:
             
             serialised_message = 'topic=' + msg.topic + '|key=' + msg.key.decode() + '|value=' + msg.value.decode() + '|timestamp=' + str( msg.timestamp)
-            #print("Received: ", msg.topic, msg.key, msg.value, msg.timestamp)
 
-            if not(msg.key.decode() == '1'):
+            # check if writer was supposed to receive the message using the key
+            if not(msg.key.decode() == writer_key):
                 logging.warning(
                     f'DB received message not meant for DB, probably meant for client. Ignoring: {serialised_message}')
                 continue
 
             logging.info(f'DB received message {serialised_message}, sending received message to handler')
-            #print("Received: ", msg.topic, msg.key, msg.value, msg.timestamp)
 
             # pass the message to be handled by the writer depending on the type
             _ = asyncio.ensure_future(handle_message(msg))
