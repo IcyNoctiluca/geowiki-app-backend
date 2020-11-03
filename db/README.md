@@ -10,7 +10,7 @@ For validation checks, it was initially tried to have a check constraint written
 According to [1] however, UDFs in check constraints are bypassed, making this design non-workable. 
 
 Therefore triggers were implemented. ```INSERT``` and ```UPDATE``` triggers are implemented in the country
-and city tables, while only ```UPDATE``` trigger applies to the continent table (since an insertion to continent means there are no underlying country/city entries which that foreign key).
+and city tables, while only ```UPDATE``` trigger applies to the continent table (since an insertion to continent means there are no underlying country/city entries with that foreign key).
 ```DELETE``` triggers were not needed as no constraints can be violated, as ```ON DELETE CASCADE``` is used for foreign keys. All triggers are before any data manipulation.
 
 Initially it was tried to have a single stored procedure encompassing all of the validation rules to be called by all of the triggers. (See SP below, for example: ```sp_validate('CITY', 'area', <parent_id>, <id>, <new_value>);```) 

@@ -43,14 +43,14 @@ hindered more than it helped.
 ```client_send_update``` generates a random request to send to the writer. It was decided to limit the types of random requests which the
 client could make to avoid massive changes to the data tables. For example, clients cannot request for continents to be deleted, since the
 underlying countries and cities would also be removed. Alternatively this could have been achieved with user permissions revoking access 
-on the tables, but the broker being spammed with a lot of rejected requests in the messages. One field
+on the tables, but the broker would then be spammed with a lot of rejected requests in the messages. One field
 included in the request is a message ID, which allows the client to keep track of sent requests since the callback
 from the writer also contains this field.
 
 ###### Writer
 Given the main function of the writer is to manipulate the tables based on incoming requests, it was decided to use a class to 
 encompass all requests going to the DB. This means that the connection to the DB can remain open indefinitely, since periodically
-calling a subroutine to make an alteration would require opening and closing a DB session. Consequently, requests can be processed much more quickly.
+calling a static function to make an alteration would require opening and closing a DB session. Consequently, requests can be processed much more quickly.
 
 The writer functionalities include the receiving of messages ```writer_main```, the processing thereof ```handle_message```, and then sending a callback ```send_callback``` 
 to the underlying client based on the message handling.
