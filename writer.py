@@ -91,7 +91,7 @@ async def handle_message(msg):
         _ = asyncio.ensure_future(send_callback(client_id, return_message))
 
 
-# main writer execution loop #
+# receive messages from client, and send to handler
 async def writer_main():
 
     consumer = AIOKafkaConsumer(

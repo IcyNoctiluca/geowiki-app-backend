@@ -6,7 +6,7 @@ While multiple client instances may be made, only a single server application is
 
 #### Prerequisites
 
-Python libraries from ```requirements.txt```
+Python3.6.9 using libraries from ```requirements.txt```
 
 ###### Kafka 
 * https://kafka.apache.org/downloads (tar file in ```lib/```)
