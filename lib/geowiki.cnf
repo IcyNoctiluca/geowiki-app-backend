@@ -7,6 +7,7 @@ database = geowiki
 [broker_topics]
 server = localhost:9092
 topic = geowiki
+writer_key = 1
 
 [updatable_attributes]
 continent = area,population

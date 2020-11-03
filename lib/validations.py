@@ -2,6 +2,7 @@ from lib.config import *
 
 
 # db gatekeeper validations #
+# checks that given parameters are acceptable
 
 def validate_table(_table):
     assert _table in ('continent', 'country', 'city'), 'Unacceptable table given!'
