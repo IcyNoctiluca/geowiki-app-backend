@@ -2,7 +2,7 @@
 
 Introduced here are the DB implementation, mechanisms for triggers, and the stored procedures for data validation before updates to attributes are performed.
 
-It was attempted use a SQLite DB to contain the data. This was to avoid setting up a SQL server, writing users and permissions etc thereby making the process lighter.
+It was attempted to use a SQLite DB to contain the data. This was to avoid setting up a SQL server, writing users and permissions etc thereby making the process lighter.
 However SQLite lacks features such as high concurrency, which would be necessary for scalability for this application. Furthermore it does not have features such as
 stored procedures and functions, making data manipulation a little clunky to implement. Consequently a MySQL server was chosen.  
 
