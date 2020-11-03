@@ -1,6 +1,6 @@
 ## lib
 
-This directory contains config files, Classes and other functions called by the main applications.
+This directory contains config files, classes and other functions called by the main applications.
 
 
 ```logging.cnf``` and ```logging.py``` are not implemented. The logging service is done via a standard python logger, I was not able to get a working version of a modular logging service with 

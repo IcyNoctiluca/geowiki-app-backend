@@ -1,10 +1,6 @@
 aiokafka
 asyncio
-json
-logging
 faker
-random
-logging
 configparser
-mysql.connector
-logstash_async
+mysql-connector
+python-logstash-async
